@@ -1,0 +1,39 @@
+/**
+ * $PAGER
+ */
+.pager {
+  @include clearfix(true);
+}
+
+.pager__item {
+  display: block;
+  float: left;
+  margin: 0.1em;
+  padding: 0;
+}
+
+.pager__item a,
+.pager__item--current,
+.pager__item--ellipsis {
+  display: block;
+  padding: 0.5em 0.8em;
+  border: 1px solid $mid-grey;
+  color: $mid-grey;
+  text-decoration: none;
+}
+.pager__item a:hover {
+  background-color: $link_colour
+;
+  border-color: $link_colour
+;
+  color: #fff;
+}
+.pager__item--current {
+  border-color: $link_colour
+;
+  color: $link_colour
+;
+}
+.pager__item--ellipsis {
+  border: none;
+}
