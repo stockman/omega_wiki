@@ -7,6 +7,26 @@
   html body.toolbar, html body.admin-menu {
     padding-top: 0 !important;
     margin-top: 0 !important; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/omega-wiki\.hacks\.scss}line{font-family:\0000317}}
-.sub-menu {
-  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/omega-wiki\.hacks\.scss}line{font-family:\0000319}}
+.sf-menu.menu, .sf-menu.menu ul, .sf-menu.menu li {
+  margin: .3rem;
+  font-size: 1.2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/omega-wiki\.hacks\.scss}line{font-family:\0000325}}
+.sf-menu a {
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/omega-wiki\.hacks\.scss}line{font-family:\0000331}}
+.sf-menu ul {
+  background-color: blue;
+  opacity: .75; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/omega-wiki\.hacks\.scss}line{font-family:\0000336}}
+.sf-menu ul a:hover {
+  color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/omega-wiki\.hacks\.scss}line{font-family:\0000340}}
+.sf-menu a:hover {
+  border-bottom-color: #DDDDDD;
+  border-bottom-style: solid;
+  border-bottom-width: 1px; }
