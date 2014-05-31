@@ -3,7 +3,7 @@
  */
 .breadcrumb {
   @extend %hlist;
-
+  padding: .5rem;
   li {
     padding-right: 0.4em;
 
@@ -21,3 +21,4 @@
     text-decoration: none;
   }
 }
+

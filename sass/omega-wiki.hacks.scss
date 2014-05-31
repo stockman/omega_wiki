@@ -12,33 +12,35 @@
   }
 }
 
-// Style the superfish menu
+//temp for testing
+@import "variables/**/*";
 
-// size and spacing
-
- .sf-menu.menu, .sf-menu.menu ul, .sf-menu.menu li {
-  margin: .3rem;
-  font-size: 1.2rem;
+.sf-menu {
+//float : left;
+position : relative;
+left : 50%;
+text-decoration: none;
+font-size: 1.5rem;
+}
+.sf-menu a {text-decoration: none;}
+.sf-menu ul li {
+left : 0%;
+background-color: $h_colour;
+top: -1.2em;
+}
+.sf-menu ul li a{
+ color: $light-grey;
+}
+.sf-menu ul li a:hover{
+color: $link_colour;
 }
 
-//underline remover
-.sf-menu a{
-  text-decoration: none;
+.sf-menu li {
+left : -50%;
+padding: .2rem;
 }
-
-// ul hover menu
-
-.sf-menu ul{
-  background-color: blue;
-  opacity: .75;
+.sf-menu li:hover {
+  background-color:$h_colour;
 }
-
-.sf-menu ul a:hover {
-  color: white;
-}
-
-.sf-menu a:hover{
-  border-bottom-color: #DDDDDD;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-}
+// keep the parent menu white when rolled off
+.sf-menu li:hover a {color: $a_hover_colour;}
