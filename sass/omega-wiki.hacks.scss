@@ -1,3 +1,6 @@
+@import "sassy-buttons";
+//get colours
+@import "variables/**/*";
 // Hide the toolbar or admin menu on small screens.
 @media all and (max-width: 800px) {
   #toolbar, #admin-menu {
@@ -11,6 +14,49 @@
     }
   }
 }
+
+
+//cool opag header?
+.header {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #48515B;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  display: block;
+//  height: 67px;
+  left: 0;
+  opacity: 0.85;
+//  position: fixed;
+//  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+//RT testing other
+
+.field--name-field-tags .field__items div:before{
+// .field__items div:before {
+  color: #FF0000;
+  content: "#";
+  font-weight: 500;
+}
+
+
+
+
+.btn{
+@include sassy-button("flat", 10px, 1rem, $link_colour);
+vertical-align: super;
+}
+
+.btn:hover{
+@include sassy-button("flat", 10px, 1rem, $h_colour);
+}
+
 
 //temp for testing
 @import "variables/**/*";
