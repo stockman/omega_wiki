@@ -159,7 +159,7 @@ a {
     color: black; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-core-1\.0\.0\.alpha\.17\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000327}}
   a:active {
-    color: black; }
+    color: #6a7076; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\0000323}}
 a:hover {
@@ -475,6 +475,12 @@ mark,
   float: left;
   margin-right: 0.5em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/fields\/_field-taxonomy-term\.scss}line{font-family:\0000317}}
+.field--type-taxonomy-term-reference .field__items div:before {
+  color: #FF0000;
+  content: "#";
+  font-weight: 500; }
+
 /**
  * $FIELD
  */
@@ -596,7 +602,7 @@ div.password-indicator {
   border: 1px solid #dddddd; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_password-indicator\.scss}line{font-family:\000039}}
   .password-indicator .indicator {
-    background: black; }
+    background: #6a7076; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_password-indicator\.scss}line{font-family:\0000314}}
 .password-strength-title {
@@ -610,6 +616,32 @@ div.password-indicator {
   width: auto;
   padding: 0.4em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_header\.scss}line{font-family:\000032}}
+.header.panels-flexible-4 .panels-flexible-row {
+  padding: .5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_header\.scss}line{font-family:\000035}}
+.header {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #48515B;
+  background: transparent url('../images/../images/marinelli_imgs/1.jpg?1388604485') center 0 no-repeat;
+  overflow: hidden;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  display: block;
+  height: 10rem;
+  left: 0;
+  opacity: 0.85;
+  width: 100%;
+  z-index: 100; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_projects\.scss}line{font-family:\000033}}
+.ProjectsLanding {
+  display: none; }
+
 /**
  * $ACTION-LINKS
  */
@@ -622,7 +654,7 @@ div.password-indicator {
     background: transparent url('../images/../images/plus-blue.png?1400601710') left center no-repeat; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_action-links\.scss}line{font-family:\0000313}}
     .action-links li a {
-      color: black;
+      color: #6a7076;
       text-decoration: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_action-links\.scss}line{font-family:\0000317}}
       .action-links li a:hover {

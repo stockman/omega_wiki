@@ -16,26 +16,6 @@
 }
 
 
-//cool opag header?
-.header {
-  background-attachment: scroll;
-  background-clip: border-box;
-  background-color: #48515B;
-  background-image: none;
-  background-origin: padding-box;
-  background-position: 0 0;
-  background-repeat: repeat;
-  background-size: auto auto;
-  display: block;
-//  height: 67px;
-  left: 0;
-  opacity: 0.85;
-//  position: fixed;
-//  top: 0;
-  width: 100%;
-  z-index: 100;
-}
-
 //RT testing other
 
 .field--name-field-tags .field__items div:before{
@@ -45,8 +25,8 @@
   font-weight: 500;
 }
 
-
-
+// NEEED To KEEP in hack until you can get the compass compile
+//error in wikistyles fixed as it uses compass for sassy buttuns
 
 .btn{
 @include sassy-button("flat", 10px, 1rem, $link_colour);
@@ -56,6 +36,7 @@ vertical-align: super;
 .btn:hover{
 @include sassy-button("flat", 10px, 1rem, $h_colour);
 }
+
 
 
 //temp for testing
