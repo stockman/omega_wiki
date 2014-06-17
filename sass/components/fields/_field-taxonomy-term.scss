@@ -10,11 +10,8 @@
     margin-right: 0.5em;
   }
 }
-
-
-//RT testing other
-
-.field--type-taxonomy-term-reference .field__items div:before{
+//make tags into red hashes
+.field--name-field-tags .field__items div:before{
 // .field__items div:before {
   color: #FF0000;
   content: "#";

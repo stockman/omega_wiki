@@ -1,36 +1,35 @@
 // - ohm theme colours:
-$pale-blue  : #d9e9ef;
-$light-blue : #52b1ea;
-//$mid-blue   : #077dc3;
-//$dark-blue  : #064771;
 
-//$orange     : #e4621c;
-//$pale-orange: #efa47b;
-
-$green      : #4a993e;
-
-$red        : #b33630;
-
-$yellow     : #d6c460;
-
-$light-grey : #ddd;
-$mid-grey   : #6a7076;
-$dark-grey  : #222222;
-// - ohm theme colours:
-
-//rt my colours
-$gren: #008000;
-
-//$orange     : #e4621c;
-$link_colour  : #0082DD;
-//$pale-orange: #efa47b;
-$link-v_colour: $mid-grey;
-//$mid-blue   : #077dc3;
-$h_colour    : #00267F;
-//$dark-blue  : #064771;
-$h_hover_colour: #18599B;
-
-$a_hover_colour:#FFFFFF;
+//Better variables
+$link  : #0082DD;
+$linkhover : blue;
+$h2_colour :$link ; //is also table header, comment instruct
+$h_hover_colour: purple;
+$fontcolour: #222222;
+$oddrow: pink;
+$markerbak:#52b1ea;
+$bakcolour: #ddd;
+$bordercolour: #6a7076;
+$msgs:#d6c460;
+$linkactive: #FFFFFF;   //Is this correct?
+$msgs     : #d6c460;
 
 
+$a_hover_colour:#FFFF0D;
+// header
+$headerbackground:  #FFFFFF;
+$headerlink: $link;
+$headerlinkhover:$a_hover_colour;
+
+
+
+//buttons
+$buttonbak: #4a993e;
+$buttonbak2: #b33630;
+
+// legacy to fix
+
+$button_h_colour:#00267F;
 $backgroundcolour: #008000;
+$h_colour    : #00267F;
+$light-grey : #ddd;

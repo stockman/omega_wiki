@@ -7,19 +7,19 @@
 }
 
 .messages--status {
-  color: $h_colour;
-  background: lighten($h_colour, 50%);
-  border-color: lighten($h_colour, 20%);
+  color: $h2_colour;
+  background: lighten($h2_colour, 50%);
+  border-color: lighten($h2_colour, 20%);
 }
 
 .messages--warning {
-  color: $yellow;
-  background: lighten($yellow, 50%);
-  border-color: lighten($yellow, 20%);
+  color: $msgs;
+  background: lighten($msgs, 50%);
+  border-color: lighten($msgs, 20%);
 }
 
 .messages--error {
-  color: $red;
-  background: lighten($red, 50%);
-  border-color: lighten($red, 20%);
+  color: $buttonbak2;
+  background: lighten($buttonbak2, 50%);
+  border-color: lighten($buttonbak2, 20%);
 }

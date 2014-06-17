@@ -8,7 +8,7 @@ table {
 
 th {
   padding: 0.5em 1em;
-  background-color: $h_colour;
+  background-color: $h2_colour;
   color: #fff;
 
   a,
@@ -25,10 +25,10 @@ td {
 }
 
 tr.odd {
-  background: lighten($pale-blue, 4%);
+  background: lighten($oddrow, 4%);
 }
 tr.even {
-  background: lighten($pale-blue, 8%);
+  background: lighten($oddrow, 8%);
 }
 
 caption {

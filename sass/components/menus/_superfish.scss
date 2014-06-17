@@ -1,0 +1,51 @@
+//Superfish menus
+
+//this controls the child ul
+.sf-menu li.sfHover > ul {
+  left: 0;
+  top: 1.5em;
+}
+.superfisher {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+
+.sf-menu {
+	vertical-align: bottom;
+	li {float: left;
+		font-size: 1.5rem;
+		padding: .2rem;
+		line-height: 1.5rem;
+	}
+	li a{text-decoration: none;
+	color: $headerlink;
+	padding-bottom: 1px;
+	display: inline;
+	//border-bottom: 1px solid;
+
+	&:hover {color:$headerlinkhover;
+			border-bottom:1px solid;
+			padding-bottom: 0
+			}
+	}
+}
+
+#superfish-1 {
+  margin-right: 2em;
+  font-size: 20px;
+  vertical-align: bottom;
+	ul {background-color:$headerbackground;
+	opacity: .8;
+	//dropdown corners	
+	border-radius: .5rem;
+	padding: .2rem;
+	}
+}
+
+//overwrite default background shadow
+.sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
+  background-image: none;
+}
+
+

@@ -2,7 +2,7 @@
  * $FORM-ITEM
  */
 .form-item {
-  color: $mid-grey;
+  color: $bordercolour;
 
   label {
     margin-bottom: 0.4em;
@@ -13,8 +13,8 @@
     width: 100%;
     padding: 0.6em;
     background-color: #fff;
-    border: 1px solid $light-grey;
-    color: $mid-grey;
+    border: 1px solid $bakcolour;
+    color: $bordercolour;
     vertical-align: middle;
   }
   .description {

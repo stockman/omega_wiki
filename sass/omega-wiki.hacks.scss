@@ -1,4 +1,6 @@
 @import "sassy-buttons";
+//@import "font-awesome-sass";
+
 //get colours
 @import "variables/**/*";
 // Hide the toolbar or admin menu on small screens.
@@ -14,60 +16,3 @@
     }
   }
 }
-
-
-//RT testing other
-
-.field--name-field-tags .field__items div:before{
-// .field__items div:before {
-  color: #FF0000;
-  content: "#";
-  font-weight: 500;
-}
-
-// NEEED To KEEP in hack until you can get the compass compile
-//error in wikistyles fixed as it uses compass for sassy buttuns
-
-.btn{
-@include sassy-button("flat", 10px, 1rem, $link_colour);
-vertical-align: super;
-}
-
-.btn:hover{
-@include sassy-button("flat", 10px, 1rem, $h_colour);
-}
-
-
-
-//temp for testing
-@import "variables/**/*";
-
-.sf-menu {
-//float : left;
-position : relative;
-left : 50%;
-text-decoration: none;
-font-size: 1.5rem;
-}
-.sf-menu a {text-decoration: none;}
-.sf-menu ul li {
-left : 0%;
-background-color: $h_colour;
-top: -1.2em;
-}
-.sf-menu ul li a{
- color: $light-grey;
-}
-.sf-menu ul li a:hover{
-color: $link_colour;
-}
-
-.sf-menu li {
-left : -50%;
-padding: .2rem;
-}
-.sf-menu li:hover {
-  background-color:$h_colour;
-}
-// keep the parent menu white when rolled off
-.sf-menu li:hover a {color: $a_hover_colour;}

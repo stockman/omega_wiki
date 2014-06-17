@@ -10,18 +10,18 @@
  */
 html {
   font-family: $pt-sans;
-  color: $dark-grey;
+  color: $fontcolour;
 }
 
 /**
  * $LINKS
  */
 a {
-  @include link-colors($link_colour, #000, $link-v_colour, $link_colour, #000);
+  @include link-colors($link, #000, $linkactive, $link, #000);
 }
 //rt added
 a:hover {
-      color: $a_hover_colour;
+      color: $linkhover;
 }
 /**
  * $HEADINGS
@@ -33,7 +33,7 @@ h4, .delta,
 h5, .epsilon,
 h6, .zeta {
   @include rhythm(0, 0, 0, 0.2);;
-  color: darken($mid-grey, 15%);
+  color: darken($bordercolour, 15%);
   font-family: $maven-pro;
   text-transform: uppercase;
 
@@ -54,7 +54,7 @@ h1, .alpha {
 h2, .beta {
   @include font-size(34px);
   font-weight: 700;
-  color: $h_colour;
+  color: $h2_colour;
 }
 h3, .gamma {
   @include font-size(21px);
@@ -68,7 +68,7 @@ h5, .epsilon{
 }
 h6, .zeta {
   @include font-size(16px);
-  color: $h_colour;
+  color: $h2_colour;
 }
 
 /**
@@ -113,7 +113,7 @@ mark,
 .marker {
   padding: 0.1em 0.5em;
 
-  background: $light-blue;
+  background: $markerbak;
 
   color: #fff;
   @include font-size(12px);

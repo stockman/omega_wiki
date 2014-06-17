@@ -21,19 +21,19 @@ html.js fieldset.collapsible { // Overspecified
     display: block;
     padding: 1em;
 
-    background-color: $light-grey;
+    background-color: $bakcolour;
 
-    color: $h_colour;
+    color: $h2_colour;
     text-decoration: none;
 
     &:hover {
-      background-color: $h_colour;
+      background-color: $h2_colour;
       color: $h_hover_colour;
     }
   }
   .fieldset-wrapper {
     padding: $vert-spacing-unit $horz-spacing-unit;
-    border: 1px solid $light-grey;
+    border: 1px solid $bakcolour;
   }
 }
 

@@ -4,5 +4,5 @@
 .section-title {
   @include padding-trailer(0.5);
   @include trailer(1);
-  border-bottom: 1px solid darken($pale-blue, 8%);
+  border-bottom: 1px solid darken($oddrow, 8%);
 }

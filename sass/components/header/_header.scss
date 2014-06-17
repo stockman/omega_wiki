@@ -7,11 +7,11 @@
   background-clip: border-box;
   background-color: #48515B;
   //background-image: none;
-  background: transparent image-url('../images/marinelli_imgs/1.jpg') center 0 no-repeat; overflow:hidden;;
+  background: transparent image-url('../images/marinelli_imgs/1.jpg') center 0 no-repeat;
   background-origin: padding-box;
-  background-position: 0 0;
-  background-repeat: repeat;
-  background-size: auto auto;
+  background-position: 0 -77px;
+  background-repeat:no-repeat;
+  background-size: cover;
   display: block;
   height: 10rem;
   left: 0;
@@ -20,4 +20,8 @@
 //  top: 0;
   width: 100%;
   z-index: 100;
+}
+
+.headerright div {
+  display: inline-block;
 }
