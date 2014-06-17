@@ -122,11 +122,11 @@ td {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000327}}
 tr.odd {
-  background: #ffd4dc; }
+  background: #00f686; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000330}}
 tr.even {
-  background: #ffe9ed; }
+  background: #0cff90; }
 
 /**
  * $FONT-FACE
@@ -169,7 +169,7 @@ a {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\0000323}}
 a:hover {
-  color: blue; }
+  color: #0006e2; }
 
 /**
  * $HEADINGS
@@ -218,7 +218,7 @@ h6, .zeta {
   h4 a:hover, .delta a:hover, caption a:hover,
   h5 a:hover, .epsilon a:hover,
   h6 a:hover, .zeta a:hover {
-    color: purple; }
+    color: #34d800; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\0000350}}
 h1, .alpha {
@@ -289,7 +289,7 @@ blockquote {
   border-left-width: 0.71429em;
   padding-left: 0.71429em;
   font-style: italic;
-  color: purple; }
+  color: #34d800; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\00003100}}
   blockquote p {
     margin: 0; }
@@ -345,7 +345,7 @@ mark,
   color: #fff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/blocks\/_nav-bar\.scss}line{font-family:\0000319}}
   .block--nav-bar a:hover, .block--nav-bar a:focus {
-    color: purple; }
+    color: #34d800; }
 @media (min-width: 600px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/blocks\/_nav-bar\.scss}line{font-family:\0000325}}
   .block--nav-bar a {
@@ -362,7 +362,7 @@ mark,
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment-wrapper\.scss}line{font-family:\000034}}
 .comment-wrapper {
   padding: 18px 1em;
-  background-color: pink; }
+  background-color: #00e27b; }
 
 /**
  * $COMMENT
@@ -483,7 +483,7 @@ html.js fieldset.collapsible {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000329}}
     html.js fieldset.collapsible .fieldset-title:hover {
       background-color: #0082dd;
-      color: purple; }
+      color: #34d800; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000334}}
   html.js fieldset.collapsible .fieldset-wrapper {
     padding: 18px 1em;
@@ -675,7 +675,7 @@ div.password-indicator {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_responsive_menus\.scss}line{font-family:\0000331}}
 .dl-menuwrapper button {
-  background: #ffff0d;
+  background: #fffd00;
   border: none;
   width: 48px;
   height: 45px;
@@ -1696,7 +1696,7 @@ All this is done for any sub-level being entered.
   background-color: #4a993e; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_socialicons\.scss}line{font-family:\0000335}}
   .socicon:hover {
-    color: blue; }
+    color: #0006e2; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_socialicons\.scss}line{font-family:\0000341}}
 .socicon-easid:before {
@@ -1967,7 +1967,7 @@ All this is done for any sub-level being entered.
   .sf-menu li {
     float: left;
     font-size: 1.5rem;
-    padding: .2rem;
+    padding: .3rem;
     line-height: 1.5rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_superfish\.scss}line{font-family:\0000321}}
   .sf-menu li a {
@@ -1977,7 +1977,7 @@ All this is done for any sub-level being entered.
     display: inline; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_superfish\.scss}line{font-family:\0000327}}
     .sf-menu li a:hover {
-      color: #ffff0d;
+      color: #fffd00;
       border-bottom: 1px solid;
       padding-bottom: 0; }
 
@@ -1988,7 +1988,7 @@ All this is done for any sub-level being entered.
   vertical-align: bottom; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_superfish\.scss}line{font-family:\0000338}}
   #superfish-1 ul {
-    background-color: white;
+    background-color: #333333;
     opacity: .8;
     border-radius: .5rem;
     padding: .2rem; }
@@ -2204,7 +2204,7 @@ All this is done for any sub-level being entered.
 .section-title {
   padding-bottom: 0.71429em;
   margin-bottom: 1.42857em;
-  border-bottom: 1px solid #ff97a9; }
+  border-bottom: 1px solid #00b965; }
 
 /**
  * $SITE-BRANDING
@@ -2233,7 +2233,7 @@ All this is done for any sub-level being entered.
     color: #fff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000327}}
   .site-branding__name:hover {
-    color: purple; }
+    color: #34d800; }
 
 /**
  * $NODE-BASIC-PAGE

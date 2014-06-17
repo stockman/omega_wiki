@@ -1,12 +1,14 @@
 // - ohm theme colours:
 
 //Better variables
+//scheme: http://colorschemedesigner.com/#3w51T--P6w0w0
 $link  : #0082DD;
-$linkhover : blue;
+$linkhover : #0006E2;
 $h2_colour :$link ; //is also table header, comment instruct
-$h_hover_colour: purple;
+//header hover
+$h_hover_colour: #34D800;
 $fontcolour: #222222;
-$oddrow: pink;
+
 $markerbak:#52b1ea;
 $bakcolour: #ddd;
 $bordercolour: #6a7076;
@@ -15,17 +17,16 @@ $linkactive: #FFFFFF;   //Is this correct?
 $msgs     : #d6c460;
 
 
-$a_hover_colour:#FFFF0D;
+$a_hover_colour:#FFFD00;
 // header
-$headerbackground:  #FFFFFF;
+$headerbackground:  #333333;
 $headerlink: $link;
 $headerlinkhover:$a_hover_colour;
-
-
-
 //buttons
 $buttonbak: #4a993e;
 $buttonbak2: #b33630;
+//tables
+$oddrow: #00E27B;
 
 // legacy to fix
 
