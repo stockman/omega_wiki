@@ -601,9 +601,10 @@ div.password-indicator {
   left: 0;
   opacity: 0.85;
   width: 100%;
+  position: relative;
   z-index: 100; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_header\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_header\.scss}line{font-family:\0000326}}
 .headerright div {
   display: inline-block; }
 
@@ -1988,7 +1989,7 @@ All this is done for any sub-level being entered.
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_superfish\.scss}line{font-family:\0000338}}
   #superfish-1 ul {
     background-color: #333333;
-    opacity: .8;
+    opacity: .9;
     border-radius: .5rem;
     padding: .2rem; }
 
