@@ -6,11 +6,11 @@
         attach: function(context, settings) {
             //code starts
             // for the user profiles
-            /* for project button?
-            $(".project_btn").click(function() {
+            // for project button ?
+            $(".sampler").click(function() {
                 $("table").slideToggle("fast");
             });
-            */
+
             /*
                 $('.view-full-calendar').fullCalendar({
                     eventMouseover: function(event, jsEvent, view) {

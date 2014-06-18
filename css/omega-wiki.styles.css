@@ -361,8 +361,7 @@ mark,
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment-wrapper\.scss}line{font-family:\000034}}
 .comment-wrapper {
-  padding: 18px 1em;
-  background-color: #00e27b; }
+  padding: 18px 1em; }
 
 /**
  * $COMMENT
@@ -612,6 +611,24 @@ div.password-indicator {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_projects\.scss}line{font-family:\000033}}
 .projects {
   display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_projects\.scss}line{font-family:\000036}}
+.project .summary > tbody, .case .summary > tbody {
+  display: inline;
+  line-height: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_projects\.scss}line{font-family:\0000315}}
+.node--casetracker-basic-project--full .node__submitted img, .node--casetracker-basic-case--full .node__submitted img {
+  float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_projects\.scss}line{font-family:\0000317}}
+.node--casetracker-basic-project--full .node__submitted .user-picture, .node--casetracker-basic-case--full .node__submitted .user-picture {
+  width: 900px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_projects\.scss}line{font-family:\0000318}}
+.node--casetracker-basic-project--full .node__submitted .submitted, .node--casetracker-basic-case--full .node__submitted .submitted {
+  background-color: #00e27b;
+  float: right;
+  margin: 2rem 1rem;
+  padding: 0.5rem; }
 
 /**
  * $ACTION-LINKS
@@ -2235,6 +2252,10 @@ All this is done for any sub-level being entered.
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000327}}
   .site-branding__name:hover {
     color: #34d800; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000332}}
+.bodycontent {
+  margin: 1rem 2rem; }
 
 /**
  * $NODE-BASIC-PAGE

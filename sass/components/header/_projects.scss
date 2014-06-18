@@ -1,3 +1,25 @@
 
 // for the slideToggle projects landing
 .projects {display: none;}
+//make project header smaller
+.project, .case {
+	 .summary > tbody {
+	  display: inline;
+	  line-height: 1rem;
+	}
+}
+
+.node--casetracker-basic-project--full, .node--casetracker-basic-case--full {
+	.node__submitted {
+		//user picture to right
+		 img {float: right;}
+		 //user picture more middle
+		.user-picture {width: 900px}
+		.submitted {
+	 	 background-color: $oddrow;
+		 float: right;
+		 margin: 2rem 1rem;
+		 padding: .5rem
+		}
+	}
+}
