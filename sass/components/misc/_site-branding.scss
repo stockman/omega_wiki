@@ -32,3 +32,9 @@
 .bodycontent {
   margin: 1rem 2rem;
 }
+//override the block inline edit for projects button and search
+html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-links-trigger, .contextual-links-active .contextual-links-trigger, .contextual-links-active .contextual-links {
+
+  display: none !important;
+}
+

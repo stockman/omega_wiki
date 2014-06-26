@@ -7,3 +7,6 @@
   html body.toolbar, html body.admin-menu {
     padding-top: 0 !important;
     margin-top: 0 !important; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/omega-wiki\.hacks\.scss}line{font-family:\0000320}}
+html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-links-trigger, .contextual-links-active .contextual-links-trigger, .contextual-links-active .contextual-links {
+  display: none !important; }

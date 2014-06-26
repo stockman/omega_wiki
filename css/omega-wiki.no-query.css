@@ -648,6 +648,16 @@ div.password-indicator {
         font-weight: 700; }
 
 /**
+ * book nav
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_booknav\.scss}line{font-family:\000035}}
+.book-navigation {
+  background-color: #dddddd;
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px / 4px;
+  border-radius: 4px / 4px; }
+
+/**
  * $BREADCRUMB
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_breadcrumb\.scss}line{font-family:\000037}}
@@ -2255,6 +2265,10 @@ All this is done for any sub-level being entered.
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000332}}
 .bodycontent {
   margin: 1rem 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000336}}
+html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-links-trigger, .contextual-links-active .contextual-links-trigger, .contextual-links-active .contextual-links {
+  display: none !important; }
 
 /**
  * $NODE-BASIC-PAGE
