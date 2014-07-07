@@ -17,7 +17,8 @@ stylesheets[all][] = css/omega-wiki.no-query.css
 ; Scripts
 ; ========================================
 scripts[] = js/omega-wiki.behaviors.js
-scripts[] = js/thememodified.js
+;rt below js is in block, move later
+;scripts[] = js/theme_modified.js
 
 ; ========================================
 ; Regions
