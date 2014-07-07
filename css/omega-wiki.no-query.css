@@ -122,11 +122,11 @@ td {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000327}}
 tr.odd {
-  background: #00f686; }
+  background: #c7c9ca; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000330}}
 tr.even {
-  background: #0cff90; }
+  background: #d1d3d4; }
 
 /**
  * $FONT-FACE
@@ -624,7 +624,7 @@ div.password-indicator {
   width: 900px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_projects\.scss}line{font-family:\0000318}}
 .node--casetracker-basic-project--full .node__submitted .submitted, .node--casetracker-basic-case--full .node__submitted .submitted {
-  background-color: #00e27b;
+  background-color: #bcbfc0;
   float: right;
   margin: 2rem 1rem;
   padding: 0.5rem; }
@@ -2231,7 +2231,7 @@ All this is done for any sub-level being entered.
 .section-title {
   padding-bottom: 0.71429em;
   margin-bottom: 1.42857em;
-  border-bottom: 1px solid #00b965; }
+  border-bottom: 1px solid #a7abac; }
 
 /**
  * $SITE-BRANDING
