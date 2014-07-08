@@ -38,3 +38,14 @@ html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-li
   display: none !important;
 }
 
+// this is the full site container
+.sitecontainer {
+background:url("../images/../images/marinelli_imgs/1.jpg?1388604485") no-repeat fixed center ;
+background-size: cover;
+}
+
+// this is the body container
+.bodycontent {
+  background-color: white;
+  opacity: 0.75;
+}

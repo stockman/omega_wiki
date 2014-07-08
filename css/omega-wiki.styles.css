@@ -590,16 +590,11 @@ div.password-indicator {
 .header {
   background-attachment: scroll;
   background-clip: border-box;
-  background-color: #48515B;
-  background: transparent url('../images/../images/marinelli_imgs/1.jpg?1388604485') center 0 no-repeat;
   background-origin: padding-box;
   background-position: 0 -77px;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: block;
   height: 10rem;
   left: 0;
-  opacity: 0.85;
   width: 100%;
   position: relative;
   z-index: 100; }
@@ -2270,6 +2265,16 @@ All this is done for any sub-level being entered.
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000336}}
 html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-links-trigger, .contextual-links-active .contextual-links-trigger, .contextual-links-active .contextual-links {
   display: none !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000342}}
+.sitecontainer {
+  background: url("../images/../images/marinelli_imgs/1.jpg?1388604485") no-repeat fixed center;
+  background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000348}}
+.bodycontent {
+  background-color: white;
+  opacity: 0.75; }
 
 /**
  * $NODE-BASIC-PAGE
