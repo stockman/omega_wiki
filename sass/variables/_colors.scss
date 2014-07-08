@@ -6,10 +6,10 @@
 $fontcolour: #ff1800;
 $bodycolor:#ffff00;
 $link  : #0000ff;
-$linkhover : #0000ff;
+$linkhover : #00c12b;
 $h2_colour :$link ; //is also table header, comment instruct
 //header colours
-$h_hover_colour: #34D800;
+$h_hover_colour: $linkhover;
 $headerlink: #0068ff;
 $headerlinkhover:$bodycolor;
 //legacy?

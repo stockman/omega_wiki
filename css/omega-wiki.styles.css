@@ -170,7 +170,7 @@ a {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\0000323}}
 a:hover {
-  color: blue; }
+  color: #00c12b; }
 
 /**
  * $HEADINGS
@@ -219,7 +219,7 @@ h6, .zeta {
   h4 a:hover, .delta a:hover, caption a:hover,
   h5 a:hover, .epsilon a:hover,
   h6 a:hover, .zeta a:hover {
-    color: #34d800; }
+    color: #00c12b; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\0000350}}
 h1, .alpha {
@@ -290,7 +290,7 @@ blockquote {
   border-left-width: 0.71429em;
   padding-left: 0.71429em;
   font-style: italic;
-  color: #34d800; }
+  color: #00c12b; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\00003100}}
   blockquote p {
     margin: 0; }
@@ -346,7 +346,7 @@ mark,
   color: #fff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/blocks\/_nav-bar\.scss}line{font-family:\0000319}}
   .block--nav-bar a:hover, .block--nav-bar a:focus {
-    color: #34d800; }
+    color: #00c12b; }
 @media (min-width: 600px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/blocks\/_nav-bar\.scss}line{font-family:\0000325}}
   .block--nav-bar a {
@@ -483,7 +483,7 @@ html.js fieldset.collapsible {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000329}}
     html.js fieldset.collapsible .fieldset-title:hover {
       background-color: blue;
-      color: #34d800; }
+      color: #00c12b; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000334}}
   html.js fieldset.collapsible .fieldset-wrapper {
     padding: 18px 1em;
@@ -1720,7 +1720,7 @@ All this is done for any sub-level being entered.
   background-color: #4a993e; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_socialicons\.scss}line{font-family:\0000335}}
   .socicon:hover {
-    color: blue; }
+    color: #00c12b; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_socialicons\.scss}line{font-family:\0000341}}
 .socicon-easid:before {
@@ -2257,7 +2257,7 @@ All this is done for any sub-level being entered.
     color: #fff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000327}}
   .site-branding__name:hover {
-    color: #34d800; }
+    color: #00c12b; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000333}}
 .bodycontent {
