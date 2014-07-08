@@ -69,10 +69,10 @@
 select:focus,
 input:focus,
 textarea:focus {
-  -webkit-box-shadow: 0 0 4px 1px rgba(43, 167, 255, 0.3);
-  -moz-box-shadow: 0 0 4px 1px rgba(43, 167, 255, 0.3);
-  box-shadow: 0 0 4px 1px rgba(43, 167, 255, 0.3);
-  outline: 1px solid #2ba7ff; }
+  -webkit-box-shadow: 0 0 4px 1px rgba(77, 77, 255, 0.3);
+  -moz-box-shadow: 0 0 4px 1px rgba(77, 77, 255, 0.3);
+  box-shadow: 0 0 4px 1px rgba(77, 77, 255, 0.3);
+  outline: 1px solid #4d4dff; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_forms\.scss}line{font-family:\0000310}}
 fieldset {
@@ -97,34 +97,35 @@ img, media {
 /**
  * $TABLES
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\000037}}
 table {
   width: 100%;
-  margin-bottom: 18px; }
+  margin-bottom: 18px;
+  color: #222222; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000313}}
 th {
   padding: 0.5em 1em;
-  background-color: #0082dd;
-  color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000315}}
+  background-color: blue;
+  color: #d1d3d4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000319}}
   th a,
   th a.active {
-    color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000318}}
+    color: #d1d3d4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000322}}
     th a img,
     th a.active img {
       margin: 2px 3px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000327}}
 td {
   padding: 0.5em 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000331}}
 tr.odd {
   background: #c7c9ca; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000334}}
 tr.even {
   background: #d1d3d4; }
 
@@ -146,17 +147,17 @@ html {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\0000311}}
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  color: #222222; }
+  color: #ff1800; }
 
 /**
  * $LINKS
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\0000319}}
 a {
-  color: #0082dd; }
+  color: blue; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.omega_wiki\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000318}}
   a:visited {
-    color: #0082dd; }
+    color: blue; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.omega_wiki\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000321}}
   a:focus {
     color: black; }
@@ -169,7 +170,7 @@ a {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\0000323}}
 a:hover {
-  color: #0006e2; }
+  color: blue; }
 
 /**
  * $HEADINGS
@@ -231,7 +232,7 @@ h2, .beta {
   font-size: 34px;
   font-size: 2.42857rem;
   font-weight: 700;
-  color: #0082dd; }
+  color: blue; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\0000359}}
 h3, .gamma, .site-branding__name {
@@ -253,7 +254,7 @@ h5, .epsilon {
 h6, .zeta {
   font-size: 16px;
   font-size: 1.14286rem;
-  color: #0082dd; }
+  color: blue; }
 
 /**
  * $PARAGRAPHS
@@ -322,7 +323,7 @@ mark,
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/blocks\/_block-user-menu\.scss}line{font-family:\000038}}
 .block--system-user-menu a {
   padding: 0 0.6em;
-  border-right: 1px solid #0082dd; }
+  border-right: 1px solid blue; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/blocks\/_block-user-menu\.scss}line{font-family:\0000312}}
 .block--system-user-menu li:first-child a {
   padding-left: 0; }
@@ -477,11 +478,11 @@ html.js fieldset.collapsible {
     display: block;
     padding: 1em;
     background-color: #dddddd;
-    color: #0082dd;
+    color: blue;
     text-decoration: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000329}}
     html.js fieldset.collapsible .fieldset-title:hover {
-      background-color: #0082dd;
+      background-color: blue;
       color: #34d800; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000334}}
   html.js fieldset.collapsible .fieldset-wrapper {
@@ -698,7 +699,7 @@ div.password-indicator {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_responsive_menus\.scss}line{font-family:\0000331}}
 .dl-menuwrapper button {
-  background: #fffd00;
+  background: yellow;
   border: none;
   width: 48px;
   height: 45px;
@@ -1710,7 +1711,7 @@ All this is done for any sub-level being entered.
   padding: 0px;
   text-decoration: none;
   text-align: center;
-  color: #0082dd;
+  color: blue;
   font-weight: normal;
   line-height: 1.6em;
   border-radius: 0.8em;
@@ -1719,7 +1720,7 @@ All this is done for any sub-level being entered.
   background-color: #4a993e; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_socialicons\.scss}line{font-family:\0000335}}
   .socicon:hover {
-    color: #0006e2; }
+    color: blue; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_socialicons\.scss}line{font-family:\0000341}}
 .socicon-easid:before {
@@ -1995,12 +1996,12 @@ All this is done for any sub-level being entered.
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_superfish\.scss}line{font-family:\0000321}}
   .sf-menu li a {
     text-decoration: none;
-    color: #0082dd;
+    color: #0068ff;
     padding-bottom: 1px;
     display: inline; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/menus\/_superfish\.scss}line{font-family:\0000327}}
     .sf-menu li a:hover {
-      color: #fffd00;
+      color: yellow;
       border-bottom: 1px solid;
       padding-bottom: 0; }
 
@@ -2048,7 +2049,7 @@ All this is done for any sub-level being entered.
   height: 2.2em;
   margin: 0;
   padding: 0 1.2em;
-  background-color: #222222;
+  background-color: #ff1800;
   border: none;
   color: #fff;
   font-weight: 700;
@@ -2097,7 +2098,7 @@ All this is done for any sub-level being entered.
 /* Button Functions */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000371}}
 .button--primary {
-  background-color: #0082dd; }
+  background-color: blue; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000376}}
 .button--secondary {
@@ -2153,9 +2154,9 @@ All this is done for any sub-level being entered.
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_messages\.scss}line{font-family:\000039}}
 .messages--status {
-  color: #0082dd;
-  background: #ddf1ff;
-  border-color: #44b2ff; }
+  color: blue;
+  background: white;
+  border-color: #6666ff; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_messages\.scss}line{font-family:\0000315}}
 .messages--warning {
@@ -2191,14 +2192,14 @@ All this is done for any sub-level being entered.
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_pager\.scss}line{font-family:\0000324}}
 .pager__item a:hover {
-  background-color: #0082dd;
-  border-color: #0082dd;
+  background-color: blue;
+  border-color: blue;
   color: #fff; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_pager\.scss}line{font-family:\0000331}}
 .pager__item--current {
-  border-color: #0082dd;
-  color: #0082dd; }
+  border-color: blue;
+  color: blue; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_pager\.scss}line{font-family:\0000337}}
 .pager__item--ellipsis {
@@ -2218,7 +2219,7 @@ All this is done for any sub-level being entered.
   border-radius: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_progress\.scss}line{font-family:\0000310}}
 .progress .filled {
-  background: #0082dd; }
+  background: blue; }
 
 /**
  * $SECTION-TITLE

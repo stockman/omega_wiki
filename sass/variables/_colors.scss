@@ -2,12 +2,22 @@
 
 //Better variables
 //scheme: http://colorschemedesigner.com/#3w51T--P6w0w0
-$link  : #0082DD;
-$linkhover : #0006E2;
+//Base colours
+$fontcolour: #ff1800;
+$bodycolor:#ffff00;
+$link  : #0000ff;
+$linkhover : #0000ff;
 $h2_colour :$link ; //is also table header, comment instruct
-//header hover
+//header colours
 $h_hover_colour: #34D800;
-$fontcolour: #222222;
+$headerlink: #0068ff;
+$headerlinkhover:$bodycolor;
+//legacy?
+	$a_hover_colour:$headerlinkhover;
+
+//Table
+$tfontcolour: #222222;
+
 
 $markerbak:#52b1ea;
 $bakcolour: #ddd;
@@ -16,18 +26,14 @@ $msgs:#d6c460;
 $linkactive: #FFFFFF;   //Is this correct?
 $msgs     : #d6c460;
 
-
-$a_hover_colour:#FFFD00;
 // header
 $headerbackground:  #333333;
-$headerlink: $link;
-$headerlinkhover:$a_hover_colour;
+
 //buttons
 $buttonbak: #4a993e;
 $buttonbak2: #b33630;
 //tables
 $oddrow: #bcbfc0;
-
 // legacy to fix
 
 $button_h_colour:#00267F;

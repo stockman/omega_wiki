@@ -13,9 +13,9 @@ html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-li
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/omega-wiki\.hacks\.scss}line{font-family:\0000325}}
 button, .form-submit {
-  background-color: #0082dd;
+  background-color: #0068ff;
   border-radius: 0.35rem;
   color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/omega-wiki\.hacks\.scss}line{font-family:\0000329}}
   button:hover, .form-submit:hover {
-    color: #fffd00; }
+    color: yellow; }
