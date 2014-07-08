@@ -29,9 +29,16 @@
   }
 }
 
+// this is the body container
 .bodycontent {
-  margin: 1rem 2rem;
+  background-color: yellow;
+  opacity: 0.75;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
 }
+
 //override the block inline edit for projects button and search
 html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-links-trigger, .contextual-links-active .contextual-links-trigger, .contextual-links-active .contextual-links {
 
@@ -43,9 +50,8 @@ html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-li
 background:url("../images/../images/marinelli_imgs/1.jpg?1388604485") no-repeat fixed center ;
 background-size: cover;
 }
-
-// this is the body container
-.bodycontent {
-  background-color: white;
-  opacity: 0.75;
+//has a funny class name so I will just use the parent
+//and direct child to add the margin.
+.bodycontent > div {
+  margin: .5rem 1rem;
 }
