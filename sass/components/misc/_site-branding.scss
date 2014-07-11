@@ -37,8 +37,17 @@
   margin-left: 0.5rem;
   margin-right: 2rem;
   margin-top: 1rem;
+  border-radius: .5rem;
 }
 
+//spacing for header
+.header > div {
+  padding: 0.5rem;
+}
+//breadcrumb padding
+.breadcrumb {
+  padding-bottom: 0.5rem;
+}
 //override the block inline edit for projects button and search
 html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-links-trigger, .contextual-links-active .contextual-links-trigger, .contextual-links-active .contextual-links {
 

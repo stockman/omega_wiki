@@ -1,6 +1,14 @@
 /**
  * $COMMENT
  */
+//color the comment box
+.comment {background-color:$oddrow;
+  border-radius: .5rem;
+  padding:.5rem;
+}
+//to pad "add new comments"
+.comment-form {padding: 2rem 0;}
+
 .comment__info {
   margin-top: $vert-spacing-unit;
   margin-bottom: $vert-spacing-unit;
