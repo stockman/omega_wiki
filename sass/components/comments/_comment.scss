@@ -5,10 +5,12 @@
 .comment {background-color:$oddrow;
   border-radius: .5rem;
   padding:.5rem;
+.comment-text{color: $bodycolor;}
 }
 //to pad "add new comments"
 .comment-form {padding: 2rem 0;}
 
+//below is default CSS are these even the right selectors?
 .comment__info {
   margin-top: $vert-spacing-unit;
   margin-bottom: $vert-spacing-unit;
