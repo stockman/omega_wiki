@@ -2168,6 +2168,18 @@ All this is done for any sub-level being entered.
   margin-left: 1em; }
 
 /**
+ * $Case tracker
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_casetracker\.scss}line{font-family:\000034}}
+.case {
+  position: absolute;
+  right: 2%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_casetracker\.scss}line{font-family:\000038}}
+.field--name-field-slot, .field--name-field-casepriority {
+  display: flex; }
+
+/**
  * $MESSAGES
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_messages\.scss}line{font-family:\000034}}

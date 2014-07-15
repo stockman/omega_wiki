@@ -1,0 +1,10 @@
+/**
+ * $Case tracker
+ */
+.case {position: absolute;
+right: 2%;
+}
+//align the slot in case priority numbers
+.field--name-field-slot, .field--name-field-casepriority {
+  display: flex;
+}
