@@ -1,6 +1,14 @@
 /**
  * $COMMENT
  */
+
+// rt comment header
+.comments {
+  h2 {font-size: 1.5rem}
+  .comment-form {font-style: italic;}
+  .form {max-width: 800px}
+}
+
 //color the comment box
 .comment {background-color:$oddrow;
   border-radius: .5rem;
@@ -8,7 +16,7 @@
 .comment-text{color: $bodycolor;}
 }
 //to pad "add new comments"
-.comment-form {padding: 2rem 0;}
+//.comment-form {padding: 2rem 0;}
 
 //below is default CSS are these even the right selectors?
 .comment__info {

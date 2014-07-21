@@ -5,10 +5,4 @@
 right: 2%;
 }
 //align the slot in case priority numbers
-.field--name-field-slot, .field--name-field-casepriority, .field--name-field-projectpriority {
-  display: flex;
-}
-
-.field--name-field-tags {
-	max-height: 1rem;
-}
+.node--casetracker-basic-case .field--label-above {display: flex;}
