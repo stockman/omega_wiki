@@ -101,38 +101,31 @@ img, media {
 table {
   width: 100%;
   color: #222222;
-  background-color: yellow;
-  opacity: 0.7;
-  margin-bottom: 1rem;
-  margin-left: 0.5rem;
-  margin-right: 2rem;
-  margin-top: 1rem;
-  border-radius: .5rem;
   margin-bottom: 18px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000313}}
 th {
   padding: 0.5em 1em;
   background-color: blue;
   color: #d1d3d4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000319}}
   th a,
   th a.active {
     color: #d1d3d4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000322}}
     th a img,
     th a.active img {
       margin: 2px 3px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000327}}
 td {
   padding: 0.5em 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000331}}
 tr.odd {
   background: #c7c9ca; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000334}}
 tr.even {
   background: #d1d3d4; }
 
@@ -2193,7 +2186,21 @@ All this is done for any sub-level being entered.
   position: absolute;
   right: 2%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_casetracker\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_casetracker\.scss}line{font-family:\0000310}}
+.pane-casetracker-project-cases .pane-title, .pane-slots .pane-title {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_casetracker\.scss}line{font-family:\0000318}}
+.projects .pane-casetracker-project-cases table, .projects .pane-slots table {
+  background-color: yellow;
+  opacity: 0.7;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  border-radius: .5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_casetracker\.scss}line{font-family:\0000323}}
 .node--casetracker-basic-case .field--label-above {
   display: flex; }
 
