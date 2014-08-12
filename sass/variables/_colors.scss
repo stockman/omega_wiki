@@ -40,6 +40,7 @@ $button_h_colour:#00267F;
 $backgroundcolour: #008000;
 $h_colour    : #00267F;
 $light-grey : #ddd;
+$border :$light-grey; 
 
 @mixin backgrund {
   background-color: $bodycolor;

@@ -1,0 +1,16 @@
+/**
+ * $Home Page
+ */
+
+//make the left panel go away on mobile
+.panels-flexible-region-homepage-lefter {
+  @include breakpoint($breaki) {
+  display: none
+    }
+  }
+// make existing sections full screen
+.panels-flexible-region-homepage-middel,.panels-flexible-region-homepage-right {
+  @include breakpoint($breaki) {
+  width:100%;
+    }
+ }

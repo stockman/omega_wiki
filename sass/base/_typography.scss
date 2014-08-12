@@ -54,7 +54,7 @@ h1, .alpha {
 h2, .beta {
   @include font-size(34px);
   font-weight: 700;
-  color: $h2_colour;
+  @include h2;
 }
 h3, .gamma {
   @include font-size(21px);

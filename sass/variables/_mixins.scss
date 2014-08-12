@@ -1,0 +1,45 @@
+/**
+ * $content layout
+ */
+
+ /*
+//Gutters?
+
+/** Mixins!!!
+**/
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin padder { //temp padding one.
+	padding: 2rem;
+}
+
+//center header cool text
+@mixin center-styler {
+  .pane-title {text-align: center;}
+  //shrinking this to look really neat inside
+  .field__item.even {
+  @include center-block;
+  max-width: 50%;
+  }
+  //hide the stat counter
+  .statistics_counter{ display: none;}
+}
+
+// to share the h2 with other things.
+@mixin h2 {
+  color: $h2_colour;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+@mixin headercol {
+    color: $headerlink;
+    text-shadow:0 1px 2px rgba(0,0,0,0.6);
+}
+@mixin backgro {
+  //change this to blur.
+  background-color: rgba($headerbackground, .5);
+}
