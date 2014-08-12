@@ -2792,12 +2792,12 @@ table.fc-border-separate {
  * $Home Page
  */
 @media (max-width: 640px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_home_page\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_homepage_mediaquery\.scss}line{font-family:\000036}}
   .panels-flexible-region-homepage-lefter {
     display: none; } }
 
 @media (max-width: 640px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_home_page\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_homepage_mediaquery\.scss}line{font-family:\0000312}}
   .panels-flexible-region-homepage-middel, .panels-flexible-region-homepage-right {
     width: 100%; } }
 
