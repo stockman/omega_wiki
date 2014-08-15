@@ -17,8 +17,6 @@ stylesheets[all][] = css/omega-wiki.no-query.css
 ; Scripts
 ; ========================================
 scripts[] = js/omega-wiki.behaviors.js
-;rt below js is in block, move later
-;scripts[] = js/theme_modified.js
 
 ; ========================================
 ; Regions
@@ -56,9 +54,10 @@ settings[omega_enable_warning] = 1
 settings[omega_toggle_extension_layouts] = 0
 settings[omega_layout] = ""
 settings[omega_toggle_extension_development] = 1
+settings[omega_enable_export_reminder] = 1
 settings[omega_rebuild_theme_registry] = 0
 settings[omega_rebuild_aggregates] = 0
-settings[omega_browser_width_indicator] = 0
+settings[omega_browser_width_indicator] = 1
 settings[omega_livereload] = 1
 settings[omega_livereload_script] = http://localhost:35729/livereload.js
 settings[omega_livereload_host] = localhost

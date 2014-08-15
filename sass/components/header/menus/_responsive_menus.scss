@@ -13,7 +13,7 @@
 
 .dl-menuwrapper {
 	width: 100%;
-	max-width: 300px;
+//	max-width: 300px;
 	float: left;
 	position: relative;
 	-webkit-perspective: 1000px;
@@ -29,7 +29,7 @@
 }
 
 .dl-menuwrapper button {
-	background: $a_hover_colour;
+	background: $linkhover;
 	border: none;
 	width: 48px;
 	height: 45px;
@@ -39,23 +39,14 @@
 	cursor: pointer;
 	outline: none;
 }
-.dl-menuwrapper button:hover {
-	background-color: #fff;
-	color: pink;
+.dl-menuwrapper button {
+	&:hover {background-color: $headerlinkhover;}
+	.dl-active {background:  $headerlinkhover;}
 }
 
-.dl-menuwrapper button.dl-active {
-	color: $button_h_colour;
-	background: $buttonbak;
-}
-
-.dl-menuwrapper ul {
-	background: purple;
-	color: $button_h_colour;
-	a {color:$button_h_colour}
-}
+.dl-menuwrapper ul {background: $linkhover;}
 .dl-menuwrapper ul:active {
-	color:$button_h_colour;
+	color:$headerlinkhover;
 }
 
 .dl-menuwrapper button:after {
@@ -63,12 +54,12 @@
 	position: absolute;
 	width: 68%;
 	height: 5px;
-	background: $backgroundcolour;
+	background: $headerbackground;
 	top: 10px;
 	left: 16%;
 	box-shadow: 
-		0 10px 0 $backgroundcolour, 
-		0 20px 0 $backgroundcolour;
+		0 10px 0 $headerbackground, 
+		0 20px 0 $headerbackground;
 }
 
 .dl-menuwrapper ul {
@@ -77,10 +68,15 @@
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
+	width: 100%;
 }
 
 .dl-menuwrapper li {
 	position: relative;
+	//what's going on? THAT is not the same colour!!
+	&:hover {background-color: $headerbackground;}
+	a {color: $headerlink;}
+	a:hover {color:$headerlinkhover; }
 }
 
 .dl-menuwrapper li a {
@@ -90,9 +86,9 @@
 	font-size: 16px;
 	line-height: 20px;
 	font-weight: 300;
-	color: $button_h_colour;
 	outline: none;
-	background-color: $backgroundcolour;
+	text-decoration: none;
+	//background-color: $headerbackground;
 }
 
 .no-touch .dl-menuwrapper li a:hover {
@@ -131,7 +127,7 @@
 .dl-menuwrapper .dl-menu {
 	margin: 5px 0 0 0;
 	position: absolute;
-	width: auto;
+// 	rt width: auto;
 //	rt width: 100%;
 	opacity: 0;
 	pointer-events: none;
