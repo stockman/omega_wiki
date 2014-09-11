@@ -52,9 +52,5 @@ html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-li
 .sitecontainer {
 background:url("../images/../images/marinelli_imgs/1.jpg?1388604485") no-repeat fixed center ;
 background-size: cover;
-}
-//has a funny class name so I will just use the parent
-//and direct child to add the margin.
-.bodycontent > div {
-  margin: .5rem 1rem;
+height: 100%;
 }

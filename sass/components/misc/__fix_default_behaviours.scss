@@ -1,0 +1,11 @@
+/**
+ * $Fix default behaviours
+ */
+
+.panels-flexible-region {
+  float: none;
+  width: 100%;
+}
+.panels-flexible-row .pane {
+  padding: 0;
+}

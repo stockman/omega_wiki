@@ -121,3 +121,11 @@ mark,
 
   @include border-radius(10px);
 }
+
+.bodycontent div{
+  padding: $vert-spacing-unit/5 $horz-spacing-unit/4;
+}
+
+html, body {
+  height: 100%;
+}

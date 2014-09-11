@@ -321,6 +321,14 @@ mark,
   -o-border-radius: 10px;
   border-radius: 10px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\00003125}}
+.bodycontent div {
+  padding: 3.6px 0.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\00003129}}
+html, body {
+  height: 100%; }
+
 /**
  * $USER-MENU
  */
@@ -522,10 +530,6 @@ html.js fieldset.collapsed {
 /**
  * $FIELDSETS
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_fieldsets\.scss}line{font-family:\000034}}
-.form-wrapper {
-  margin-bottom: 18px; }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_fieldsets\.scss}line{font-family:\000039}}
 .fieldset-description {
   margin-bottom: 9px;
@@ -612,34 +616,16 @@ div.password-indicator {
 /**
  * $USERLOGIN-FORM
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_user-login-form\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_user-login-form\.scss}line{font-family:\000035}}
 .pane-user-login {
-  /* left: 40%;
-    position: relative;
-    width: 25rem;
-  */
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_header\.scss}line{font-family:\000032}}
-.header.panels-flexible-4 .panels-flexible-row {
-  padding: .5rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_header\.scss}line{font-family:\000035}}
-.header {
-  background-attachment: scroll;
-  background-clip: border-box;
-  background-origin: padding-box;
-  background-position: 0 -77px;
-  display: block;
-  height: 10rem;
-  left: 0;
-  width: 100%;
-  position: relative;
-  z-index: 100; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_header\.scss}line{font-family:\0000326}}
-.headerright div {
-  display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_user-login-form\.scss}line{font-family:\000039}}
+.not-logged-in .bodycontent {
+  left: 35%;
+  max-width: 30%;
+  position: absolute;
+  top: 30%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_projects\.scss}line{font-family:\000033}}
 .projects {
@@ -2059,6 +2045,18 @@ All this is done for any sub-level being entered.
   background-image: none; }
 
 /**
+ * $Fix default behaviours
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/__fix_default_behaviours\.scss}line{font-family:\000035}}
+.panels-flexible-region {
+  float: none;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/__fix_default_behaviours\.scss}line{font-family:\000039}}
+.panels-flexible-row .pane {
+  padding: 0; }
+
+/**
  * $BORDER-LIST
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_border-list\.scss}line{font-family:\000034}}
@@ -2934,11 +2932,8 @@ html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-li
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000352}}
 .sitecontainer {
   background: url("../images/../images/marinelli_imgs/1.jpg?1388604485") no-repeat fixed center;
-  background-size: cover; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000358}}
-.bodycontent > div {
-  margin: .5rem 1rem; }
+  background-size: cover;
+  height: 100%; }
 
 /**
  * $NODE-BASIC-PAGE
