@@ -622,10 +622,12 @@ div.password-indicator {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_user-login-form\.scss}line{font-family:\000039}}
 .not-logged-in .bodycontent {
-  left: 35%;
-  max-width: 30%;
+  max-width: 320px;
   position: absolute;
-  top: 30%; }
+  left: 50%;
+  margin-left: -160px;
+  top: 50%;
+  transform: translateY(-50%); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_projects\.scss}line{font-family:\000033}}
 .projects {
@@ -2056,6 +2058,9 @@ All this is done for any sub-level being entered.
 .panels-flexible-row .pane {
   padding: 0; }
 
+/**
+ * $Media_queries
+ */
 /**
  * $BORDER-LIST
  */
