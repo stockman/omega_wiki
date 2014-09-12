@@ -1,7 +1,5 @@
 (function($) {
 
-
-
     Drupal.behaviors.myBehavior = {
         attach: function(context, settings) {
             //code starts
@@ -9,8 +7,11 @@
             // for project button ?
             $(".sampler").click(function() {
                 $("table").slideToggle("fast");
-            });
 
+
+            //autofocus on first field
+            $(".form-text:first").focus();
+            });
             /*
                 $('.view-full-calendar').fullCalendar({
                     eventMouseover: function(event, jsEvent, view) {

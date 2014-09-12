@@ -29,9 +29,15 @@
   }
 }
 
+//padding to make the body container look cool
+.sitecontainer .bodyrow{
+  padding: 1rem;
+}
 // this is the body container
 .bodycontent {
   @include backgrund;
+  //add content padding from edge.
+  .inside {padding: .2rem;}
 }
 
 //spacing for header
@@ -52,5 +58,5 @@ html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-li
 .sitecontainer {
 background:url("../images/../images/marinelli_imgs/1.jpg?1388604485") no-repeat fixed center ;
 background-size: cover;
-height: 100%;
+//height: 100%;
 }

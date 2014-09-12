@@ -43,3 +43,9 @@
   //change this to blur.
   background-color: rgba($headerbackground, .5);
 }
+
+@mixin backgrund {
+  background-color: $bodycolor;
+  opacity: 0.7;
+  border-radius: .5rem;
+}

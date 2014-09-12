@@ -15,3 +15,10 @@ margin-left: ($maxer/2)*-1;
 top: 50%;
 transform: translateY(-50%);
 }
+
+//need to make the site container 100% of the screen
+.not-logged-in .sitecontainer {
+	height: 100%;
+	//extra spacing
+	.bodycontent{padding: 1rem;}
+}
