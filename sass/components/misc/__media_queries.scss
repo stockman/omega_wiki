@@ -8,3 +8,12 @@
 
 	}
 }
+
+.node--casetracker-basic-project--full, .node--casetracker-basic-case--full {
+	  @include breakpoint($breakii) {
+		.node__submitted {
+		  display: none;
+		}
+		.case, .project {position: static;}
+	}
+}

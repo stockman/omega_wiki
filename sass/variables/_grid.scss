@@ -1,5 +1,7 @@
 // Set consistent vertical and horizontal spacing units.
+//is this line height?
 $vert-spacing-unit: 18px;
+//what is this suppose to be?
 $horz-spacing-unit: 1em;
 
 $tab: 44em;
@@ -16,3 +18,8 @@ $breaki:max-width 640px;
 // ipad could make this 1024px if I make the header better
 $breakii:max-width 1125px;
 //$brekiii: max-width 1266px;
+
+
+
+$menu_size: $vert-spacing-unit*2.5;
+//$menu_size2: 1.5rem;

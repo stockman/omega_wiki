@@ -12,6 +12,7 @@ stylesheets[all][] = css/omega-wiki.normalize.css
 stylesheets[all][] = css/omega-wiki.hacks.css
 stylesheets[all][] = css/omega-wiki.styles.css
 stylesheets[all][] = css/omega-wiki.no-query.css
+stylesheets[all][] = css/font-awesome/font-awesome.css
 
 ; ========================================
 ; Scripts
