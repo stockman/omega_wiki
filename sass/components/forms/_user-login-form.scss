@@ -4,6 +4,10 @@
 
 .pane-user-login {
   text-align: center;
+  ul {
+	list-style: none outside none;
+	padding: 0;
+  }
 }
 
 .not-logged-in .bodycontent {
