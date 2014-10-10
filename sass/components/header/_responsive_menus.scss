@@ -4,6 +4,17 @@ Uses Font-Awesome for the directional arrows
 */
 
 /* Common styles of menus */
+//sizes
+$font-sizer: 1.3rem;
+$rsize:$menu_size;
+$rsize2:$menu_size2;
+//colours
+$rbackhov:$colourv;
+$rbutton:red;
+$rcol:$colouriii;
+$rcolour:$colouri;
+$rbak:$colouri;
+$rhovecol:purple; ///???
 
 .dl-menuwrapper {
 	width: 100%;
@@ -23,14 +34,11 @@ Uses Font-Awesome for the directional arrows
 	margin-right: 100px;
 }
 
-
-
-
 .dl-menuwrapper button {
-	background: $linkhover;
+	background: $rbak;
 	border: none;
-	width: $menu_size;
-	height: $menu_size;
+	width: $rsize2;
+	height: $rsize2;
 	text-indent: -900em;
 	overflow: hidden;
 	position: relative;
@@ -38,13 +46,14 @@ Uses Font-Awesome for the directional arrows
 	outline: none;
 }
 .dl-menuwrapper button {
-	&:hover {background-color: $headerlinkhover;}
-	.dl-active {background:  $headerlinkhover;}
+	&:hover {background-color: $rbackhov;
+	}
+	.dl-active {background:  $rbackhov}
 }
 
-.dl-menuwrapper ul {background: $linkhover;}
+.dl-menuwrapper ul {background: $rbak;}
 .dl-menuwrapper ul:active {
-	color:$headerlinkhover;
+	color:$rcolour;
 }
 
 .dl-menuwrapper button:after {
@@ -52,13 +61,13 @@ Uses Font-Awesome for the directional arrows
 	position: absolute;
 	width: 67%;
 	//this is the thickness of the lines.
-	height: $menu_size/11;
-	background: $headerbackground;
-	top: $menu_size/4.8;
+	height: $rsize2/11;
+	background: $rcol;
+	top: $rsize2/4.8;
 	left: 16%;
 	box-shadow: 
-		0 $menu_size/4 0 $headerbackground, 
-		0 $menu_size/2 0 $headerbackground;
+		0 $rsize2/4 0 $rcol, 
+		0 $rsize2/2 0 $rcol;
 }
 .dl-menuwrapper ul {
 	padding: 0;
@@ -71,22 +80,21 @@ Uses Font-Awesome for the directional arrows
 
 .dl-menuwrapper li {
 	position: relative;
-	//what's going on? THAT is not the same colour!!
-	&:hover {background-color: $headerbackground;}
-	a {color: $headerlink;}
-	a:hover {color:$headerlinkhover; }
+	&:hover {background-color: $rbackhov;}
+	a {color: $rcol;}
+	a:hover {color:$rcolour; }
 }
 
 .dl-menuwrapper li a {
 	display: block;
 	position: relative;
 	padding: 1rem 2rem;
-	font-size: 1.5rem;
-	line-height: 1.5rem;
+	font-size: $font-sizer;
+	line-height: $font-sizer;
 	font-weight: 300;
 	outline: none;
 	text-decoration: none;
-	//background-color: $headerbackground;
+	//background-color: $rcol;
 }
 
 .no-touch .dl-menuwrapper li a:hover {
@@ -101,19 +109,18 @@ Uses Font-Awesome for the directional arrows
 .dl-menuwrapper li.dl-back:after,
 .dl-menuwrapper li > a:not(:only-child):after {
 	position: absolute;
-	top: 0;
-	line-height: 55px;
+	top: .3rem;
+	line-height: $font-sizer*2;
 	font-family: FontAwesome;
 	content: "\f0da";
-	font-size: 3rem;
+	font-size: $font-sizer*2;
 }
 
 .dl-menuwrapper li.dl-back:after {
 	left: .5rem;
-	//color: rgba(212,204,198,0.3);
-	-webkit-transform: rotate(180deg);
-	-moz-transform: rotate(180deg);
-	transform: rotate(180deg);
+	top: .3rem;
+	color: $rcol;
+	content: "\f0d9";
 }
 
 .dl-menuwrapper li > a:after {

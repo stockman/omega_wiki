@@ -7,6 +7,7 @@
 
 /** Mixins!!!
 **/
+
 @mixin center-block {
   display: block;
   margin-left: auto;
@@ -31,21 +32,46 @@
 
 // to share the h2 with other things.
 @mixin h2 {
-  color: $h2_colour;
+  color: $colouri;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
 @mixin headercol {
-    color: $headerlink;
+    color: $colouriii;
     text-shadow:0 1px 2px rgba(0,0,0,0.6);
 }
 @mixin backgro {
   //change this to blur.
-  background-color: rgba($headerbackground, .5);
+  background-color: rgba($colourii, .5);
 }
 
 @mixin backgrund {
-  background-color: $bodycolor;
+  background-color: $colourii;
   opacity: 0.7;
   border-radius: .5rem;
+}
+
+
+  // $socisize is the circle size
+@mixin circle($socisize: $vert-spacing-unit,$circlebakcolor:$colourv,$circlecolor:$colouriii,$circlecolorhover:$colourvi) {
+  // font size controls the actual size
+  font-size: $socisize*1;
+//  font-family: 'socicon';
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: $socisize*2;
+    height: $socisize*2;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: $circlecolor;
+    font-weight: normal;
+    line-height: $socisize*2;
+    border-radius: $socisize;
+    -moz-border-radius:$socisize;
+    -webkit-border-radius:$socisize;
+    background-color: $circlebakcolor;
+    &:hover {color: $circlecolorhover;}
 }

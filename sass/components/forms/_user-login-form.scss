@@ -10,6 +10,12 @@
   }
 }
 
+
+/*
+
+!! you should move this to the not-logged in file!!!
+*/
+
 .not-logged-in .bodycontent {
 $maxer: 320px;
 max-width: $maxer;
@@ -26,4 +32,8 @@ box-shawdow:4px 4px 35px 5px $colouriii;
 	height: 100%;
 	//extra spacing
 	.bodycontent{padding: 1rem;}
+}
+
+.not-logged-in #mini-panel-right_menu {
+  display: none;
 }

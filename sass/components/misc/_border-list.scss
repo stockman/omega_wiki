@@ -1,5 +1,5 @@
 /**
- * $BORDER-LIST
+ * $colouriii-LIST
  */
 .border-list {
   padding: 0;
@@ -9,7 +9,7 @@
   li {
     @include padding-trailer(1);
     @include trailer(1);
-    border-bottom: 1px solid $bakcolour;
+    border-bottom: 1px solid $colourvii;
 
     &:last-child {
       padding-bottom: 0;

@@ -1,0 +1,48 @@
+/**
+ * Menus
+ */
+
+
+//right header menu
+.headerright .inside {
+    position: absolute;
+    right: 1em;
+    z-index: 999;
+    div {display: flex;
+    	padding: 0 .1rem;
+    }
+}
+
+.pane-system-user-menu {display: none;}
+
+.headerright {
+	.menu:hover:before {color: $colourv;}
+	.menu:before {
+		color: $colouri;
+		font-family: FontAwesome;
+		font-size: 2rem;
+		content: "\f007";
+	}
+	.menu {
+		padding: 0;
+		text-align: right;
+//		list-style: none;
+		margin: 0;
+		//width: 50px;
+		position: fixed;
+		right: .3rem;
+		margin-top: .49rem;
+		li.first {border-radius: $radius $radius 0 0;}
+		li {
+			display: none;
+			width: 110px;
+			background-color: $colourv;
+			a {color: $colouri;}
+			list-style: none;
+			text-align: center;
+			line-height: 1.6rem;
+			border-radius: 0 0 $radius $radius;
+			z-index: 9999999999999999999;
+		}
+	}
+}

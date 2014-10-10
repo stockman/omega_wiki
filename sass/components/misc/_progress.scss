@@ -3,11 +3,11 @@
  */
 .progress {
   .bar {
-    background-color: $bakcolour;
-    border-color: $bordercolour;
+    background-color: $colourvii;
+    border-color: $colourviii;
     @include border-radius(0);
   }
   .filled {
-    background: $h2_colour;
+    background: $colouri;
   }
 }

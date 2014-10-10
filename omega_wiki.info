@@ -18,7 +18,6 @@ stylesheets[all][] = css/font-awesome/font-awesome.css
 ; Scripts
 ; ========================================
 scripts[] = js/omega-wiki.behaviors.js
-scripts[] = js/theme_modified.js
 
 ; ========================================
 ; Regions

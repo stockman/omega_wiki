@@ -9,33 +9,10 @@
     font-weight: normal;
     font-style: normal;
 }
-@mixin socialcircle {
-  // font size controls the actual size
-  font-size: 1.3rem;
-  // $socisize is the circle size
-  $socisize: .8em;
-  font-family: 'socicon';
-  display: inline-block;
-    position: relative;
-    cursor: pointer;
-    width: $socisize*2;
-    height: $socisize*2;
-    box-shadow: 0 2px 2px #999;
-    padding: 0px;
-    text-decoration: none;
-    text-align: center;
-    color: $link;
 
-    font-weight: normal;
-    line-height: $socisize*2;
-    border-radius: $socisize;
-    -moz-border-radius:$socisize;
-    -webkit-border-radius:$socisize;
-    background-color: $buttonbak;
-    &:hover {color: $linkhover;}
-}
 .socicon {
-  @include socialcircle;
+  font-family: 'socicon';
+  @include circle();
 }
 
 .socicon-easid:before { content: "5"; }

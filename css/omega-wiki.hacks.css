@@ -1,3 +1,6 @@
+/*
+
+*/
 /**
  * $content layout
  */
@@ -13,12 +16,3 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/omega-wiki\.hacks\.scss}line{font-family:\0000320}}
 html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-links-trigger, .contextual-links-active .contextual-links-trigger, .contextual-links-active .contextual-links {
   display: none !important; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/omega-wiki\.hacks\.scss}line{font-family:\0000325}}
-button, .form-submit {
-  background-color: #0068ff;
-  border-radius: 0.35rem;
-  color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/omega-wiki\.hacks\.scss}line{font-family:\0000329}}
-  button:hover, .form-submit:hover {
-    color: yellow; }

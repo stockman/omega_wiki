@@ -17,6 +17,9 @@
   .comment__content:after, .field--type-taxonomy-term-reference .field__items:after, .pager:after, .site-branding:after {
     clear: both; }
 
+/*
+
+*/
 /**
  * $content layout
  */
@@ -69,16 +72,40 @@
   padding: 18px 1em; }
 
 /**
+ * $Buttons
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_buttons\.scss}line{font-family:\000035}}
+button, .form-submit {
+  color: white;
+  -moz-user-select: none;
+  background-color: blue;
+  border: 0 solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.6rem;
+  padding: 0 12px;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+  font-size: 1.3rem;
+  height: 1.6em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_buttons\.scss}line{font-family:\000039}}
+  button:hover, .form-submit:hover {
+    background-color: #00c12b;
+    color: blue; }
+
+/**
  * $FONT-FACE
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_forms\.scss}line{font-family:\000034}}
 select:focus,
 input:focus,
 textarea:focus {
-  -webkit-box-shadow: 0 0 4px 1px rgba(77, 77, 255, 0.3);
-  -moz-box-shadow: 0 0 4px 1px rgba(77, 77, 255, 0.3);
-  box-shadow: 0 0 4px 1px rgba(77, 77, 255, 0.3);
-  outline: 1px solid #4d4dff; }
+  -webkit-box-shadow: 0 0 4px 1px rgba(255, 255, 77, 0.3);
+  -moz-box-shadow: 0 0 4px 1px rgba(255, 255, 77, 0.3);
+  box-shadow: 0 0 4px 1px rgba(255, 255, 77, 0.3);
+  outline: 1px solid white; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_forms\.scss}line{font-family:\0000310}}
 fieldset {
@@ -106,13 +133,13 @@ img, media {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\000037}}
 table {
   width: 100%;
-  color: #222222;
+  color: blue;
   margin-bottom: 18px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000313}}
 th {
   padding: 0.5em 1em;
-  background-color: blue;
+  background-color: #00267f;
   color: #d1d3d4; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_tables\.scss}line{font-family:\0000319}}
   th a,
@@ -155,14 +182,14 @@ html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif; }
 
 /**
- * $LINKS
+ * $colourivS
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\0000317}}
 a {
-  color: blue; }
+  color: #00267f; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.omega_wiki\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000318}}
   a:visited {
-    color: blue; }
+    color: #00267f; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.omega_wiki\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000321}}
   a:focus {
     color: black; }
@@ -171,7 +198,7 @@ a {
     color: black; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.omega_wiki\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000327}}
   a:active {
-    color: white; }
+    color: #00267f; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\0000321}}
 a:hover {
@@ -224,7 +251,7 @@ h6, .zeta {
   h4 a:hover, .delta a:hover, caption a:hover,
   h5 a:hover, .epsilon a:hover,
   h6 a:hover, .zeta a:hover {
-    color: #00c12b; }
+    color: yellow; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\0000348}}
 h1, .alpha {
@@ -296,7 +323,7 @@ blockquote {
   border-left-width: 0.71429em;
   padding-left: 0.71429em;
   font-style: italic;
-  color: #00c12b; }
+  color: yellow; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\0000398}}
   blockquote p {
     margin: 0; }
@@ -312,7 +339,7 @@ q {
 mark,
 .marker {
   padding: 0.1em 0.5em;
-  background: #52b1ea;
+  background: #dddddd;
   color: #fff;
   font-size: 12px;
   font-size: 0.85714rem;
@@ -339,7 +366,7 @@ html, body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/blocks\/_block-user-menu\.scss}line{font-family:\000038}}
 .block--system-user-menu a {
   padding: 0 0.6em;
-  border-right: 1px solid blue; }
+  border-right: 1px solid #00267f; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/blocks\/_block-user-menu\.scss}line{font-family:\0000312}}
 .block--system-user-menu li:first-child a {
   padding-left: 0; }
@@ -362,7 +389,7 @@ html, body {
   color: #fff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/blocks\/_nav-bar\.scss}line{font-family:\0000319}}
   .block--nav-bar a:hover, .block--nav-bar a:focus {
-    color: #00c12b; }
+    color: yellow; }
 @media (min-width: 600px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/blocks\/_nav-bar\.scss}line{font-family:\0000325}}
   .block--nav-bar a {
@@ -409,7 +436,7 @@ html, body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000326}}
   .comment__info .username {
     margin-bottom: 9px;
-    color: #52b1ea;
+    color: #dddddd;
     text-transform: uppercase;
     text-decoration: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000333}}
@@ -522,7 +549,7 @@ html.js fieldset.collapsible {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000329}}
     html.js fieldset.collapsible .fieldset-title:hover {
       background-color: blue;
-      color: #00c12b; }
+      color: yellow; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000334}}
   html.js fieldset.collapsible .fieldset-wrapper {
     padding: 18px 1em;
@@ -604,7 +631,7 @@ div.password-indicator {
   border: 1px solid #dddddd; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_password-indicator\.scss}line{font-family:\000039}}
   .password-indicator .indicator {
-    background: white; }
+    background: #00267f; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_password-indicator\.scss}line{font-family:\0000314}}
 .password-strength-title {
@@ -613,10 +640,42 @@ div.password-indicator {
 /**
  * $SEARCH-FORM
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\000035}}
-.search-block-form .form-text {
-  width: auto;
-  padding: 0.4em; }
+/*.search-block-form {
+/*
+.container-inline:before {
+	color: $colouri;
+	font-family: FontAwesome;
+	font-size: 2rem;
+	content: "\f002";
+}
+*/
+	/*
+	.container-inline{
+	@include breakpoint($breakii) {
+	 display: none;
+	}}
+	
+	.form-text {
+	width: auto;
+	padding: 0.4em;
+	}
+}*/
+@media (max-width: 1125px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000324}}
+  .search-block-form {
+    display: none; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000329}}
+.pane-search-form:hover:after {
+  color: #00c12b; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000330}}
+.pane-search-form:after {
+  color: blue;
+  font-family: FontAwesome;
+  font-size: 2rem;
+  content: "\f002";
+  margin-top: .3rem; }
 
 /**
  * $USERLOGIN-FORM
@@ -629,7 +688,11 @@ div.password-indicator {
     list-style: none outside none;
     padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_user-login-form\.scss}line{font-family:\0000313}}
+/*
+
+!! you should move this to the not-logged in file!!!
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_user-login-form\.scss}line{font-family:\0000319}}
 .not-logged-in .bodycontent {
   max-width: 320px;
   position: absolute;
@@ -639,12 +702,67 @@ div.password-indicator {
   transform: translateY(-50%);
   box-shawdow: 4px 4px 35px 5px white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_user-login-form\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_user-login-form\.scss}line{font-family:\0000331}}
 .not-logged-in .sitecontainer {
   height: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_user-login-form\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_user-login-form\.scss}line{font-family:\0000334}}
   .not-logged-in .sitecontainer .bodycontent {
     padding: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_user-login-form\.scss}line{font-family:\0000337}}
+.not-logged-in #mini-panel-right_menu {
+  display: none; }
+
+/**
+ * Menus
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/__right_menu\.scss}line{font-family:\000037}}
+.headerright .inside {
+  position: absolute;
+  right: 1em;
+  z-index: 999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/__right_menu\.scss}line{font-family:\0000311}}
+  .headerright .inside div {
+    display: flex;
+    padding: 0 .1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/__right_menu\.scss}line{font-family:\0000316}}
+.pane-system-user-menu {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/__right_menu\.scss}line{font-family:\0000319}}
+.headerright .menu:hover:before {
+  color: #00c12b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/__right_menu\.scss}line{font-family:\0000320}}
+.headerright .menu:before {
+  color: blue;
+  font-family: FontAwesome;
+  font-size: 2rem;
+  content: "\f007"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/__right_menu\.scss}line{font-family:\0000326}}
+.headerright .menu {
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  position: fixed;
+  right: .3rem;
+  margin-top: .49rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/__right_menu\.scss}line{font-family:\0000335}}
+  .headerright .menu li.first {
+    border-radius: 4px 4px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/__right_menu\.scss}line{font-family:\0000336}}
+  .headerright .menu li {
+    display: none;
+    width: 110px;
+    background-color: #00c12b;
+    list-style: none;
+    text-align: center;
+    line-height: 1.6rem;
+    border-radius: 0 0 4px 4px;
+    z-index: 9999999999999999999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/__right_menu\.scss}line{font-family:\0000340}}
+    .headerright .menu li a {
+      color: blue; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_projects\.scss}line{font-family:\000033}}
 .projects {
@@ -690,14 +808,1353 @@ div.password-indicator {
 .node--casetracker-basic-case .field--label-above {
   display: flex; }
 
+/*
+RT my modded Responsive Menu Sass
+Uses Font-Awesome for the directional arrows
+*/
+/* Common styles of menus */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\0000319}}
+.dl-menuwrapper {
+  width: 100%;
+  float: left;
+  position: relative;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  perspective: 1000px;
+  -webkit-perspective-origin: 50% 200%;
+  -moz-perspective-origin: 50% 200%;
+  perspective-origin: 50% 200%;
+  z-index: 500; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\0000333}}
+.dl-menuwrapper:first-child {
+  margin-right: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\0000337}}
+.dl-menuwrapper button {
+  background: blue;
+  border: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-indent: -900em;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\0000349}}
+.dl-menuwrapper button:hover {
+  background-color: #00c12b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\0000351}}
+.dl-menuwrapper button .dl-active {
+  background: #00c12b; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\0000354}}
+.dl-menuwrapper ul {
+  background: blue; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\0000355}}
+.dl-menuwrapper ul:active {
+  color: blue; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\0000359}}
+.dl-menuwrapper button:after {
+  content: '';
+  position: absolute;
+  width: 67%;
+  height: 0.22727rem;
+  background: white;
+  top: 0.52083rem;
+  left: 16%;
+  box-shadow: 0 0.625rem 0 white, 0 1.25rem 0 white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\0000372}}
+.dl-menuwrapper ul {
+  padding: 0;
+  list-style: none;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\0000381}}
+.dl-menuwrapper li {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\0000383}}
+  .dl-menuwrapper li:hover {
+    background-color: #00c12b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\0000384}}
+  .dl-menuwrapper li a {
+    color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\0000385}}
+  .dl-menuwrapper li a:hover {
+    color: blue; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\0000388}}
+.dl-menuwrapper li a {
+  display: block;
+  position: relative;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  font-weight: 300;
+  outline: none;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003100}}
+.no-touch .dl-menuwrapper li a:hover {
+  background: rgba(255, 248, 213, 0.1); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003104}}
+.dl-menuwrapper li.dl-back > a {
+  padding-left: 30px;
+  background: rgba(0, 0, 0, 0.1); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003110}}
+.dl-menuwrapper li.dl-back:after,
+.dl-menuwrapper li > a:not(:only-child):after {
+  position: absolute;
+  top: .3rem;
+  line-height: 2.6rem;
+  font-family: FontAwesome;
+  content: "\f0da";
+  font-size: 2.6rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003119}}
+.dl-menuwrapper li.dl-back:after {
+  left: .5rem;
+  top: .3rem;
+  color: white;
+  content: "\f0d9"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003126}}
+.dl-menuwrapper li > a:after {
+  right: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003130}}
+.dl-menuwrapper .dl-menu {
+  margin: 5px 0 0 0;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  transform: translateY(10px);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003145}}
+.dl-menuwrapper .dl-menu.dl-menu-toggle {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003151}}
+.dl-menuwrapper .dl-menu.dl-menuopen {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  transform: translateY(0px); }
+
+/* Hide the inner submenus */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003160}}
+.dl-menuwrapper li .dl-submenu {
+  display: none; }
+
+/* 
+When a submenu is openend, we will hide all li siblings.
+For that we give a class to the parent menu called "dl-subview".
+We also hide the submenu link. 
+The opened submenu will get the class "dl-subviewopen".
+All this is done for any sub-level being entered.
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003173}}
+.dl-menu.dl-subview li,
+.dl-menu.dl-subview li.dl-subviewopen > a,
+.dl-menu.dl-subview li.dl-subview > a {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003181}}
+.dl-menu.dl-subview li.dl-subview,
+.dl-menu.dl-subview li.dl-subview .dl-submenu,
+.dl-menu.dl-subview li.dl-subviewopen,
+.dl-menu.dl-subview li.dl-subviewopen > .dl-submenu,
+.dl-menu.dl-subview li.dl-subviewopen > .dl-submenu > li {
+  display: block; }
+
+/* Dynamically added submenu outside of the menu context */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003186}}
+.dl-menuwrapper > .dl-submenu {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  left: 0;
+  margin: 0; }
+
+/* Animation classes for moving out and in */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003196}}
+.dl-menu.dl-animate-out-1 {
+  -webkit-animation: MenuAnimOut1 0.4s;
+  -moz-animation: MenuAnimOut1 0.4s;
+  animation: MenuAnimOut1 0.4s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003202}}
+.dl-menu.dl-animate-out-2 {
+  -webkit-animation: MenuAnimOut2 0.3s ease-in-out;
+  -moz-animation: MenuAnimOut2 0.3s ease-in-out;
+  animation: MenuAnimOut2 0.3s ease-in-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003208}}
+.dl-menu.dl-animate-out-3 {
+  -webkit-animation: MenuAnimOut3 0.4s ease;
+  -moz-animation: MenuAnimOut3 0.4s ease;
+  animation: MenuAnimOut3 0.4s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003214}}
+.dl-menu.dl-animate-out-4 {
+  -webkit-animation: MenuAnimOut4 0.4s ease;
+  -moz-animation: MenuAnimOut4 0.4s ease;
+  animation: MenuAnimOut4 0.4s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003220}}
+.dl-menu.dl-animate-out-5 {
+  -webkit-animation: MenuAnimOut5 0.4s ease;
+  -moz-animation: MenuAnimOut5 0.4s ease;
+  animation: MenuAnimOut5 0.4s ease; }
+
+@-webkit-keyframes MenuAnimOut1 {
+  /* line 227, ../sass/components/header/_responsive_menus.scss */
+  50% {
+    -webkit-transform: translateZ(-250px) rotateY(30deg); }
+
+  /* line 230, ../sass/components/header/_responsive_menus.scss */
+  75% {
+    -webkit-transform: translateZ(-372.5px) rotateY(15deg);
+    opacity: .5; }
+
+  /* line 234, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateZ(-500px) rotateY(0deg);
+    opacity: 0; } }
+
+@-webkit-keyframes MenuAnimOut2 {
+  /* line 241, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateX(-100%);
+    opacity: 0; } }
+
+@-webkit-keyframes MenuAnimOut3 {
+  /* line 248, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateZ(300px);
+    opacity: 0; } }
+
+@-webkit-keyframes MenuAnimOut4 {
+  /* line 255, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateZ(-300px);
+    opacity: 0; } }
+
+@-webkit-keyframes MenuAnimOut5 {
+  /* line 262, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateY(40%);
+    opacity: 0; } }
+
+@-moz-keyframes MenuAnimOut1 {
+  /* line 269, ../sass/components/header/_responsive_menus.scss */
+  50% {
+    -moz-transform: translateZ(-250px) rotateY(30deg); }
+
+  /* line 272, ../sass/components/header/_responsive_menus.scss */
+  75% {
+    -moz-transform: translateZ(-372.5px) rotateY(15deg);
+    opacity: .5; }
+
+  /* line 276, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateZ(-500px) rotateY(0deg);
+    opacity: 0; } }
+
+@-moz-keyframes MenuAnimOut2 {
+  /* line 283, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateX(-100%);
+    opacity: 0; } }
+
+@-moz-keyframes MenuAnimOut3 {
+  /* line 290, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateZ(300px);
+    opacity: 0; } }
+
+@-moz-keyframes MenuAnimOut4 {
+  /* line 297, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateZ(-300px);
+    opacity: 0; } }
+
+@-moz-keyframes MenuAnimOut5 {
+  /* line 304, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateY(40%);
+    opacity: 0; } }
+
+@keyframes MenuAnimOut1 {
+  /* line 311, ../sass/components/header/_responsive_menus.scss */
+  50% {
+    transform: translateZ(-250px) rotateY(30deg); }
+
+  /* line 314, ../sass/components/header/_responsive_menus.scss */
+  75% {
+    transform: translateZ(-372.5px) rotateY(15deg);
+    opacity: .5; }
+
+  /* line 318, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateZ(-500px) rotateY(0deg);
+    opacity: 0; } }
+
+@keyframes MenuAnimOut2 {
+  /* line 325, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateX(-100%);
+    opacity: 0; } }
+
+@keyframes MenuAnimOut3 {
+  /* line 332, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateZ(300px);
+    opacity: 0; } }
+
+@keyframes MenuAnimOut4 {
+  /* line 339, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateZ(-300px);
+    opacity: 0; } }
+
+@keyframes MenuAnimOut5 {
+  /* line 346, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateY(40%);
+    opacity: 0; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003352}}
+.dl-menu.dl-animate-in-1 {
+  -webkit-animation: MenuAnimIn1 0.3s;
+  -moz-animation: MenuAnimIn1 0.3s;
+  animation: MenuAnimIn1 0.3s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003358}}
+.dl-menu.dl-animate-in-2 {
+  -webkit-animation: MenuAnimIn2 0.3s ease-in-out;
+  -moz-animation: MenuAnimIn2 0.3s ease-in-out;
+  animation: MenuAnimIn2 0.3s ease-in-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003364}}
+.dl-menu.dl-animate-in-3 {
+  -webkit-animation: MenuAnimIn3 0.4s ease;
+  -moz-animation: MenuAnimIn3 0.4s ease;
+  animation: MenuAnimIn3 0.4s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003370}}
+.dl-menu.dl-animate-in-4 {
+  -webkit-animation: MenuAnimIn4 0.4s ease;
+  -moz-animation: MenuAnimIn4 0.4s ease;
+  animation: MenuAnimIn4 0.4s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003376}}
+.dl-menu.dl-animate-in-5 {
+  -webkit-animation: MenuAnimIn5 0.4s ease;
+  -moz-animation: MenuAnimIn5 0.4s ease;
+  animation: MenuAnimIn5 0.4s ease; }
+
+@-webkit-keyframes MenuAnimIn1 {
+  /* line 383, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -webkit-transform: translateZ(-500px) rotateY(0deg);
+    opacity: 0; }
+
+  /* line 387, ../sass/components/header/_responsive_menus.scss */
+  20% {
+    -webkit-transform: translateZ(-250px) rotateY(30deg);
+    opacity: 0.5; }
+
+  /* line 391, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateZ(0px) rotateY(0deg);
+    opacity: 1; } }
+
+@-webkit-keyframes MenuAnimIn2 {
+  /* line 398, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -webkit-transform: translateX(-100%);
+    opacity: 0; }
+
+  /* line 402, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateX(0px);
+    opacity: 1; } }
+
+@-webkit-keyframes MenuAnimIn3 {
+  /* line 409, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -webkit-transform: translateZ(300px);
+    opacity: 0; }
+
+  /* line 413, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateZ(0px);
+    opacity: 1; } }
+
+@-webkit-keyframes MenuAnimIn4 {
+  /* line 420, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -webkit-transform: translateZ(-300px);
+    opacity: 0; }
+
+  /* line 424, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateZ(0px);
+    opacity: 1; } }
+
+@-webkit-keyframes MenuAnimIn5 {
+  /* line 431, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -webkit-transform: translateY(40%);
+    opacity: 0; }
+
+  /* line 435, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1; } }
+
+@-moz-keyframes MenuAnimIn1 {
+  /* line 442, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -moz-transform: translateZ(-500px) rotateY(0deg);
+    opacity: 0; }
+
+  /* line 446, ../sass/components/header/_responsive_menus.scss */
+  20% {
+    -moz-transform: translateZ(-250px) rotateY(30deg);
+    opacity: 0.5; }
+
+  /* line 450, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateZ(0px) rotateY(0deg);
+    opacity: 1; } }
+
+@-moz-keyframes MenuAnimIn2 {
+  /* line 457, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -moz-transform: translateX(-100%);
+    opacity: 0; }
+
+  /* line 461, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateX(0px);
+    opacity: 1; } }
+
+@-moz-keyframes MenuAnimIn3 {
+  /* line 468, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -moz-transform: translateZ(300px);
+    opacity: 0; }
+
+  /* line 472, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateZ(0px);
+    opacity: 1; } }
+
+@-moz-keyframes MenuAnimIn4 {
+  /* line 479, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -moz-transform: translateZ(-300px);
+    opacity: 0; }
+
+  /* line 483, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateZ(0px);
+    opacity: 1; } }
+
+@-moz-keyframes MenuAnimIn5 {
+  /* line 490, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -moz-transform: translateY(40%);
+    opacity: 0; }
+
+  /* line 494, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes MenuAnimIn1 {
+  /* line 501, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    transform: translateZ(-500px) rotateY(0deg);
+    opacity: 0; }
+
+  /* line 505, ../sass/components/header/_responsive_menus.scss */
+  20% {
+    transform: translateZ(-250px) rotateY(30deg);
+    opacity: 0.5; }
+
+  /* line 509, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateZ(0px) rotateY(0deg);
+    opacity: 1; } }
+
+@keyframes MenuAnimIn2 {
+  /* line 516, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    transform: translateX(-100%);
+    opacity: 0; }
+
+  /* line 520, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateX(0px);
+    opacity: 1; } }
+
+@keyframes MenuAnimIn3 {
+  /* line 527, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    transform: translateZ(300px);
+    opacity: 0; }
+
+  /* line 531, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateZ(0px);
+    opacity: 1; } }
+
+@keyframes MenuAnimIn4 {
+  /* line 538, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    transform: translateZ(-300px);
+    opacity: 0; }
+
+  /* line 542, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateZ(0px);
+    opacity: 1; } }
+
+@keyframes MenuAnimIn5 {
+  /* line 549, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    transform: translateY(40%);
+    opacity: 0; }
+
+  /* line 553, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003559}}
+.dl-menuwrapper > .dl-submenu.dl-animate-in-1 {
+  -webkit-animation: SubMenuAnimIn1 0.4s ease;
+  -moz-animation: SubMenuAnimIn1 0.4s ease;
+  animation: SubMenuAnimIn1 0.4s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003565}}
+.dl-menuwrapper > .dl-submenu.dl-animate-in-2 {
+  -webkit-animation: SubMenuAnimIn2 0.3s ease-in-out;
+  -moz-animation: SubMenuAnimIn2 0.3s ease-in-out;
+  animation: SubMenuAnimIn2 0.3s ease-in-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003571}}
+.dl-menuwrapper > .dl-submenu.dl-animate-in-3 {
+  -webkit-animation: SubMenuAnimIn3 0.4s ease;
+  -moz-animation: SubMenuAnimIn3 0.4s ease;
+  animation: SubMenuAnimIn3 0.4s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003577}}
+.dl-menuwrapper > .dl-submenu.dl-animate-in-4 {
+  -webkit-animation: SubMenuAnimIn4 0.4s ease;
+  -moz-animation: SubMenuAnimIn4 0.4s ease;
+  animation: SubMenuAnimIn4 0.4s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003583}}
+.dl-menuwrapper > .dl-submenu.dl-animate-in-5 {
+  -webkit-animation: SubMenuAnimIn5 0.4s ease;
+  -moz-animation: SubMenuAnimIn5 0.4s ease;
+  animation: SubMenuAnimIn5 0.4s ease; }
+
+@-webkit-keyframes SubMenuAnimIn1 {
+  /* line 590, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -webkit-transform: translateX(50%);
+    opacity: 0; }
+
+  /* line 594, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateX(0px);
+    opacity: 1; } }
+
+@-webkit-keyframes SubMenuAnimIn2 {
+  /* line 601, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -webkit-transform: translateX(100%);
+    opacity: 0; }
+
+  /* line 605, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateX(0px);
+    opacity: 1; } }
+
+@-webkit-keyframes SubMenuAnimIn3 {
+  /* line 612, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -webkit-transform: translateZ(-300px);
+    opacity: 0; }
+
+  /* line 616, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateZ(0px);
+    opacity: 1; } }
+
+@-webkit-keyframes SubMenuAnimIn4 {
+  /* line 623, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -webkit-transform: translateZ(300px);
+    opacity: 0; }
+
+  /* line 627, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateZ(0px);
+    opacity: 1; } }
+
+@-webkit-keyframes SubMenuAnimIn5 {
+  /* line 634, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -webkit-transform: translateZ(-200px);
+    opacity: 0; }
+
+  /* line 638, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateZ(0);
+    opacity: 1; } }
+
+@-moz-keyframes SubMenuAnimIn1 {
+  /* line 645, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -moz-transform: translateX(50%);
+    opacity: 0; }
+
+  /* line 649, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateX(0px);
+    opacity: 1; } }
+
+@-moz-keyframes SubMenuAnimIn2 {
+  /* line 656, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -moz-transform: translateX(100%);
+    opacity: 0; }
+
+  /* line 660, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateX(0px);
+    opacity: 1; } }
+
+@-moz-keyframes SubMenuAnimIn3 {
+  /* line 667, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -moz-transform: translateZ(-300px);
+    opacity: 0; }
+
+  /* line 671, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateZ(0px);
+    opacity: 1; } }
+
+@-moz-keyframes SubMenuAnimIn4 {
+  /* line 678, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -moz-transform: translateZ(300px);
+    opacity: 0; }
+
+  /* line 682, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateZ(0px);
+    opacity: 1; } }
+
+@-moz-keyframes SubMenuAnimIn5 {
+  /* line 689, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -moz-transform: translateZ(-200px);
+    opacity: 0; }
+
+  /* line 693, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateZ(0);
+    opacity: 1; } }
+
+@keyframes SubMenuAnimIn1 {
+  /* line 700, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    transform: translateX(50%);
+    opacity: 0; }
+
+  /* line 704, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateX(0px);
+    opacity: 1; } }
+
+@keyframes SubMenuAnimIn2 {
+  /* line 711, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    transform: translateX(100%);
+    opacity: 0; }
+
+  /* line 715, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateX(0px);
+    opacity: 1; } }
+
+@keyframes SubMenuAnimIn3 {
+  /* line 722, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    transform: translateZ(-300px);
+    opacity: 0; }
+
+  /* line 726, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateZ(0px);
+    opacity: 1; } }
+
+@keyframes SubMenuAnimIn4 {
+  /* line 733, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    transform: translateZ(300px);
+    opacity: 0; }
+
+  /* line 737, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateZ(0px);
+    opacity: 1; } }
+
+@keyframes SubMenuAnimIn5 {
+  /* line 744, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    transform: translateZ(-200px);
+    opacity: 0; }
+
+  /* line 748, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateZ(0);
+    opacity: 1; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003754}}
+.dl-menuwrapper > .dl-submenu.dl-animate-out-1 {
+  -webkit-animation: SubMenuAnimOut1 0.4s ease;
+  -moz-animation: SubMenuAnimOut1 0.4s ease;
+  animation: SubMenuAnimOut1 0.4s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003760}}
+.dl-menuwrapper > .dl-submenu.dl-animate-out-2 {
+  -webkit-animation: SubMenuAnimOut2 0.3s ease-in-out;
+  -moz-animation: SubMenuAnimOut2 0.3s ease-in-out;
+  animation: SubMenuAnimOut2 0.3s ease-in-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003766}}
+.dl-menuwrapper > .dl-submenu.dl-animate-out-3 {
+  -webkit-animation: SubMenuAnimOut3 0.4s ease;
+  -moz-animation: SubMenuAnimOut3 0.4s ease;
+  animation: SubMenuAnimOut3 0.4s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003772}}
+.dl-menuwrapper > .dl-submenu.dl-animate-out-4 {
+  -webkit-animation: SubMenuAnimOut4 0.4s ease;
+  -moz-animation: SubMenuAnimOut4 0.4s ease;
+  animation: SubMenuAnimOut4 0.4s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003778}}
+.dl-menuwrapper > .dl-submenu.dl-animate-out-5 {
+  -webkit-animation: SubMenuAnimOut5 0.4s ease;
+  -moz-animation: SubMenuAnimOut5 0.4s ease;
+  animation: SubMenuAnimOut5 0.4s ease; }
+
+@-webkit-keyframes SubMenuAnimOut1 {
+  /* line 785, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -webkit-transform: translateX(0%);
+    opacity: 1; }
+
+  /* line 789, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateX(50%);
+    opacity: 0; } }
+
+@-webkit-keyframes SubMenuAnimOut2 {
+  /* line 796, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -webkit-transform: translateX(0%);
+    opacity: 1; }
+
+  /* line 800, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateX(100%);
+    opacity: 0; } }
+
+@-webkit-keyframes SubMenuAnimOut3 {
+  /* line 807, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -webkit-transform: translateZ(0px);
+    opacity: 1; }
+
+  /* line 811, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateZ(-300px);
+    opacity: 0; } }
+
+@-webkit-keyframes SubMenuAnimOut4 {
+  /* line 818, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -webkit-transform: translateZ(0px);
+    opacity: 1; }
+
+  /* line 822, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateZ(300px);
+    opacity: 0; } }
+
+@-webkit-keyframes SubMenuAnimOut5 {
+  /* line 829, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -webkit-transform: translateZ(0);
+    opacity: 1; }
+
+  /* line 833, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -webkit-transform: translateZ(-200px);
+    opacity: 0; } }
+
+@-moz-keyframes SubMenuAnimOut1 {
+  /* line 840, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -moz-transform: translateX(0%);
+    opacity: 1; }
+
+  /* line 844, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateX(50%);
+    opacity: 0; } }
+
+@-moz-keyframes SubMenuAnimOut2 {
+  /* line 851, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -moz-transform: translateX(0%);
+    opacity: 1; }
+
+  /* line 855, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateX(100%);
+    opacity: 0; } }
+
+@-moz-keyframes SubMenuAnimOut3 {
+  /* line 862, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -moz-transform: translateZ(0px);
+    opacity: 1; }
+
+  /* line 866, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateZ(-300px);
+    opacity: 0; } }
+
+@-moz-keyframes SubMenuAnimOut4 {
+  /* line 873, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -moz-transform: translateZ(0px);
+    opacity: 1; }
+
+  /* line 877, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateZ(300px);
+    opacity: 0; } }
+
+@-moz-keyframes SubMenuAnimOut5 {
+  /* line 884, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    -moz-transform: translateZ(0);
+    opacity: 1; }
+
+  /* line 888, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    -moz-transform: translateZ(-200px);
+    opacity: 0; } }
+
+@keyframes SubMenuAnimOut1 {
+  /* line 895, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    transform: translateX(0%);
+    opacity: 1; }
+
+  /* line 899, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateX(50%);
+    opacity: 0; } }
+
+@keyframes SubMenuAnimOut2 {
+  /* line 906, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    transform: translateX(0%);
+    opacity: 1; }
+
+  /* line 910, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateX(100%);
+    opacity: 0; } }
+
+@keyframes SubMenuAnimOut3 {
+  /* line 917, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    transform: translateZ(0px);
+    opacity: 1; }
+
+  /* line 921, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateZ(-300px);
+    opacity: 0; } }
+
+@keyframes SubMenuAnimOut4 {
+  /* line 928, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    transform: translateZ(0px);
+    opacity: 1; }
+
+  /* line 932, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateZ(300px);
+    opacity: 0; } }
+
+@keyframes SubMenuAnimOut5 {
+  /* line 939, ../sass/components/header/_responsive_menus.scss */
+  0% {
+    transform: translateZ(0);
+    opacity: 1; }
+
+  /* line 943, ../sass/components/header/_responsive_menus.scss */
+  100% {
+    transform: translateZ(-200px);
+    opacity: 0; } }
+
+/* No JS Fallback */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003950}}
+.no-js .dl-menuwrapper .dl-menu {
+  position: relative;
+  opacity: 1;
+  -webkit-transform: none;
+  -moz-transform: none;
+  transform: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003958}}
+.no-js .dl-menuwrapper li .dl-submenu {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003962}}
+.no-js .dl-menuwrapper li.dl-back {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003966}}
+.no-js .dl-menuwrapper li > a:not(:only-child) {
+  background: rgba(0, 0, 0, 0.1); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003970}}
+.no-js .dl-menuwrapper li > a:not(:only-child):after {
+  content: ''; }
+
+/* Colors for demos */
+/* Demo 1 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003977}}
+.demo-1 .dl-menuwrapper button {
+  background: #c62860; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003983}}
+.demo-1 .dl-menuwrapper button:hover,
+.demo-1 .dl-menuwrapper button.dl-active,
+.demo-1 .dl-menuwrapper ul {
+  background: #9e1847; }
+
+/* Demo 2 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003988}}
+.demo-2 .dl-menuwrapper button {
+  background: #e86814; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003994}}
+.demo-2 .dl-menuwrapper button:hover,
+.demo-2 .dl-menuwrapper button.dl-active,
+.demo-2 .dl-menuwrapper ul {
+  background: #D35400; }
+
+/* Demo 3 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\00003999}}
+.demo-3 .dl-menuwrapper button {
+  background: #08cbc4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\000031005}}
+.demo-3 .dl-menuwrapper button:hover,
+.demo-3 .dl-menuwrapper button.dl-active,
+.demo-3 .dl-menuwrapper ul {
+  background: #00b4ae; }
+
+/* Demo 4 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\000031010}}
+.demo-4 .dl-menuwrapper button {
+  background: #90b912; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\000031016}}
+.demo-4 .dl-menuwrapper button:hover,
+.demo-4 .dl-menuwrapper button.dl-active,
+.demo-4 .dl-menuwrapper ul {
+  background: #79a002; }
+
+/* Demo 5 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\000031021}}
+.demo-5 .dl-menuwrapper button {
+  background: #744783; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_responsive_menus\.scss}line{font-family:\000031027}}
+.demo-5 .dl-menuwrapper button:hover,
+.demo-5 .dl-menuwrapper button.dl-active,
+.demo-5 .dl-menuwrapper ul {
+  background: #643771; }
+
+@font-face {
+  font-family: 'socicon';
+  src: url("../socicon/font/socicon-webfont.eot");
+  src: url("../socicon/font/socicon-webfont.eot?#iefix") format("embedded-opentype"), url("../socicon/font/socicon-webfont.woff") format("woff"), url("../socicon/font/socicon-webfont.ttf") format("truetype"), url("../socicon/font/socicon-webfont.svg#sociconregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000313}}
+.socicon {
+  font-family: 'socicon';
+  font-size: 18px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 2px 2px #999;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  line-height: 36px;
+  border-radius: 18px;
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  background-color: #00c12b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/variables\/_mixins\.scss}line{font-family:\0000376}}
+  .socicon:hover {
+    color: #ff1800; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000318}}
+.socicon-easid:before {
+  content: "5"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000319}}
+.socicon-twitter:before {
+  content: "a"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000320}}
+.socicon-facebook:before {
+  content: "b"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000321}}
+.socicon-google:before {
+  content: "c"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000322}}
+.socicon-pinterest:before {
+  content: "d"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000323}}
+.socicon-foursquare:before {
+  content: "e"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000324}}
+.socicon-yahoo:before {
+  content: "f"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000325}}
+.socicon-skype:before {
+  content: "g"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000326}}
+.socicon-yelp:before {
+  content: "h"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000327}}
+.socicon-feedburner:before {
+  content: "i"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000328}}
+.socicon-linkedin:before {
+  content: "j"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000329}}
+.socicon-viadeo:before {
+  content: "k"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000330}}
+.socicon-xing:before {
+  content: "l"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000331}}
+.socicon-myspace:before {
+  content: "m"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000332}}
+.socicon-soundcloud:before {
+  content: "n"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000333}}
+.socicon-spotify:before {
+  content: "o"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000334}}
+.socicon-grooveshark:before {
+  content: "p"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000335}}
+.socicon-lastfm:before {
+  content: "q"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000336}}
+.socicon-youtube:before {
+  content: "r"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000337}}
+.socicon-vimeo:before {
+  content: "s"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000338}}
+.socicon-dailymotion:before {
+  content: "t"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000339}}
+.socicon-vine:before {
+  content: "u"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000340}}
+.socicon-flickr:before {
+  content: "v"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000341}}
+.socicon-500px:before {
+  content: "w"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000342}}
+.socicon-instagram:before {
+  content: "x"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000343}}
+.socicon-wordpress:before {
+  content: "y"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000344}}
+.socicon-tumblr:before {
+  content: "z"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000345}}
+.socicon-blogger:before {
+  content: "A"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000346}}
+.socicon-technorati:before {
+  content: "B"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000347}}
+.socicon-reddit:before {
+  content: "C"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000348}}
+.socicon-dribbble:before {
+  content: "D"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000349}}
+.socicon-stumbleupon:before {
+  content: "E"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000350}}
+.socicon-digg:before {
+  content: "F"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000351}}
+.socicon-envato:before {
+  content: "G"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000352}}
+.socicon-behance:before {
+  content: "H"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000353}}
+.socicon-delicious:before {
+  content: "I"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000354}}
+.socicon-deviantart:before {
+  content: "J"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000355}}
+.socicon-forrst:before {
+  content: "K"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000356}}
+.socicon-play:before {
+  content: "L"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000357}}
+.socicon-zerply:before {
+  content: "M"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000358}}
+.socicon-wikipedia:before {
+  content: "N"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000359}}
+.socicon-apple:before {
+  content: "O"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000360}}
+.socicon-flattr:before {
+  content: "P"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000361}}
+.socicon-github:before {
+  content: "Q"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000362}}
+.socicon-chimein:before {
+  content: "R"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000363}}
+.socicon-friendfeed:before {
+  content: "S"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000364}}
+.socicon-newsvine:before {
+  content: "T"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000365}}
+.socicon-identica:before {
+  content: "U"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000366}}
+.socicon-bebo:before {
+  content: "V"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000367}}
+.socicon-zynga:before {
+  content: "W"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000368}}
+.socicon-steam:before {
+  content: "X"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000369}}
+.socicon-xbox:before {
+  content: "Y"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000370}}
+.socicon-windows:before {
+  content: "Z"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000371}}
+.socicon-outlook:before {
+  content: "1"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000372}}
+.socicon-coderwall:before {
+  content: "2"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000373}}
+.socicon-tripadvisor:before {
+  content: "3"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000374}}
+.socicon-netcodes:before {
+  content: "4"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000375}}
+.socicon-lanyrd:before {
+  content: "7"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000376}}
+.socicon-slideshare:before {
+  content: "8"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000377}}
+.socicon-buffer:before {
+  content: "9"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000378}}
+.socicon-rss:before {
+  content: ","; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000379}}
+.socicon-vkontakte:before {
+  content: ";"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_socialicons\.scss}line{font-family:\0000380}}
+.socicon-disqus:before {
+  content: ":"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_superfish\.scss}line{font-family:\000034}}
+.sf-menu li.sfHover > ul {
+  left: 0;
+  top: 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_superfish\.scss}line{font-family:\000038}}
+.superfisher {
+  display: inline-block;
+  vertical-align: bottom; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_superfish\.scss}line{font-family:\0000314}}
+.sf-menu {
+  vertical-align: bottom; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_superfish\.scss}line{font-family:\0000316}}
+  .sf-menu li {
+    float: left;
+    font-size: 1.5rem;
+    padding: .3rem;
+    line-height: 1.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_superfish\.scss}line{font-family:\0000321}}
+  .sf-menu li a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 1px;
+    display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_superfish\.scss}line{font-family:\0000327}}
+    .sf-menu li a:hover {
+      color: yellow;
+      border-bottom: 1px solid;
+      padding-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_superfish\.scss}line{font-family:\0000334}}
+#superfish-1 {
+  margin-right: 2em;
+  font-size: 20px;
+  vertical-align: bottom; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_superfish\.scss}line{font-family:\0000338}}
+  #superfish-1 ul {
+    background-color: yellow;
+    opacity: .9;
+    border-radius: .5rem;
+    padding: .2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_superfish\.scss}line{font-family:\0000347}}
+.sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
+  background-image: none; }
+
 /**
  * Menus
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__menu\.scss}line{font-family:\000038}}
-.headerright .inside {
-  position: absolute;
-  right: 1em; }
-
 /**
  * $ACTION-LINKS
  */
@@ -710,7 +2167,7 @@ div.password-indicator {
     background: transparent url('../images/../images/plus-blue.png?1406311854') left center no-repeat; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_action-links\.scss}line{font-family:\0000313}}
     .action-links li a {
-      color: white;
+      color: #00267f;
       text-decoration: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_action-links\.scss}line{font-family:\0000317}}
       .action-links li a:hover {
@@ -744,1350 +2201,6 @@ div.password-indicator {
 .breadcrumb a {
   text-decoration: none; }
 
-/*
-RT my modded Responsive Menu Sass
-Uses Font-Awesome for the directional arrows
-*/
-/* Common styles of menus */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\000038}}
-.dl-menuwrapper {
-  width: 100%;
-  float: left;
-  position: relative;
-  -webkit-perspective: 1000px;
-  -moz-perspective: 1000px;
-  perspective: 1000px;
-  -webkit-perspective-origin: 50% 200%;
-  -moz-perspective-origin: 50% 200%;
-  perspective-origin: 50% 200%;
-  z-index: 500; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000322}}
-.dl-menuwrapper:first-child {
-  margin-right: 100px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000329}}
-.dl-menuwrapper button {
-  background: #00c12b;
-  border: none;
-  width: 45px;
-  height: 45px;
-  text-indent: -900em;
-  overflow: hidden;
-  position: relative;
-  cursor: pointer;
-  outline: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000341}}
-.dl-menuwrapper button:hover {
-  background-color: yellow; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000342}}
-.dl-menuwrapper button .dl-active {
-  background: yellow; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000345}}
-.dl-menuwrapper ul {
-  background: #00c12b; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000346}}
-.dl-menuwrapper ul:active {
-  color: yellow; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000350}}
-.dl-menuwrapper button:after {
-  content: '';
-  position: absolute;
-  width: 67%;
-  height: 4.09091px;
-  background: #333333;
-  top: 9.375px;
-  left: 16%;
-  box-shadow: 0 11.25px 0 #333333, 0 22.5px 0 #333333; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000363}}
-.dl-menuwrapper ul {
-  padding: 0;
-  list-style: none;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  width: 100%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000372}}
-.dl-menuwrapper li {
-  position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000375}}
-  .dl-menuwrapper li:hover {
-    background-color: #333333; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000376}}
-  .dl-menuwrapper li a {
-    color: #0068ff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000377}}
-  .dl-menuwrapper li a:hover {
-    color: yellow; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000380}}
-.dl-menuwrapper li a {
-  display: block;
-  position: relative;
-  padding: 1rem 2rem;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  font-weight: 300;
-  outline: none;
-  text-decoration: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000392}}
-.no-touch .dl-menuwrapper li a:hover {
-  background: rgba(255, 248, 213, 0.1); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\0000396}}
-.dl-menuwrapper li.dl-back > a {
-  padding-left: 30px;
-  background: rgba(0, 0, 0, 0.1); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003102}}
-.dl-menuwrapper li.dl-back:after,
-.dl-menuwrapper li > a:not(:only-child):after {
-  position: absolute;
-  top: 0;
-  line-height: 55px;
-  font-family: FontAwesome;
-  content: "\f0da";
-  font-size: 3rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003111}}
-.dl-menuwrapper li.dl-back:after {
-  left: .5rem;
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  transform: rotate(180deg); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003119}}
-.dl-menuwrapper li > a:after {
-  right: 1rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003123}}
-.dl-menuwrapper .dl-menu {
-  margin: 5px 0 0 0;
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
-  -webkit-transform: translateY(10px);
-  -moz-transform: translateY(10px);
-  transform: translateY(10px);
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  backface-visibility: hidden; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003138}}
-.dl-menuwrapper .dl-menu.dl-menu-toggle {
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003144}}
-.dl-menuwrapper .dl-menu.dl-menuopen {
-  opacity: 1;
-  pointer-events: auto;
-  -webkit-transform: translateY(0px);
-  -moz-transform: translateY(0px);
-  transform: translateY(0px); }
-
-/* Hide the inner submenus */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003153}}
-.dl-menuwrapper li .dl-submenu {
-  display: none; }
-
-/* 
-When a submenu is openend, we will hide all li siblings.
-For that we give a class to the parent menu called "dl-subview".
-We also hide the submenu link. 
-The opened submenu will get the class "dl-subviewopen".
-All this is done for any sub-level being entered.
-*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003166}}
-.dl-menu.dl-subview li,
-.dl-menu.dl-subview li.dl-subviewopen > a,
-.dl-menu.dl-subview li.dl-subview > a {
-  display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003174}}
-.dl-menu.dl-subview li.dl-subview,
-.dl-menu.dl-subview li.dl-subview .dl-submenu,
-.dl-menu.dl-subview li.dl-subviewopen,
-.dl-menu.dl-subview li.dl-subviewopen > .dl-submenu,
-.dl-menu.dl-subview li.dl-subviewopen > .dl-submenu > li {
-  display: block; }
-
-/* Dynamically added submenu outside of the menu context */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003179}}
-.dl-menuwrapper > .dl-submenu {
-  position: absolute;
-  width: 100%;
-  top: 50px;
-  left: 0;
-  margin: 0; }
-
-/* Animation classes for moving out and in */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003189}}
-.dl-menu.dl-animate-out-1 {
-  -webkit-animation: MenuAnimOut1 0.4s;
-  -moz-animation: MenuAnimOut1 0.4s;
-  animation: MenuAnimOut1 0.4s; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003195}}
-.dl-menu.dl-animate-out-2 {
-  -webkit-animation: MenuAnimOut2 0.3s ease-in-out;
-  -moz-animation: MenuAnimOut2 0.3s ease-in-out;
-  animation: MenuAnimOut2 0.3s ease-in-out; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003201}}
-.dl-menu.dl-animate-out-3 {
-  -webkit-animation: MenuAnimOut3 0.4s ease;
-  -moz-animation: MenuAnimOut3 0.4s ease;
-  animation: MenuAnimOut3 0.4s ease; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003207}}
-.dl-menu.dl-animate-out-4 {
-  -webkit-animation: MenuAnimOut4 0.4s ease;
-  -moz-animation: MenuAnimOut4 0.4s ease;
-  animation: MenuAnimOut4 0.4s ease; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003213}}
-.dl-menu.dl-animate-out-5 {
-  -webkit-animation: MenuAnimOut5 0.4s ease;
-  -moz-animation: MenuAnimOut5 0.4s ease;
-  animation: MenuAnimOut5 0.4s ease; }
-
-@-webkit-keyframes MenuAnimOut1 {
-  /* line 220, ../sass/components/header/menus/_responsive_menus.scss */
-  50% {
-    -webkit-transform: translateZ(-250px) rotateY(30deg); }
-
-  /* line 223, ../sass/components/header/menus/_responsive_menus.scss */
-  75% {
-    -webkit-transform: translateZ(-372.5px) rotateY(15deg);
-    opacity: .5; }
-
-  /* line 227, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateZ(-500px) rotateY(0deg);
-    opacity: 0; } }
-
-@-webkit-keyframes MenuAnimOut2 {
-  /* line 234, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateX(-100%);
-    opacity: 0; } }
-
-@-webkit-keyframes MenuAnimOut3 {
-  /* line 241, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateZ(300px);
-    opacity: 0; } }
-
-@-webkit-keyframes MenuAnimOut4 {
-  /* line 248, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateZ(-300px);
-    opacity: 0; } }
-
-@-webkit-keyframes MenuAnimOut5 {
-  /* line 255, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateY(40%);
-    opacity: 0; } }
-
-@-moz-keyframes MenuAnimOut1 {
-  /* line 262, ../sass/components/header/menus/_responsive_menus.scss */
-  50% {
-    -moz-transform: translateZ(-250px) rotateY(30deg); }
-
-  /* line 265, ../sass/components/header/menus/_responsive_menus.scss */
-  75% {
-    -moz-transform: translateZ(-372.5px) rotateY(15deg);
-    opacity: .5; }
-
-  /* line 269, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateZ(-500px) rotateY(0deg);
-    opacity: 0; } }
-
-@-moz-keyframes MenuAnimOut2 {
-  /* line 276, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateX(-100%);
-    opacity: 0; } }
-
-@-moz-keyframes MenuAnimOut3 {
-  /* line 283, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateZ(300px);
-    opacity: 0; } }
-
-@-moz-keyframes MenuAnimOut4 {
-  /* line 290, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateZ(-300px);
-    opacity: 0; } }
-
-@-moz-keyframes MenuAnimOut5 {
-  /* line 297, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateY(40%);
-    opacity: 0; } }
-
-@keyframes MenuAnimOut1 {
-  /* line 304, ../sass/components/header/menus/_responsive_menus.scss */
-  50% {
-    transform: translateZ(-250px) rotateY(30deg); }
-
-  /* line 307, ../sass/components/header/menus/_responsive_menus.scss */
-  75% {
-    transform: translateZ(-372.5px) rotateY(15deg);
-    opacity: .5; }
-
-  /* line 311, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateZ(-500px) rotateY(0deg);
-    opacity: 0; } }
-
-@keyframes MenuAnimOut2 {
-  /* line 318, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateX(-100%);
-    opacity: 0; } }
-
-@keyframes MenuAnimOut3 {
-  /* line 325, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateZ(300px);
-    opacity: 0; } }
-
-@keyframes MenuAnimOut4 {
-  /* line 332, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateZ(-300px);
-    opacity: 0; } }
-
-@keyframes MenuAnimOut5 {
-  /* line 339, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateY(40%);
-    opacity: 0; } }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003345}}
-.dl-menu.dl-animate-in-1 {
-  -webkit-animation: MenuAnimIn1 0.3s;
-  -moz-animation: MenuAnimIn1 0.3s;
-  animation: MenuAnimIn1 0.3s; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003351}}
-.dl-menu.dl-animate-in-2 {
-  -webkit-animation: MenuAnimIn2 0.3s ease-in-out;
-  -moz-animation: MenuAnimIn2 0.3s ease-in-out;
-  animation: MenuAnimIn2 0.3s ease-in-out; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003357}}
-.dl-menu.dl-animate-in-3 {
-  -webkit-animation: MenuAnimIn3 0.4s ease;
-  -moz-animation: MenuAnimIn3 0.4s ease;
-  animation: MenuAnimIn3 0.4s ease; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003363}}
-.dl-menu.dl-animate-in-4 {
-  -webkit-animation: MenuAnimIn4 0.4s ease;
-  -moz-animation: MenuAnimIn4 0.4s ease;
-  animation: MenuAnimIn4 0.4s ease; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003369}}
-.dl-menu.dl-animate-in-5 {
-  -webkit-animation: MenuAnimIn5 0.4s ease;
-  -moz-animation: MenuAnimIn5 0.4s ease;
-  animation: MenuAnimIn5 0.4s ease; }
-
-@-webkit-keyframes MenuAnimIn1 {
-  /* line 376, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -webkit-transform: translateZ(-500px) rotateY(0deg);
-    opacity: 0; }
-
-  /* line 380, ../sass/components/header/menus/_responsive_menus.scss */
-  20% {
-    -webkit-transform: translateZ(-250px) rotateY(30deg);
-    opacity: 0.5; }
-
-  /* line 384, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateZ(0px) rotateY(0deg);
-    opacity: 1; } }
-
-@-webkit-keyframes MenuAnimIn2 {
-  /* line 391, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -webkit-transform: translateX(-100%);
-    opacity: 0; }
-
-  /* line 395, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateX(0px);
-    opacity: 1; } }
-
-@-webkit-keyframes MenuAnimIn3 {
-  /* line 402, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -webkit-transform: translateZ(300px);
-    opacity: 0; }
-
-  /* line 406, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateZ(0px);
-    opacity: 1; } }
-
-@-webkit-keyframes MenuAnimIn4 {
-  /* line 413, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -webkit-transform: translateZ(-300px);
-    opacity: 0; }
-
-  /* line 417, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateZ(0px);
-    opacity: 1; } }
-
-@-webkit-keyframes MenuAnimIn5 {
-  /* line 424, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -webkit-transform: translateY(40%);
-    opacity: 0; }
-
-  /* line 428, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateY(0);
-    opacity: 1; } }
-
-@-moz-keyframes MenuAnimIn1 {
-  /* line 435, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -moz-transform: translateZ(-500px) rotateY(0deg);
-    opacity: 0; }
-
-  /* line 439, ../sass/components/header/menus/_responsive_menus.scss */
-  20% {
-    -moz-transform: translateZ(-250px) rotateY(30deg);
-    opacity: 0.5; }
-
-  /* line 443, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateZ(0px) rotateY(0deg);
-    opacity: 1; } }
-
-@-moz-keyframes MenuAnimIn2 {
-  /* line 450, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -moz-transform: translateX(-100%);
-    opacity: 0; }
-
-  /* line 454, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateX(0px);
-    opacity: 1; } }
-
-@-moz-keyframes MenuAnimIn3 {
-  /* line 461, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -moz-transform: translateZ(300px);
-    opacity: 0; }
-
-  /* line 465, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateZ(0px);
-    opacity: 1; } }
-
-@-moz-keyframes MenuAnimIn4 {
-  /* line 472, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -moz-transform: translateZ(-300px);
-    opacity: 0; }
-
-  /* line 476, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateZ(0px);
-    opacity: 1; } }
-
-@-moz-keyframes MenuAnimIn5 {
-  /* line 483, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -moz-transform: translateY(40%);
-    opacity: 0; }
-
-  /* line 487, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateY(0);
-    opacity: 1; } }
-
-@keyframes MenuAnimIn1 {
-  /* line 494, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    transform: translateZ(-500px) rotateY(0deg);
-    opacity: 0; }
-
-  /* line 498, ../sass/components/header/menus/_responsive_menus.scss */
-  20% {
-    transform: translateZ(-250px) rotateY(30deg);
-    opacity: 0.5; }
-
-  /* line 502, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateZ(0px) rotateY(0deg);
-    opacity: 1; } }
-
-@keyframes MenuAnimIn2 {
-  /* line 509, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    transform: translateX(-100%);
-    opacity: 0; }
-
-  /* line 513, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateX(0px);
-    opacity: 1; } }
-
-@keyframes MenuAnimIn3 {
-  /* line 520, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    transform: translateZ(300px);
-    opacity: 0; }
-
-  /* line 524, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateZ(0px);
-    opacity: 1; } }
-
-@keyframes MenuAnimIn4 {
-  /* line 531, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    transform: translateZ(-300px);
-    opacity: 0; }
-
-  /* line 535, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateZ(0px);
-    opacity: 1; } }
-
-@keyframes MenuAnimIn5 {
-  /* line 542, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    transform: translateY(40%);
-    opacity: 0; }
-
-  /* line 546, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateY(0);
-    opacity: 1; } }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003552}}
-.dl-menuwrapper > .dl-submenu.dl-animate-in-1 {
-  -webkit-animation: SubMenuAnimIn1 0.4s ease;
-  -moz-animation: SubMenuAnimIn1 0.4s ease;
-  animation: SubMenuAnimIn1 0.4s ease; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003558}}
-.dl-menuwrapper > .dl-submenu.dl-animate-in-2 {
-  -webkit-animation: SubMenuAnimIn2 0.3s ease-in-out;
-  -moz-animation: SubMenuAnimIn2 0.3s ease-in-out;
-  animation: SubMenuAnimIn2 0.3s ease-in-out; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003564}}
-.dl-menuwrapper > .dl-submenu.dl-animate-in-3 {
-  -webkit-animation: SubMenuAnimIn3 0.4s ease;
-  -moz-animation: SubMenuAnimIn3 0.4s ease;
-  animation: SubMenuAnimIn3 0.4s ease; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003570}}
-.dl-menuwrapper > .dl-submenu.dl-animate-in-4 {
-  -webkit-animation: SubMenuAnimIn4 0.4s ease;
-  -moz-animation: SubMenuAnimIn4 0.4s ease;
-  animation: SubMenuAnimIn4 0.4s ease; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003576}}
-.dl-menuwrapper > .dl-submenu.dl-animate-in-5 {
-  -webkit-animation: SubMenuAnimIn5 0.4s ease;
-  -moz-animation: SubMenuAnimIn5 0.4s ease;
-  animation: SubMenuAnimIn5 0.4s ease; }
-
-@-webkit-keyframes SubMenuAnimIn1 {
-  /* line 583, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -webkit-transform: translateX(50%);
-    opacity: 0; }
-
-  /* line 587, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateX(0px);
-    opacity: 1; } }
-
-@-webkit-keyframes SubMenuAnimIn2 {
-  /* line 594, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -webkit-transform: translateX(100%);
-    opacity: 0; }
-
-  /* line 598, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateX(0px);
-    opacity: 1; } }
-
-@-webkit-keyframes SubMenuAnimIn3 {
-  /* line 605, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -webkit-transform: translateZ(-300px);
-    opacity: 0; }
-
-  /* line 609, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateZ(0px);
-    opacity: 1; } }
-
-@-webkit-keyframes SubMenuAnimIn4 {
-  /* line 616, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -webkit-transform: translateZ(300px);
-    opacity: 0; }
-
-  /* line 620, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateZ(0px);
-    opacity: 1; } }
-
-@-webkit-keyframes SubMenuAnimIn5 {
-  /* line 627, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -webkit-transform: translateZ(-200px);
-    opacity: 0; }
-
-  /* line 631, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateZ(0);
-    opacity: 1; } }
-
-@-moz-keyframes SubMenuAnimIn1 {
-  /* line 638, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -moz-transform: translateX(50%);
-    opacity: 0; }
-
-  /* line 642, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateX(0px);
-    opacity: 1; } }
-
-@-moz-keyframes SubMenuAnimIn2 {
-  /* line 649, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -moz-transform: translateX(100%);
-    opacity: 0; }
-
-  /* line 653, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateX(0px);
-    opacity: 1; } }
-
-@-moz-keyframes SubMenuAnimIn3 {
-  /* line 660, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -moz-transform: translateZ(-300px);
-    opacity: 0; }
-
-  /* line 664, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateZ(0px);
-    opacity: 1; } }
-
-@-moz-keyframes SubMenuAnimIn4 {
-  /* line 671, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -moz-transform: translateZ(300px);
-    opacity: 0; }
-
-  /* line 675, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateZ(0px);
-    opacity: 1; } }
-
-@-moz-keyframes SubMenuAnimIn5 {
-  /* line 682, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -moz-transform: translateZ(-200px);
-    opacity: 0; }
-
-  /* line 686, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateZ(0);
-    opacity: 1; } }
-
-@keyframes SubMenuAnimIn1 {
-  /* line 693, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    transform: translateX(50%);
-    opacity: 0; }
-
-  /* line 697, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateX(0px);
-    opacity: 1; } }
-
-@keyframes SubMenuAnimIn2 {
-  /* line 704, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    transform: translateX(100%);
-    opacity: 0; }
-
-  /* line 708, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateX(0px);
-    opacity: 1; } }
-
-@keyframes SubMenuAnimIn3 {
-  /* line 715, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    transform: translateZ(-300px);
-    opacity: 0; }
-
-  /* line 719, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateZ(0px);
-    opacity: 1; } }
-
-@keyframes SubMenuAnimIn4 {
-  /* line 726, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    transform: translateZ(300px);
-    opacity: 0; }
-
-  /* line 730, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateZ(0px);
-    opacity: 1; } }
-
-@keyframes SubMenuAnimIn5 {
-  /* line 737, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    transform: translateZ(-200px);
-    opacity: 0; }
-
-  /* line 741, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateZ(0);
-    opacity: 1; } }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003747}}
-.dl-menuwrapper > .dl-submenu.dl-animate-out-1 {
-  -webkit-animation: SubMenuAnimOut1 0.4s ease;
-  -moz-animation: SubMenuAnimOut1 0.4s ease;
-  animation: SubMenuAnimOut1 0.4s ease; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003753}}
-.dl-menuwrapper > .dl-submenu.dl-animate-out-2 {
-  -webkit-animation: SubMenuAnimOut2 0.3s ease-in-out;
-  -moz-animation: SubMenuAnimOut2 0.3s ease-in-out;
-  animation: SubMenuAnimOut2 0.3s ease-in-out; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003759}}
-.dl-menuwrapper > .dl-submenu.dl-animate-out-3 {
-  -webkit-animation: SubMenuAnimOut3 0.4s ease;
-  -moz-animation: SubMenuAnimOut3 0.4s ease;
-  animation: SubMenuAnimOut3 0.4s ease; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003765}}
-.dl-menuwrapper > .dl-submenu.dl-animate-out-4 {
-  -webkit-animation: SubMenuAnimOut4 0.4s ease;
-  -moz-animation: SubMenuAnimOut4 0.4s ease;
-  animation: SubMenuAnimOut4 0.4s ease; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003771}}
-.dl-menuwrapper > .dl-submenu.dl-animate-out-5 {
-  -webkit-animation: SubMenuAnimOut5 0.4s ease;
-  -moz-animation: SubMenuAnimOut5 0.4s ease;
-  animation: SubMenuAnimOut5 0.4s ease; }
-
-@-webkit-keyframes SubMenuAnimOut1 {
-  /* line 778, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -webkit-transform: translateX(0%);
-    opacity: 1; }
-
-  /* line 782, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateX(50%);
-    opacity: 0; } }
-
-@-webkit-keyframes SubMenuAnimOut2 {
-  /* line 789, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -webkit-transform: translateX(0%);
-    opacity: 1; }
-
-  /* line 793, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateX(100%);
-    opacity: 0; } }
-
-@-webkit-keyframes SubMenuAnimOut3 {
-  /* line 800, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -webkit-transform: translateZ(0px);
-    opacity: 1; }
-
-  /* line 804, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateZ(-300px);
-    opacity: 0; } }
-
-@-webkit-keyframes SubMenuAnimOut4 {
-  /* line 811, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -webkit-transform: translateZ(0px);
-    opacity: 1; }
-
-  /* line 815, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateZ(300px);
-    opacity: 0; } }
-
-@-webkit-keyframes SubMenuAnimOut5 {
-  /* line 822, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -webkit-transform: translateZ(0);
-    opacity: 1; }
-
-  /* line 826, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -webkit-transform: translateZ(-200px);
-    opacity: 0; } }
-
-@-moz-keyframes SubMenuAnimOut1 {
-  /* line 833, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -moz-transform: translateX(0%);
-    opacity: 1; }
-
-  /* line 837, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateX(50%);
-    opacity: 0; } }
-
-@-moz-keyframes SubMenuAnimOut2 {
-  /* line 844, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -moz-transform: translateX(0%);
-    opacity: 1; }
-
-  /* line 848, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateX(100%);
-    opacity: 0; } }
-
-@-moz-keyframes SubMenuAnimOut3 {
-  /* line 855, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -moz-transform: translateZ(0px);
-    opacity: 1; }
-
-  /* line 859, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateZ(-300px);
-    opacity: 0; } }
-
-@-moz-keyframes SubMenuAnimOut4 {
-  /* line 866, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -moz-transform: translateZ(0px);
-    opacity: 1; }
-
-  /* line 870, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateZ(300px);
-    opacity: 0; } }
-
-@-moz-keyframes SubMenuAnimOut5 {
-  /* line 877, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    -moz-transform: translateZ(0);
-    opacity: 1; }
-
-  /* line 881, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    -moz-transform: translateZ(-200px);
-    opacity: 0; } }
-
-@keyframes SubMenuAnimOut1 {
-  /* line 888, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    transform: translateX(0%);
-    opacity: 1; }
-
-  /* line 892, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateX(50%);
-    opacity: 0; } }
-
-@keyframes SubMenuAnimOut2 {
-  /* line 899, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    transform: translateX(0%);
-    opacity: 1; }
-
-  /* line 903, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateX(100%);
-    opacity: 0; } }
-
-@keyframes SubMenuAnimOut3 {
-  /* line 910, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    transform: translateZ(0px);
-    opacity: 1; }
-
-  /* line 914, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateZ(-300px);
-    opacity: 0; } }
-
-@keyframes SubMenuAnimOut4 {
-  /* line 921, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    transform: translateZ(0px);
-    opacity: 1; }
-
-  /* line 925, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateZ(300px);
-    opacity: 0; } }
-
-@keyframes SubMenuAnimOut5 {
-  /* line 932, ../sass/components/header/menus/_responsive_menus.scss */
-  0% {
-    transform: translateZ(0);
-    opacity: 1; }
-
-  /* line 936, ../sass/components/header/menus/_responsive_menus.scss */
-  100% {
-    transform: translateZ(-200px);
-    opacity: 0; } }
-
-/* No JS Fallback */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003943}}
-.no-js .dl-menuwrapper .dl-menu {
-  position: relative;
-  opacity: 1;
-  -webkit-transform: none;
-  -moz-transform: none;
-  transform: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003951}}
-.no-js .dl-menuwrapper li .dl-submenu {
-  display: block; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003955}}
-.no-js .dl-menuwrapper li.dl-back {
-  display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003959}}
-.no-js .dl-menuwrapper li > a:not(:only-child) {
-  background: rgba(0, 0, 0, 0.1); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003963}}
-.no-js .dl-menuwrapper li > a:not(:only-child):after {
-  content: ''; }
-
-/* Colors for demos */
-/* Demo 1 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003970}}
-.demo-1 .dl-menuwrapper button {
-  background: #c62860; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003976}}
-.demo-1 .dl-menuwrapper button:hover,
-.demo-1 .dl-menuwrapper button.dl-active,
-.demo-1 .dl-menuwrapper ul {
-  background: #9e1847; }
-
-/* Demo 2 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003981}}
-.demo-2 .dl-menuwrapper button {
-  background: #e86814; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003987}}
-.demo-2 .dl-menuwrapper button:hover,
-.demo-2 .dl-menuwrapper button.dl-active,
-.demo-2 .dl-menuwrapper ul {
-  background: #D35400; }
-
-/* Demo 3 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003992}}
-.demo-3 .dl-menuwrapper button {
-  background: #08cbc4; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\00003998}}
-.demo-3 .dl-menuwrapper button:hover,
-.demo-3 .dl-menuwrapper button.dl-active,
-.demo-3 .dl-menuwrapper ul {
-  background: #00b4ae; }
-
-/* Demo 4 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\000031003}}
-.demo-4 .dl-menuwrapper button {
-  background: #90b912; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\000031009}}
-.demo-4 .dl-menuwrapper button:hover,
-.demo-4 .dl-menuwrapper button.dl-active,
-.demo-4 .dl-menuwrapper ul {
-  background: #79a002; }
-
-/* Demo 5 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\000031014}}
-.demo-5 .dl-menuwrapper button {
-  background: #744783; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_responsive_menus\.scss}line{font-family:\000031020}}
-.demo-5 .dl-menuwrapper button:hover,
-.demo-5 .dl-menuwrapper button.dl-active,
-.demo-5 .dl-menuwrapper ul {
-  background: #643771; }
-
-@font-face {
-  font-family: 'socicon';
-  src: url("../socicon/font/socicon-webfont.eot");
-  src: url("../socicon/font/socicon-webfont.eot?#iefix") format("embedded-opentype"), url("../socicon/font/socicon-webfont.woff") format("woff"), url("../socicon/font/socicon-webfont.ttf") format("truetype"), url("../socicon/font/socicon-webfont.svg#sociconregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000337}}
-.socicon {
-  font-size: 1.3rem;
-  font-family: 'socicon';
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-  width: 1.6em;
-  height: 1.6em;
-  box-shadow: 0 2px 2px #999;
-  padding: 0px;
-  text-decoration: none;
-  text-align: center;
-  color: blue;
-  font-weight: normal;
-  line-height: 1.6em;
-  border-radius: 0.8em;
-  -moz-border-radius: 0.8em;
-  -webkit-border-radius: 0.8em;
-  background-color: #4a993e; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000335}}
-  .socicon:hover {
-    color: #00c12b; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000341}}
-.socicon-easid:before {
-  content: "5"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000342}}
-.socicon-twitter:before {
-  content: "a"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000343}}
-.socicon-facebook:before {
-  content: "b"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000344}}
-.socicon-google:before {
-  content: "c"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000345}}
-.socicon-pinterest:before {
-  content: "d"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000346}}
-.socicon-foursquare:before {
-  content: "e"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000347}}
-.socicon-yahoo:before {
-  content: "f"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000348}}
-.socicon-skype:before {
-  content: "g"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000349}}
-.socicon-yelp:before {
-  content: "h"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000350}}
-.socicon-feedburner:before {
-  content: "i"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000351}}
-.socicon-linkedin:before {
-  content: "j"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000352}}
-.socicon-viadeo:before {
-  content: "k"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000353}}
-.socicon-xing:before {
-  content: "l"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000354}}
-.socicon-myspace:before {
-  content: "m"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000355}}
-.socicon-soundcloud:before {
-  content: "n"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000356}}
-.socicon-spotify:before {
-  content: "o"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000357}}
-.socicon-grooveshark:before {
-  content: "p"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000358}}
-.socicon-lastfm:before {
-  content: "q"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000359}}
-.socicon-youtube:before {
-  content: "r"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000360}}
-.socicon-vimeo:before {
-  content: "s"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000361}}
-.socicon-dailymotion:before {
-  content: "t"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000362}}
-.socicon-vine:before {
-  content: "u"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000363}}
-.socicon-flickr:before {
-  content: "v"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000364}}
-.socicon-500px:before {
-  content: "w"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000365}}
-.socicon-instagram:before {
-  content: "x"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000366}}
-.socicon-wordpress:before {
-  content: "y"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000367}}
-.socicon-tumblr:before {
-  content: "z"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000368}}
-.socicon-blogger:before {
-  content: "A"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000369}}
-.socicon-technorati:before {
-  content: "B"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000370}}
-.socicon-reddit:before {
-  content: "C"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000371}}
-.socicon-dribbble:before {
-  content: "D"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000372}}
-.socicon-stumbleupon:before {
-  content: "E"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000373}}
-.socicon-digg:before {
-  content: "F"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000374}}
-.socicon-envato:before {
-  content: "G"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000375}}
-.socicon-behance:before {
-  content: "H"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000376}}
-.socicon-delicious:before {
-  content: "I"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000377}}
-.socicon-deviantart:before {
-  content: "J"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000378}}
-.socicon-forrst:before {
-  content: "K"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000379}}
-.socicon-play:before {
-  content: "L"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000380}}
-.socicon-zerply:before {
-  content: "M"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000381}}
-.socicon-wikipedia:before {
-  content: "N"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000382}}
-.socicon-apple:before {
-  content: "O"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000383}}
-.socicon-flattr:before {
-  content: "P"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000384}}
-.socicon-github:before {
-  content: "Q"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000385}}
-.socicon-chimein:before {
-  content: "R"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000386}}
-.socicon-friendfeed:before {
-  content: "S"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000387}}
-.socicon-newsvine:before {
-  content: "T"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000388}}
-.socicon-identica:before {
-  content: "U"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000389}}
-.socicon-bebo:before {
-  content: "V"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000390}}
-.socicon-zynga:before {
-  content: "W"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000391}}
-.socicon-steam:before {
-  content: "X"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000392}}
-.socicon-xbox:before {
-  content: "Y"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000393}}
-.socicon-windows:before {
-  content: "Z"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000394}}
-.socicon-outlook:before {
-  content: "1"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000395}}
-.socicon-coderwall:before {
-  content: "2"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000396}}
-.socicon-tripadvisor:before {
-  content: "3"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000397}}
-.socicon-netcodes:before {
-  content: "4"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000398}}
-.socicon-lanyrd:before {
-  content: "7"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\0000399}}
-.socicon-slideshare:before {
-  content: "8"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\00003100}}
-.socicon-buffer:before {
-  content: "9"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\00003101}}
-.socicon-rss:before {
-  content: ","; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\00003102}}
-.socicon-vkontakte:before {
-  content: ";"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_socialicons\.scss}line{font-family:\00003103}}
-.socicon-disqus:before {
-  content: ":"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_superfish\.scss}line{font-family:\000034}}
-.sf-menu li.sfHover > ul {
-  left: 0;
-  top: 1.5em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_superfish\.scss}line{font-family:\000038}}
-.superfisher {
-  display: inline-block;
-  vertical-align: bottom; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_superfish\.scss}line{font-family:\0000314}}
-.sf-menu {
-  vertical-align: bottom; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_superfish\.scss}line{font-family:\0000316}}
-  .sf-menu li {
-    float: left;
-    font-size: 1.5rem;
-    padding: .3rem;
-    line-height: 1.5rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_superfish\.scss}line{font-family:\0000321}}
-  .sf-menu li a {
-    text-decoration: none;
-    color: #0068ff;
-    padding-bottom: 1px;
-    display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_superfish\.scss}line{font-family:\0000327}}
-    .sf-menu li a:hover {
-      color: yellow;
-      border-bottom: 1px solid;
-      padding-bottom: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_superfish\.scss}line{font-family:\0000334}}
-#superfish-1 {
-  margin-right: 2em;
-  font-size: 20px;
-  vertical-align: bottom; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_superfish\.scss}line{font-family:\0000338}}
-  #superfish-1 ul {
-    background-color: #333333;
-    opacity: .9;
-    border-radius: .5rem;
-    padding: .2rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_superfish\.scss}line{font-family:\0000347}}
-.sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
-  background-image: none; }
-
 /**
  * $Fix default behaviours
  */
@@ -2112,7 +2225,7 @@ All this is done for any sub-level being entered.
     position: static; } }
 
 /**
- * $BORDER-LIST
+ * $colouriii-LIST
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_border-list\.scss}line{font-family:\000034}}
 .border-list {
@@ -2188,16 +2301,16 @@ All this is done for any sub-level being entered.
 /* Button Functions */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000371}}
 .button--primary {
-  background-color: blue; }
+  background-color: #00267f; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000376}}
 .button--secondary {
   background-color: transparent;
-  border-color: #52b1ea;
+  border-color: #dddddd;
   border-style: solid;
   border-width: 0.07143em;
   padding: 1.35714em;
-  color: #52b1ea; }
+  color: #dddddd; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000382}}
   .button--secondary:hover {
     border-color: #6a7076;
@@ -2206,17 +2319,17 @@ All this is done for any sub-level being entered.
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000389}}
 .button--positive {
-  background-color: #4a993e; }
+  background-color: yellow; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000391}}
   .button--positive:hover {
-    background-color: #38752f; }
+    background-color: #cccc00; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000396}}
 .button--negative {
-  background-color: #b33630; }
+  background-color: yellow; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_buttons\.scss}line{font-family:\0000398}}
   .button--negative:hover {
-    background-color: #8b2a25; }
+    background-color: #cccc00; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_buttons\.scss}line{font-family:\00003106}}
 .button--disabled,
@@ -2500,7 +2613,7 @@ html .fc,
 .fc-event {
   border: 1px solid #dddddd;
   /* default BORDER color */
-  background-color: #0068ff;
+  background-color: white;
   /* default BACKGROUND color */
   color: #fff;
   /* default TEXT color */
@@ -2847,15 +2960,15 @@ table.fc-border-separate {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_messages\.scss}line{font-family:\0000315}}
 .messages--warning {
-  color: #d6c460;
+  color: #dddddd;
   background: white;
-  border-color: #ebe2b1; }
+  border-color: white; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_messages\.scss}line{font-family:\0000321}}
 .messages--error {
-  color: #b33630;
-  background: #f9eae9;
-  border-color: #d97570; }
+  color: yellow;
+  background: white;
+  border-color: #ffff66; }
 
 /**
  * $PAGER
@@ -2879,14 +2992,14 @@ table.fc-border-separate {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_pager\.scss}line{font-family:\0000324}}
 .pager__item a:hover {
-  background-color: blue;
-  border-color: blue;
+  background-color: #00267f;
+  border-color: #00267f;
   color: #fff; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_pager\.scss}line{font-family:\0000331}}
 .pager__item--current {
-  border-color: blue;
-  color: blue; }
+  border-color: #00267f;
+  color: #00267f; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_pager\.scss}line{font-family:\0000337}}
 .pager__item--ellipsis {
@@ -2944,7 +3057,7 @@ table.fc-border-separate {
     color: #fff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000327}}
   .site-branding__name:hover {
-    color: #00c12b; }
+    color: yellow; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000333}}
 .sitecontainer .bodyrow {

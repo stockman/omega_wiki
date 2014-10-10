@@ -21,10 +21,3 @@ html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-li
 	
 	display: none !important;
 }
-
-button, .form-submit {
-  background-color: $headerlink;
-  border-radius: 0.35rem;
-  color: $linkactive;
-  &:hover {color: $headerlinkhover;}
-}

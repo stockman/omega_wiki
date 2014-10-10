@@ -17,21 +17,21 @@
 .pager__item--ellipsis {
   display: block;
   padding: 0.5em 0.8em;
-  border: 1px solid $bordercolour;
-  color: $bordercolour;
+  border: 1px solid $colourviii;
+  color: $colourviii;
   text-decoration: none;
 }
 .pager__item a:hover {
-  background-color: $link
+  background-color: $colouriv
 ;
-  border-color: $link
+  border-color: $colouriv
 ;
   color: #fff;
 }
 .pager__item--current {
-  border-color: $link
+  border-color: $colouriv
 ;
-  color: $link
+  color: $colouriv
 ;
 }
 .pager__item--ellipsis {

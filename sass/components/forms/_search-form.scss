@@ -1,9 +1,36 @@
 /**
  * $SEARCH-FORM
  */
+/*.search-block-form {
+	/*
+	.container-inline:before {
+		color: $colouri;
+		font-family: FontAwesome;
+		font-size: 2rem;
+		content: "\f002";
+	}
+	*/
+	/*
+	.container-inline{
+	@include breakpoint($breakii) {
+	 display: none;
+	}}
+	
+	.form-text {
+	width: auto;
+	padding: 0.4em;
+	}
+}*/
 .search-block-form {
-  .form-text {
-    width: auto;
-    padding: 0.4em;
-  }
+	@include breakpoint($breakii) {
+		display: none;
+	}
+}
+.pane-search-form:hover:after {color: $colourv;}
+.pane-search-form:after {
+		color: $colouri;
+		font-family: FontAwesome;
+		font-size: 2rem;
+		content: "\f002";
+		margin-top: .3rem;
 }
