@@ -19,12 +19,12 @@
 		line-height: 1.5rem;
 	}
 	li a{text-decoration: none;
-	color: $colouriii;
+	color: $headerlink;
 	padding-bottom: 1px;
 	display: inline;
 	//border-bottom: 1px solid;
 
-	&:hover {color:$colourii;
+	&:hover {color:$headerlinkhover;
 			border-bottom:1px solid;
 			padding-bottom: 0
 			}
@@ -35,7 +35,7 @@
   margin-right: 2em;
   font-size: 20px;
   vertical-align: bottom;
-	ul {background-color:$colourii;
+	ul {background-color:$headerbackground;
 	opacity: .9;
 	//dropdown corners	
 	border-radius: .5rem;

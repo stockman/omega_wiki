@@ -4,18 +4,22 @@ Uses Font-Awesome for the directional arrows
 */
 
 /* Common styles of menus */
-//sizes
-$font-sizer: 1.3rem;
-$rsize:$menu_size;
-$rsize2:$menu_size2;
-//colours
-$rbackhov:$colourv;
-$rbutton:red;
-$rcol:$colouriii;
-$rcolour:$colouri;
-$rbak:$colouri;
-$rhovecol:purple; ///???
 
+$font-sizer: 1.3rem;
+
+//menu button colours
+$dlcol: $colourvi;
+$dlbak: transparentize($colouriii, 1);
+	// button hover colours
+	$dlcolhover: $colourvii;
+	$dlbakhover: transparentize($colouriii, 1);
+
+//menu items colours
+$dlmenucol: $colourvi;
+$dlmenubak: $colourvii;
+	//menu items hover colours
+	$dlmenuhovcol: $colourvi;
+	$dlmenuhovbak: $colourvii;
 .dl-menuwrapper {
 	width: 100%;
 //	max-width: 300px;
@@ -27,7 +31,7 @@ $rhovecol:purple; ///???
 	-webkit-perspective-origin: 50% 200%;
 	-moz-perspective-origin: 50% 200%;
 	perspective-origin: 50% 200%;
-	z-index: 500;
+	z-index: 150;
 }
 
 .dl-menuwrapper:first-child {
@@ -35,10 +39,10 @@ $rhovecol:purple; ///???
 }
 
 .dl-menuwrapper button {
-	background: $rbak;
+	background: $dlbak;
 	border: none;
-	width: $rsize2;
-	height: $rsize2;
+	width: $menu_size2;
+	height: $menu_size2;
 	text-indent: -900em;
 	overflow: hidden;
 	position: relative;
@@ -46,29 +50,46 @@ $rhovecol:purple; ///???
 	outline: none;
 }
 .dl-menuwrapper button {
-	&:hover {background-color: $rbackhov;
-	}
-	.dl-active {background:  $rbackhov}
+//	&:hover {background-color: $dlcolhover;}
+//	.dl-active {background:  $dlcolhover;}
 }
 
-.dl-menuwrapper ul {background: $rbak;}
+.dl-menuwrapper ul {background: $dlmenubak;}
 .dl-menuwrapper ul:active {
-	color:$rcolour;
+	color:$dlmenubak;
 }
+
 
 .dl-menuwrapper button:after {
 	content: '';
 	position: absolute;
 	width: 67%;
 	//this is the thickness of the lines.
-	height: $rsize2/11;
-	background: $rcol;
-	top: $rsize2/4.8;
+	height: $menu_size2/11;
+	background: $dlcol;
+	top: $menu_size2/4.8;
 	left: 16%;
 	box-shadow: 
-		0 $rsize2/4 0 $rcol, 
-		0 $rsize2/2 0 $rcol;
+		0 $menu_size2/4 0 $dlcol, 
+		0 $menu_size2/2 0 $dlcol;
 }
+// hover the menu
+.dl-menuwrapper {
+	button:hover {
+	background-color:$dlbakhover;
+	border-left: 2px solid $colouriv;
+	border-right: 2px solid $colouriv;
+	}
+	button:hover:after	{
+		background: $dlcolhover;
+		box-shadow: 
+		0 $menu_size2/4 0 $dlcolhover,
+		0 $menu_size2/2 0 $dlcolhover;
+	}
+}
+
+
+
 .dl-menuwrapper ul {
 	padding: 0;
 	list-style: none;
@@ -80,9 +101,9 @@ $rhovecol:purple; ///???
 
 .dl-menuwrapper li {
 	position: relative;
-	&:hover {background-color: $rbackhov;}
-	a {color: $rcol;}
-	a:hover {color:$rcolour; }
+	&:hover {background-color: $dlmenuhovbak}
+	a {color: $dlmenucol;}
+	li:hover, a:hover {color:$dlmenuhovcol; }
 }
 
 .dl-menuwrapper li a {
@@ -90,11 +111,11 @@ $rhovecol:purple; ///???
 	position: relative;
 	padding: 1rem 2rem;
 	font-size: $font-sizer;
-	line-height: $font-sizer;
+	line-height: $font-sizer/2;
 	font-weight: 300;
 	outline: none;
 	text-decoration: none;
-	//background-color: $rcol;
+	//background-color: $colourii;
 }
 
 .no-touch .dl-menuwrapper li a:hover {
@@ -109,7 +130,7 @@ $rhovecol:purple; ///???
 .dl-menuwrapper li.dl-back:after,
 .dl-menuwrapper li > a:not(:only-child):after {
 	position: absolute;
-	top: .3rem;
+	top: 0;
 	line-height: $font-sizer*2;
 	font-family: FontAwesome;
 	content: "\f0da";
@@ -118,9 +139,10 @@ $rhovecol:purple; ///???
 
 .dl-menuwrapper li.dl-back:after {
 	left: .5rem;
-	top: .3rem;
-	color: $rcol;
-	content: "\f0d9";
+	//color: rgba(212,204,198,0.3);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 
 .dl-menuwrapper li > a:after {
@@ -128,7 +150,7 @@ $rhovecol:purple; ///???
 }
 
 .dl-menuwrapper .dl-menu {
-	margin: 5px 0 0 0;
+	margin: 0;
 	position: absolute;
 // 	rt width: auto;
 //	rt width: 100%;

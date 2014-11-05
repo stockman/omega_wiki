@@ -7,7 +7,6 @@
 .headerright .inside {
     position: absolute;
     right: 1em;
-    z-index: 999;
     div {display: flex;
     	padding: 0 .1rem;
     }
@@ -16,9 +15,8 @@
 .pane-system-user-menu {display: none;}
 
 .headerright {
-	.menu:hover:before {color: $colourv;}
 	.menu:before {
-		color: $colouri;
+		color: $colourvi;
 		font-family: FontAwesome;
 		font-size: 2rem;
 		content: "\f007";
@@ -31,7 +29,7 @@
 		//width: 50px;
 		position: fixed;
 		right: .3rem;
-		margin-top: .49rem;
+		margin-top: .5rem;
 		li.first {border-radius: $radius $radius 0 0;}
 		li {
 			display: none;

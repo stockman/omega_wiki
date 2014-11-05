@@ -1,12 +1,12 @@
 /**
  * $ARROW
  */
-@mixin arrow($position, $size, $color, $colouriii-size: 0, $colouriii-color: transparent) {
+@mixin arrow($position, $size, $color, $border-size: 0, $border-color: transparent) {
   // Box we're adding the arrow to.
   position: relative;
   background: $color;
-  @if $colouriii-size != 0 {
-    border: $colouriii-size solid $colouriii-color;
+  @if $border-size != 0 {
+    border: $border-size solid $border-color;
   }
 
   // Swap the position around to the position we actually need.
@@ -24,7 +24,7 @@
   }
 
   // Main arrow and border arrow.
-  @if $colouriii-size == 0 {
+  @if $border-size == 0 {
     &:after, &:before {
       #{$position}: 100%;
       border: solid transparent;
@@ -56,13 +56,13 @@
   }
 
   // Border arrow.
-  @if $colouriii-size != 0 {
+  @if $border-size != 0 {
     &:before {
       border-color: transparent;
-      border-#{$position}-color: $colouriii-color;
-      border-width: $size + round(($colouriii-size * 1.41421356));
+      border-#{$position}-color: $border-color;
+      border-width: $size + round(($border-size * 1.41421356));
       #{$center-position}: 50%;
-      margin-left: -(round(($size + ($colouriii-size * 1.41421356))));
+      margin-left: -(round(($size + ($border-size * 1.41421356))));
     }
   }
 }

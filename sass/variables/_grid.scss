@@ -1,16 +1,30 @@
-// Set consistent vertical and horizontal spacing units.
-//is this line height?
+/*
+ * $home Section 1
+ */
+
 $vert-spacing-unit: 18px;
-//what is this suppose to be?
 $horz-spacing-unit: 1em;
 
 $tab: 44em;
 $desk: 70em;
 
-$grids: 4;
-$grids: add-grid(12 at $tab);
+$grids: 12;
+//$grids: add-grid(6 at 500px);
+//$grids: add-grid(12 at 700px);
+//$grids: add-grid(2 8 2 at 900px);
+//$grids: add-grid(1 3 5 7 9 at 1100px);
 
 $gutters: 1/3;
+//control the size between sections
+$padder: 2rem;
+
+$menu_size: $vert-spacing-unit*2.5;
+//$menu_size2: 1.5rem;
+
+
+/* 
+Breakpoints
+*/
 
 //iphone
 $breaki:max-width 640px;
@@ -19,13 +33,15 @@ $breaki:max-width 640px;
 $breakii:max-width 1125px;
 //$brekiii: max-width 1266px;
 
+//vertical rhythm
+//large
+$line-high: 2.5rem;
+$font-sigh: 1.7rem;
 
 
-$menu_size: $vert-spacing-unit*2.5;
-//$menu_size2: 1.5rem;
-
-//border radius size
-$radius: 4px;
-//icon sizes
-$menu_size: 3rem;
+//$menu_size: 2.5rem;
+//medium fonts
 $menu_size2: 2.5rem;
+
+//border-radius: 
+$radius: 3px;

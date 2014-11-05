@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0 1.2em;
 
-  background-color: $colourvi;
+  background-color: $fontcolour;
 
   border: none;
 
@@ -34,7 +34,7 @@
   }
 
   &:hover {
-    background-color: $colourviii;
+    background-color: $bordercolour;
   }
 
   &:active,
@@ -69,34 +69,34 @@
 
 /* Button Functions */
 .button--primary {
-  background-color: $colouriv
+  background-color: $link
 ;
 }
 
 .button--secondary {
   background-color: transparent;
-  border-color: $colourvii;
+  border-color: $markerbak;
   @include rhythm-borders(1px);
-  color: $colourvii;
+  color: $markerbak;
 
   &:hover {
-    border-color: $colourviii;
+    border-color: $bordercolour;
     background-color: transparent;
-    color: $colourviii;
+    color: $bordercolour;
   }
 }
 
 .button--positive {
-  background-color: $colourii;
+  background-color: $buttonbak;
   &:hover {
-    background-color: darken($colourii, 10%);
+    background-color: darken($buttonbak, 10%);
   }
 }
 
 .button--negative {
-  background-color: $colourii;
+  background-color: $buttonbak2;
   &:hover {
-    background-color: darken($colourii, 10%);
+    background-color: darken($buttonbak2, 10%);
   }
 }
 

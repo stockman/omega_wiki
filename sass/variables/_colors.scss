@@ -1,16 +1,37 @@
-/*
+// - ohm theme colours:
 
-*/
+//Better variables
 //scheme: http://colorschemedesigner.com/#3w51T--P6w0w0
+//Base colours
+$fontcolour: #ff1800;
+$bodycolor:#ffff00;
+$link  : #0000ff;
+$linkhover : #00c12b;
+$h2_colour :$link ; //is also table header, comment instruct
 //header colours
-$colouriii: #0068ff;
+$h_hover_colour: $linkhover;
+$headerlink: #0068ff;
+$headerlinkhover:$bodycolor;
+//legacy?
+	$a_hover_colour:$headerlinkhover;
 
+//Table
+$tfontcolour: #222222;
+
+
+$markerbak:#52b1ea;
+$bakcolour: #ddd;
+$bordercolour: #6a7076;
+$msgs:#d6c460;
+$linkactive: #FFFFFF;   //Is this correct?
+$msgs     : #d6c460;
 
 // header
-$colourii:  #333333;
+$headerbackground:  #333333;
 
 //buttons
-
+$buttonbak: #4a993e;
+$buttonbak2: #b33630;
 //tables
 $oddrow: #bcbfc0;
 // legacy to fix
@@ -18,21 +39,17 @@ $oddrow: #bcbfc0;
 $button_h_colour:#00267F;
 $backgroundcolour: #008000;
 $h_colour    : #00267F;
+$light-grey : #ddd;
+$border :$light-grey;
+
 
 //Even Better
 
-// main font colour
-$colouri:#0000ff;
-// main page background
-$colourii:#ffff00;
-// header / contrast background
-$colouriii:#FFFFFF;
-// header / contrast colour
-$colouriv  : #00267F;
+$colouri:$linkactive;
+$colourii:$bodycolor;
+$colouriii:$linkactive;
+$colouriv:$linkactive;
+$colourv:$linkhover;
+$colourvi:$link;
+$colourvii:$markerbak;
 
-//white contrast background
-$colourv:#00c12b;
-$colourvi: #ff1800;
-//table colours
-$colourvii: #ddd;
-$colourviii: #6a7076;

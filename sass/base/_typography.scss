@@ -12,14 +12,14 @@ html {
   font-family: $pt-sans;}
 
 /**
- * $colourivS
+ * $LINKS
  */
 a {
-  @include link-colors($colouriv, #000, $colouriv, $colouriv, #000);
+  @include link-colors($link, #000, $linkactive, $link, #000);
 }
 //rt added
 a:hover {
-      color: $colourv;
+      color: $linkhover;
 }
 /**
  * $HEADINGS
@@ -31,7 +31,7 @@ h4, .delta,
 h5, .epsilon,
 h6, .zeta {
   @include rhythm(0, 0, 0, 0.2);;
-  color: darken($colourviii, 15%);
+  color: darken($bordercolour, 15%);
   font-family: $maven-pro;
   text-transform: uppercase;
 
@@ -41,7 +41,7 @@ h6, .zeta {
     text-decoration: none;
   }
   a:hover {
-    color: $colourii;
+    color: $h_hover_colour;
   }
 }
 
@@ -66,7 +66,7 @@ h5, .epsilon{
 }
 h6, .zeta {
   @include font-size(16px);
-  color: $colouri;
+  color: $h2_colour;
 }
 
 /**
@@ -93,7 +93,7 @@ blockquote {
   @include rhythm-borders(1px);
   @include apply-side-rhythm-border(left, 10px);
   font-style: italic;
-  color: $colourii;
+  color: $h_hover_colour;
 
   p {
     margin: 0;
@@ -111,7 +111,7 @@ mark,
 .marker {
   padding: 0.1em 0.5em;
 
-  background: $colourvii;
+  background: $markerbak;
 
   color: #fff;
   @include font-size(12px);
