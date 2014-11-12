@@ -10,6 +10,21 @@
  */
 
 
+// rt hack to fix mobile view
+// fix this better
+td.fc-header-center {
+  @include breakpoint($breaki){
+    display: block;
+    position: absolute;
+    top: -21px;
+    right: 115px;
+  }
+}
+
+
+
+
+
 // to change default border colour for today!
 .fc-day.ui-widget-content.fc-today.ui-state-highlight {
   border: 1px solid red;
