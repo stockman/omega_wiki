@@ -2445,7 +2445,7 @@ All this is done for any sub-level being entered.
     display: block;
     position: absolute;
     top: -21px;
-    right: 126px; } }
+    right: 115px; } }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_full-calendar\.scss}line{font-family:\0000329}}
 .fc-day.ui-widget-content.fc-today.ui-state-highlight {
