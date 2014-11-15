@@ -10,11 +10,24 @@
             -adding tags
             */
             var t = ''
+            //get tags
             $('.field--name-field-tags .field__items a').each(function() {
             t += $( this ).text() + ',';
             });
-            var _href = $(".book_add_child.first > a").attr("href") + "&edit[field_tags][und]="; 
-            $(".book_add_child.first > a").attr("href", _href + t);
+
+            //what to add to url
+            var a = "&edit[field_tags][und]=" + t;
+            //target 1 child add
+            t1 = $(".book_add_child.first > a")
+            //freelinking
+            t2 = $(".notfound")
+
+            //add "a" to all links where needed
+            t1.attr("href", t1.attr("href") + a);
+            t2.attr("href", t2.attr("href") + a);
+
+
+
             /* next step
             -find the article class
             if book then add book page
