@@ -19,24 +19,44 @@
             var a = "&edit[field_tags][und]=" + t;
             //target 1 child add
             t1 = $(".book_add_child.first > a")
-            //freelinking
-            t2 = $(".notfound")
-
-            //add "a" to all links where needed
             t1.attr("href", t1.attr("href") + a);
-            t2.attr("href", t2.attr("href") + a);
 
-
-
-            /* next step
-            -find the article class
-            if book then add book page
-            if book project add book project page
-            via this selector:
-            instr type funtion?
-            with a case when type thang?
-            <article class="node node--book-project-page node--full node--book-project-page--full"
+            /** freelinking **/
+            /*
+            -leverage the book from the above add child link
+            for freelinking
             */
+
+            //find the freelinking values
+            t2 = $(".notfound")
+            var f = t2.attr("href")
+            var r = f.indexOf("title");
+            e = "&edit[title]=" + f.substr(r+9,99);
+            //add these value to the t1.child page adder
+            t2.attr("href", t1.attr("href") + e);
+
+            /** create same content type for child **/
+
+            //make this into a separate js files with a dropdown chooser?
+            //get the content type of the page
+                //search body classes for class
+            function getclasses (gc) {
+
+              var cl = document.body.className.split(/\s+/);
+              for (var i = 0; i < cl.length; i++) {
+                //check to see if gc type is in the class list
+                if (cl[i].indexOf(gc) > -1) {
+                  var typer = cl[i]
+                  return typer;
+                  //console.log(typer);                        
+                }
+              }                
+
+            }
+            var h = getclasses("node-type-");
+            //this works! 
+            console.log("?q=node/add/" + h.substr(10,99));
+
         }
     };
 })(jQuery);
