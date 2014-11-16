@@ -57,6 +57,13 @@
             //this works! 
             console.log("?q=node/add/" + h.substr(10,99));
 
+            /* next steps
+            -for book project types take the prority number
+            to utilize the 1.x project creator thinggy
+            same ct type
+            */
+
+
         }
     };
 })(jQuery);
