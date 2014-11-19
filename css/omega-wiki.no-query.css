@@ -810,34 +810,35 @@ div.password-indicator {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\000037}}
 .headerright .inside {
   position: absolute;
-  right: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000310}}
+  right: 1em;
+  z-index: 999999999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000311}}
   .headerright .inside div {
     display: flex;
     padding: 0 .1rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000316}}
 .pane-system-user-menu {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000319}}
 .headerright .menu:before {
   color: blue;
   font-family: FontAwesome;
   font-size: 2rem;
   content: "\f007"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000325}}
 .headerright .menu {
-  padding: 0;
+  padding-left: 0.5rem;
   text-align: right;
   margin: 0;
-  position: fixed;
+  position: relative;
   right: .3rem;
   margin-top: .5rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000335}}
   .headerright .menu li.first {
     border-radius: 3px 3px 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000336}}
   .headerright .menu li {
     display: none;
     width: 110px;
@@ -847,7 +848,7 @@ div.password-indicator {
     line-height: 1.6rem;
     border-radius: 0 0 3px 3px;
     z-index: 9999999999999999999; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000340}}
     .headerright .menu li a {
       color: white; }
 
