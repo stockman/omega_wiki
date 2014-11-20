@@ -14,10 +14,8 @@
 // fix this better
 td.fc-header-center {
   @include breakpoint($breaki){
-    display: block;
-    position: absolute;
-    top: -21px;
-    right: 115px;
+    margin-left: -5%;
+    margin-top: -8%;
   }
 }
 
@@ -55,6 +53,14 @@ html .fc,
 
 /* Header
 ------------------------------------------------------------------------*/
+//rt mobile?
+
+.fc-header, .fc-header-left, .fc-header-center, .fc-header-right {display: inline-block;}
+
+.fc-button-prev, .fc-button-next {width: 129%}
+
+// end rt mobile
+
 
 .fc-header td {
   white-space: nowrap;
@@ -171,6 +177,9 @@ html .fc,
   line-height: 1.9em;
   white-space: nowrap;
   cursor: pointer;
+  @include breakpoint($breakii) {
+    padding: 0 1.7rem;
+    }
   }
   
 .fc-state-default { /* non-theme */
