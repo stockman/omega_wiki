@@ -13,7 +13,7 @@
 // rt hack to fix mobile view
 // fix this better
 td.fc-header-center {
-  @include breakpoint($breaki){
+  @include breakpoint($breakii){
     margin-left: -5%;
     margin-top: -8%;
   }
@@ -55,9 +55,17 @@ html .fc,
 ------------------------------------------------------------------------*/
 //rt mobile?
 
-.fc-header, .fc-header-left, .fc-header-center, .fc-header-right {display: inline-block;}
+.fc-header, .fc-header-left, .fc-header-center, .fc-header-right {
+  @include breakpoint($breakii){
+  display: inline-block;
+  }
+}
 
-.fc-button-prev, .fc-button-next {width: 129%}
+.fc-button-prev, .fc-button-next {
+    @include breakpoint($breakii){
+  width: 129%
+  }
+}
 
 // end rt mobile
 
