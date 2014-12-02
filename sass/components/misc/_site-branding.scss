@@ -31,18 +31,22 @@
 
 //padding to make the body container look cool
 .sitecontainer .bodyrow{
-  padding: 1rem;
+  padding: 0 1%;
 }
 // this is the body container
 .bodycontent {
   @include backgrund;
   //add content padding from edge.
-  .inside {padding: .2rem;}
+  .inside {padding: .25%;}
 }
 
+
+//.sitecontainer .panels-flexible-row {
+  // padding: 0;
+//}
 //spacing for header
 .header > div {
-  padding: 0.5rem;
+  padding: 0 0.5%;
 }
 //breadcrumb padding
 .breadcrumb {
