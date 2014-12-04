@@ -9,17 +9,29 @@
             /* Add book child link
             -adding tags
             */
+            // t = all the tags
             var t = ''
             //get tags
             $('.field--name-field-tags .field__items a').each(function() {
             t += $( this ).text() + ',';
             });
-
+            //a = adding tags to default child link
             //what to add to url
             var a = "&edit[field_tags][und]=" + t;
             //target 1 child add
             t1 = $(".book_add_child.first > a")
-            t1.attr("href", t1.attr("href") + a);
+            var str = t1.attr("href")
+            //replace if is a book project
+            // if (book project or book project page) 
+            if ($('.node-type-book-project').length || $('.node-type-book-project-page').length) {
+                  var res = str.replace("node/add/book&", "node/add/book-project-page&"); 
+                  t1.attr("href", res + a);
+            }
+            //don't make the child page a project  
+            else {   
+                  t1.attr("href", t1.attr("href") + a);
+            }
+
 
             /** freelinking **/
             /*

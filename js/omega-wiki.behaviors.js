@@ -17,6 +17,19 @@
 				link.firstChild.data= link.href;
 
 			}
+			if ($('.node-type-book-project').length) {
+
+//				replace child page link
+//				alert('hello');
+				var str = "node/add/book&";
+				var res = str.replace("add/book-project-page"); 
+			}
+			if ($('.node-type-book-project-page').length) {
+
+//				replace child page link
+//			alert('hellot');
+
+			}
 
         }
     };
