@@ -1,0 +1,123 @@
+/**
+ * $content layout
+ */
+
+ /*
+//Gutters?
+
+/** Mixins!!!
+**/
+
+/* positioning
+*********************************/
+
+//float center block
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin center-block2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+//other center block
+
+//panels regions
+
+//override ctools to make nice
+//postioning containers right and left
+// 't' is placeholder for nothing, i.e. default is nothing.
+@mixin regioner ($region_sider, $region_toper:'t') {
+    margin-#{$region_sider}: $padder;
+    margin-#{$region_toper}: $padder/2;
+    > div {margin-bottom: $padder;}
+    @include breakpoint($breakii) {
+      > .inside {margin: 0;}
+      margin: 0;
+      > div {margin-bottom: 0;}
+    }
+}
+
+@mixin breakspan {
+      @include breakpoint($breakii) {
+      @include grid-span(12, 1);
+    }
+}
+
+//center header cool text
+@mixin center-styler {
+  .pane-title {text-align: center;}
+  //shrinking this to look really neat inside
+  .field__item.even {
+  @include center-block;
+  max-width: 50%;
+  }
+  //hide the stat counter
+  .statistics_counter{ display: none;}
+}
+
+/* Typography 
+*********************************/
+// to share the h2 with other things.
+
+@mixin shader {
+ text-shadow: 0 1px 1px $colourvi;  
+}
+
+@mixin headerdecorate {
+  color: $colouriii;
+//  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+@mixin headercol {
+    color: $colourv;
+    text-shadow:0 1px 2px rgba(0,0,0,0.6);
+}
+
+/* Social Icons
+*********************************/
+  // $socisize is the circle size
+@mixin circle($socisize: $vert-spacing-unit,$circlebakcolor:$colourv,$circlecolor:$colouriii,$circlecolorhover:$colourvi) {
+  // font size controls the actual size
+  font-size: $socisize*1;
+//  font-family: 'socicon';
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: $socisize*2;
+    height: $socisize*2;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: $circlecolor;
+    font-weight: normal;
+    line-height: $socisize*2;
+    border-radius: $socisize;
+    -moz-border-radius:$socisize;
+    -webkit-border-radius:$socisize;
+    background-color: $circlebakcolor;
+    &:hover {color: $circlecolorhover;}
+}
+
+/* Misc, check these.
+*********************************/
+
+@mixin backgro {
+  //change this to blur.
+  background-color: rgba($colourii, .5);
+}
+
+@mixin threespan {
+  //change gutter style
+  $gutter-styles: 'split'; 
+//  $gutters: 1; //this looks good but still doesn't line up with the background grid
+  @include grid-span($grids/3, 1, $output-style: 'float');
+  //change back gutter style
+  $gutter-styles: 'opposite';  
+}

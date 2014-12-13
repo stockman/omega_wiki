@@ -53,6 +53,20 @@ Breakpoints
  * $content layout
  */
 /**
+ * $content layout
+ */
+/**
+ * $content layout
+ */
+/* positioning
+*********************************/
+/* Typography 
+*********************************/
+/* Social Icons
+*********************************/
+/* Misc, check these.
+*********************************/
+/**
  * $ARROW
  */
 /**
@@ -157,20 +171,26 @@ button, .form-submit {
   -moz-user-select: none;
   background-color: blue;
   border: 0 solid transparent;
-  border-radius: 4px;
+  border-radius: 3px;
   cursor: pointer;
   display: inline-block;
   line-height: 1.6rem;
-  padding: 0 12px;
+  padding: 0 2.5%;
   text-align: center;
   vertical-align: top;
   white-space: nowrap;
   font-size: 1.3rem;
-  height: 1.6em; }
+  height: 1.6em;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_buttons\.scss}line{font-family:\000039}}
   button:hover, .form-submit:hover {
     background-color: #00c12b;
     color: white; }
+  @media (max-width: 1125px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_buttons\.scss}line{font-family:\000035}}
+    button, .form-submit {
+      padding: 0 0.5%; } }
 
 /**
  * $FONT-FACE
@@ -500,57 +520,59 @@ html, body {
   font-size: 1.5rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\000038}}
 .comments .comment-form {
-  font-style: italic; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\000039}}
+  font-style: italic;
+  width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000310}}
 .comments .form {
   max-width: 800px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000314}}
 .comment {
   background-color: #bcbfc0;
   border-radius: .5rem;
-  padding: .5rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000316}}
+  padding: .5rem;
+  margin-bottom: 0.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000318}}
   .comment .comment-text {
     color: yellow; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000324}}
 .comment__info {
   margin-top: 18px;
   margin-bottom: 18px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000328}}
   .comment__info .username {
     margin-bottom: 9px;
     color: #52b1ea;
     text-transform: uppercase;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000335}}
     .comment__info .username:hover {
       text-decoration: underline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000341}}
 .comment__content {
   background-color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000347}}
 .comment__submitted {
   display: inline; }
 
 @media (min-width: 44em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000352}}
   .comment__info {
     float: left;
     width: 25%;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000358}}
     .comment__info .user-picture {
       width: 70%;
       margin: 0 auto 9px auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000362}}
     .comment__info .username {
       display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000367}}
   .comment__content {
     float: right;
     width: 70%;
@@ -573,11 +595,11 @@ html, body {
       border-width: 20px;
       top: 50%;
       margin-left: -20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000374}}
     .comment__content:after {
       top: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000379}}
   .comment__submitted {
     display: block;
     margin-bottom: 9px; } }
@@ -870,7 +892,7 @@ div.password-indicator {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_action-links\.scss}line{font-family:\000038}}
   .action-links li {
     padding-left: 16px;
-    background: transparent url('../images/../images/plus-blue.png?1415211832') left center no-repeat; }
+    background: transparent url('../images/../images/plus-blue.png?1406311854') left center no-repeat; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/_action-links\.scss}line{font-family:\0000313}}
     .action-links li a {
       color: white;

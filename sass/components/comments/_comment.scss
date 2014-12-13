@@ -5,7 +5,8 @@
 // rt comment header
 .comments {
   h2 {font-size: 1.5rem}
-  .comment-form {font-style: italic;}
+  .comment-form {font-style: italic;
+    width: 50%}
   .form {max-width: 800px}
 }
 
@@ -13,6 +14,7 @@
 .comment {background-color:$oddrow;
   border-radius: .5rem;
   padding:.5rem;
+  margin-bottom: 0.5rem;
 .comment-text{color: $bodycolor;}
 }
 //to pad "add new comments"
