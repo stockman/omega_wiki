@@ -1,8 +1,11 @@
 /**
  * $USER
  */
- 
+ //profile on nodes submitted
 .node__submitted {
 	* {display: table-cell;}
-	p {padding:0 1rem}
+	p {padding:0 1rem}	
 }
+
+//profile on all pages
+.user-picture img {border-radius: $radius}

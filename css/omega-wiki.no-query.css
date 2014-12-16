@@ -813,7 +813,7 @@ div.password-indicator {
 .projects .pane-casetracker-project-cases table, .projects .pane-slots table {
   background-color: yellow;
   opacity: 0.7;
-  border-radius: .5rem; }
+  border-radius: 3px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_projects\.scss}line{font-family:\0000350}}
 .node--casetracker-basic-case .field--label-above {
@@ -3135,7 +3135,7 @@ table.fc-border-separate {
 .bodycontent {
   background-color: yellow;
   opacity: 0.7;
-  border-radius: .5rem; }
+  border-radius: 3px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000340}}
   .bodycontent .inside {
     padding: .25%; }
@@ -3176,6 +3176,11 @@ html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-li
 .node__links {
   margin-bottom: 18px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/node\/_node\.scss}line{font-family:\0000312}}
+.pane-page-title {
+  margin-top: 18px;
+  margin-bottom: 18px; }
+
 /**
  * $USER
  */
@@ -3185,6 +3190,10 @@ html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-li
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/user\/_user\.scss}line{font-family:\000037}}
 .node__submitted p {
   padding: 0 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/user\/_user\.scss}line{font-family:\0000311}}
+.user-picture img {
+  border-radius: 3px; }
 
 /*!
  *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome
