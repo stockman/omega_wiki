@@ -23,6 +23,7 @@ button, .form-submit {
 //  margin: 0 0.2rem 0.2rem 0;
   @include item-spacing;
   @include breakpoint ($breakii) {
-  padding: 0 0.5%;    
+  padding: 0 0.5%;
+  margin: 0;    
   }
 }

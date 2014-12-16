@@ -86,6 +86,9 @@ html .fc,
 .fc-header-right {
   width: 25%;
   text-align: right;
+    @include breakpoint($breakii) {
+    width: 100%
+    }
   }
   
 .fc-header-title {
