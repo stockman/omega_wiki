@@ -175,12 +175,13 @@ button, .form-submit {
   cursor: pointer;
   display: inline-block;
   line-height: 1.6rem;
-  padding: 0 2.5%;
+  padding: 0 .5rem;
   text-align: center;
   vertical-align: top;
   white-space: nowrap;
   font-size: 1.3rem;
   height: 1.6em;
+  margin: 0;
   margin-right: 0.5rem;
   margin-top: 0.5rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_buttons\.scss}line{font-family:\000039}}
@@ -828,7 +829,7 @@ div.password-indicator {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\000037}}
 .headerright .inside {
   position: absolute;
-  right: 1em;
+  right: 0;
   z-index: 999999999; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000311}}
   .headerright .inside div {
@@ -3155,7 +3156,8 @@ html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-li
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/misc\/_site-branding\.scss}line{font-family:\0000362}}
 .sitecontainer {
   background: url("../images/../images/marinelli_imgs/1.jpg?1388604485") no-repeat fixed center;
-  background-size: cover; }
+  background-size: cover;
+  height: 100%; }
 
 /**
  * $NODE-BASIC-PAGE
