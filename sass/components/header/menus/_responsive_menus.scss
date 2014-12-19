@@ -21,22 +21,23 @@ $dlmenubak: $colourvii;
 	$dlmenuhovcol: $colourvi;
 	$dlmenuhovbak: $colourvii;
 .dl-menuwrapper {
-	width: 100%;
+//	width: 100%;
 //	max-width: 300px;
 	float: left;
 	position: fixed;
 	top:-5px;
-	-webkit-perspective: 1000px;
-	-moz-perspective: 1000px;
-	perspective: 1000px;
-	-webkit-perspective-origin: 50% 200%;
-	-moz-perspective-origin: 50% 200%;
-	perspective-origin: 50% 200%;
+//	-webkit-perspective: 1000px;
+//	-moz-perspective: 1000px;
+//	perspective: 1000px;
+//	-webkit-perspective-origin: 50% 200%;
+//	-moz-perspective-origin: 50% 200%;
+//	perspective-origin: 50% 200%;
 	z-index: 150;
+	width: auto;
 }
 
 .dl-menuwrapper:first-child {
-	margin-right: 100px;
+//	margin-right: 100px;
 }
 
 /**
@@ -53,6 +54,7 @@ $dlmenubak: $colourvii;
 	cursor: pointer;
 	outline: none;	
 	z-index: 99999;
+	margin-right: 0;
 }
 .dl-menuwrapper button {
 //	&:hover {background-color: $dlcolhover;}
@@ -140,22 +142,25 @@ $dlmenubak: $colourvii;
 	background: rgba(0,0,0,0.1);
 }
 
+/*** right caret **/
 .dl-menuwrapper li.dl-back:after,
 .dl-menuwrapper li > a:not(:only-child):after {
 	position: absolute;
 	top: 0;
-	line-height: $font-sizer*2;
+	line-height: $font-sizer;
 	font-family: FontAwesome;
 	content: "\f0da";
 	font-size: $font-sizer*2;
 }
 
+/*** left caret **/
 .dl-menuwrapper li.dl-back:after {
-	left: .5rem;
+//	left: .5rem;
 	//color: rgba(212,204,198,0.3);
 	-webkit-transform: rotate(180deg);
 	-moz-transform: rotate(180deg);
 	transform: rotate(180deg);
+	line-height: inherit;
 }
 
 .dl-menuwrapper li > a:after {
@@ -194,6 +199,7 @@ $dlmenubak: $colourvii;
 	-webkit-transform: translateY(0px);
 	-moz-transform: translateY(0px);
 	transform: translateY(0px);
+	width: 100vw;
 }
 
 /* Hide the inner submenus */
@@ -225,10 +231,10 @@ All this is done for any sub-level being entered.
 /* Dynamically added submenu outside of the menu context */
 .dl-menuwrapper > .dl-submenu {
 	position: absolute;
-	width: 100%;
 	top: 50px;
 	left: 0;
 	margin: 0;
+	width: 100vw; //view ports
 }
 
 /* Animation classes for moving out and in */
