@@ -5,27 +5,37 @@ Uses Font-Awesome for the directional arrows
 
 /* Common styles of menus */
 
+//font size?
 $font-sizer: 1.3rem;
+//menu size is $menu-sizer
+//padding
+$paddar-v: 0.75%;
+$paddar-h: 2.5%;
+//line height
+$line-h :$font-sizer*1.3;
+
+
 
 //menu button colours
-$dlcol: $colourvi;
+$dlcol: $colouri;
 $dlbak: transparentize($colouriii, 1);
 	// button hover colours
-	$dlcolhover: $colourvii;
+	$dlcolhover: $colouriv;
 	$dlbakhover: transparentize($colouriii, 1);
 
 //menu items colours
-$dlmenucol: $colourvi;
-$dlmenubak: $colourvii;
+$dlmenucol: $colourv;
+$dlmenubak: $colouriv;
 	//menu items hover colours
-	$dlmenuhovcol: $colourvi;
-	$dlmenuhovbak: $colourvii;
+	$dlmenuhovcol: $colouriv;
+	$dlmenuhovbak: $colouriii;
+
+
 .dl-menuwrapper {
 	width: 100%;
 //	max-width: 300px;
 	float: left;
-	position: fixed;
-	top:-5px;
+	position: relative;
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
 	perspective: 1000px;
@@ -39,9 +49,6 @@ $dlmenubak: $colourvii;
 	margin-right: 100px;
 }
 
-/**
-** little button *****/
-
 .dl-menuwrapper button {
 	background: $dlbak;
 	border: none;
@@ -51,21 +58,18 @@ $dlmenubak: $colourvii;
 	overflow: hidden;
 	position: relative;
 	cursor: pointer;
-	outline: none;	
-	z-index: 99999;
+	outline: none;
 }
 .dl-menuwrapper button {
 //	&:hover {background-color: $dlcolhover;}
 //	.dl-active {background:  $dlcolhover;}
 }
-.dl-trigger.dl-active {
-//  z-index: 9999999;
+
+.dl-menuwrapper ul {background: $dlmenubak;}
+.dl-menuwrapper ul:active {
+	color:$colourv;
 }
 
-//little menu button
-	.dl-trigger	{
-//		z-index: 99999;
-	}
 
 .dl-menuwrapper button:after {
 	content: '';
@@ -80,13 +84,7 @@ $dlmenubak: $colourvii;
 		0 $menu_size2/4 0 $dlcol, 
 		0 $menu_size2/2 0 $dlcol;
 }
-
-.dl-menuwrapper ul {background: $dlmenubak;}
-.dl-menuwrapper ul:active {
-	color:$dlmenubak;
-}
-
-// hover the menu
+// the menu menu
 .dl-menuwrapper {
 	button:hover {
 	background-color:$dlbakhover;
@@ -122,51 +120,60 @@ $dlmenubak: $colourvii;
 .dl-menuwrapper li a {
 	display: block;
 	position: relative;
-	padding: 1rem 2rem;
 	font-size: $font-sizer;
-	line-height: $font-sizer/2;
+	line-height:$line-h;
 	font-weight: 300;
 	outline: none;
 	text-decoration: none;
-	//background-color: $colourii;
+	padding: $paddar-v $paddar-h;
 }
 
 .no-touch .dl-menuwrapper li a:hover {
 	background: rgba(255,248,213,0.1);
 }
-
+// ----- the back button
 .dl-menuwrapper li.dl-back > a {
-	padding-left: 30px;
+//	padding-left: 8%;
 	background: rgba(0,0,0,0.1);
+//	:before {content: ' '}
+//	left: $paddar-h;
+	left: 0;
 }
 
+.dl-back > a:before {
+//add some spaces to resposively pad the "back"
+  content: "\00a0\00a0\00a0";
+}
+
+
+// ---- all the carets
 .dl-menuwrapper li.dl-back:after,
 .dl-menuwrapper li > a:not(:only-child):after {
 	position: absolute;
 	top: 0;
-	line-height: $font-sizer*2;
+	line-height: $line-h;
 	font-family: FontAwesome;
 	content: "\f0da";
-	font-size: $font-sizer*2;
+	font-size: $font-sizer*1.8;
+	padding: $paddar-v $paddar-h;
 }
 
+$caretspacing:0;
+// back caret
 .dl-menuwrapper li.dl-back:after {
-	left: .5rem;
-	//color: rgba(212,204,198,0.3);
+	left: $caretspacing;
 	-webkit-transform: rotate(180deg);
 	-moz-transform: rotate(180deg);
 	transform: rotate(180deg);
 }
-
+// forward caret
 .dl-menuwrapper li > a:after {
-	right: 1rem;
+	right: $caretspacing;
 }
 
 .dl-menuwrapper .dl-menu {
 	margin: 0;
 	position: absolute;
-// 	rt width: auto;
-//	rt width: 100%;
 	opacity: 0;
 	pointer-events: none;
 	-webkit-transform: translateY(10px);
@@ -183,12 +190,7 @@ $dlmenubak: $colourvii;
 	transition: all 0.3s ease;
 }
 
-
-/**
-** popout menu container **/
 .dl-menuwrapper .dl-menu.dl-menuopen {
-	margin-top: .18rem;
-	left: -5px;
 	opacity: 1;
 	pointer-events: auto;
 	-webkit-transform: translateY(0px);

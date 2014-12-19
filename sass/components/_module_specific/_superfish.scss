@@ -1,0 +1,70 @@
+/**
+ * $superfish menus
+ */
+
+
+//Superfish menus
+
+//height of container
+
+$headercontainer: 2.5rem;
+//$line-high;
+$menuffontsize: 1.5rem;
+//$font-sigh;
+
+//this controls the child ul
+.sf-menu li.sfHover > ul {
+  left: 0;
+  //below parent
+//  top: 2em;
+  // give ul background a little more length for hover underline.
+  padding-bottom: .5rem;
+}
+
+//oct 1st is this right?
+.pane-superfish-1 {
+  display: flex;
+  @include breakpoint ($breakii){display: none;}
+}
+//oct 1st is this right?
+#superfish-1 {
+	@include center-block;
+	margin-top: ($headercontainer - $menuffontsize)/4;
+	line-height: $headercontainer + .5rem;
+//rt fix this
+//margin-top: $vert-spacing-unit;
+}
+
+//this is the drop down menus
+.sf-menu {
+	vertical-align: bottom;
+//	ul {background-color:$colourii;
+//		opacity: .8}
+	ul {background: $colourvii;}
+	li {float: left;
+		font-size: $menuffontsize;
+		line-height: 3rem;
+		margin-left: .6rem;
+	}
+	li a{text-decoration: none;
+	color: $colourv;
+	text-shadow: 0 1px 1px $colouriv;
+	display: inline;
+	&:hover {color:colourv;
+			border-bottom:1px solid;
+			padding-bottom: 0
+			}
+	}
+}
+
+/*
+.pane-site-menus {
+  display: table;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  right: 0;
+  top: 2.6rem;
+}
+*/

@@ -1,0 +1,25 @@
+/**
+ * $Toolbar module
+ */
+
+ //override the hamburger with a cog
+.navbar-bar .navbar-icon-menu:before,
+.no-svg .navbar-bar .navbar-icon-menu:before,
+.navbar-bar .navbar-icon-menu:active:before,
+.navbar-bar .navbar-icon-menu.navbar-active:before,
+.no-svg .navbar-bar .navbar-icon-menu:active:before,
+.no-svg .navbar-bar .navbar-icon-menu.navbar-active:before {
+  background-image: url("../images/navbar_cog_override.png");
+}
+
+
+#navbar-administration, #navbar-administration *:not(select) {
+max-resolution: i;
+}
+.navbar-tab:first-of-type {
+  margin-left: 3.5rem !important;
+}
+
+#navbar-administration {
+  z-index: 999;
+}

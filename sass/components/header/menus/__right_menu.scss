@@ -5,8 +5,9 @@
 
 //right header menu
 .headerright .inside {
-    position: absolute;
+    position: fixed;
     right: 0;
+    top: .25rem;
     z-index: 999999999;
     div {display: flex;
     	padding: 0 .1rem;
@@ -50,5 +51,12 @@
 			padding: 0;
 			}
 		}
+	}
+}
+
+// search button
+.panels-flexible-region-9-center-inside {
+	.form-submit,button  {
+		margin-top: 0;
 	}
 }
