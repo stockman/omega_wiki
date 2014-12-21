@@ -1869,8 +1869,7 @@ input:focus {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000336}}
 .sirclosed {
-  background: url("http://booleanmagic.com/uploads/searchicon.png") no-repeat scroll center center #e2e2e2;
-  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3), 0 0 16px rgba(0, 0, 0, 0.3); }
+  background: url("../images/searchicon.png") no-repeat scroll center center #e2e2e2; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000340}}
 .siropen {
