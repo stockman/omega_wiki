@@ -17,6 +17,15 @@
 				link.firstChild.data= link.href;
 
 			}
+			
+			// note google css3 not working, etc.  http://stackoverflow.com/questions/4919963/css3-transform-not-working
+
+			//for the search glyph (added fontawesome search icon too)
+			var eder = $('#edit-search-block-form--2').parent().find("label");
+				eder.addClass('glyphicon glyphicon-search fa fa-search search-icon');
+				//unhide the search lablel
+				eder.removeClass('element-invisible');
+				eder.text('');
 			//other
         }
     };
