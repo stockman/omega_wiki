@@ -1,62 +1,49 @@
 /**
  * $SEARCH-FORM
  */
+
+ /*
 .search-block-form {
   .form-text {
     width: auto;
     padding: 0.4em;
   }
 }
-
-/** from codepend search icon. **/
-
-//refix
-.fa-search {
-  font-size: 2rem;
-  color: $colouriv; //duplicate wtih search-icon colour
+*/
+.pane-search-form .form-submit{
+  border: 1px solid red;
 }
 
-#edit-search-block-form--2 {height: 2rem}
 
+input:focus {outline: none; }
 
+.search, #edit-search-block-form--2
+//, .form-item-search-block-form 
+{
+      height: 30px;
 
-$tl: 0.6s; // transition length
-
-.edit-search-block-form--2 {
-  transition: width $tl, border-radius $tl, background $tl, box-shadow $tl;
-  width: 40px;height: 40px;
-  border-radius: 20px;border: none;
-  cursor: pointer;
-  background: rgb(235, 235, 235);
-  & + label .search-icon {    color: black    }
-  &:hover {
-    color: white;
-    background: rgb(200, 200, 200);
-    box-shadow: 0 0 0 5px rgb(61, 71, 82);
-    & + label .search-icon {    color: white    }
+      border-radius: 20px;    
+      border: 3px solid #fff;
+      float: right;
+      width: 30px;
+      color: #333;
+      padding: 0;
+//      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 1em;
+      padding-left: 5%;
+  &:hover {border-color: $colourv;}
   }
-  &:focus {
-    transition: width $tl cubic-bezier(0,1.22,.66,1.39), border-radius $tl, background $tl;
-    border: none;outline: none;
-    box-shadow: none;
-    padding-left: 15px;
-    cursor: text;
-    width: 300px;
-    border-radius: auto;
-    background: rgb(235, 235, 235);
-    color: black;
-    & + label .search-icon {    color: black;    }
+  .sirclosed {
+    background: url("http://booleanmagic.com/uploads/searchicon.png") no-repeat scroll center center #e2e2e2;
+    box-shadow: inset 0 0 8px rgba(0,0,0,0.30), 0 0 16px rgba(0,0,0,0.30); 
+    }
+  .siropen {
+//    background: url("searchOpen.png") no-repeat scroll 10px center #fbfbfb;
+      background:$colouriv;
+      clear: left ;
+      float: right ;
   }
-  &:not(:focus) {    text-indent:-5000px;    } // for more-graceful falling back (:not browsers likely support indent)
-}
-
-#edit-submit{
-  position: relative;left: -5000px;
-}
-
-.search-icon {
-  position: relative;
-  left: -30px;
-  color: $colouriv;
-  cursor: pointer;
+//hide the submit button
+.search-block-form .form-submit {
+  display: none;
 }

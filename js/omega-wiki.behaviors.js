@@ -18,15 +18,34 @@
 
 			}
 			
-			// note google css3 not working, etc.  http://stackoverflow.com/questions/4919963/css3-transform-not-working
+		//for the search glyph (added fontawesome search icon too)
+		//autofocus seearch?
+			var inputWidth = '240px',
+			inputWidthReturn = '30px';
+			var sir = $('#edit-search-block-form--2');
+			sir.addClass('sirclosed');
+			// animate seach box
+			sir.focus(function(){
+			//clear the text in the box.
+				$(this).val(function() {
+					$(this).removeClass('sirclosed');
+					$(this).addClass('siropen').attr('placeholder', 'Search for...');
+				}),
+				//animate the box
+				$(this).animate({
+					width: inputWidth
+					}, "fast" );
+			});
+			// close box
+			sir.blur(function(){
+				$(this).removeClass('siropen').animate({
+					width: inputWidthReturn
+					}, "fast" );
+				$(this).addClass('sirclosed');
+				$(this).attr('placeholder', '').val('');
+			});
 
-			//for the search glyph (added fontawesome search icon too)
-			var eder = $('#edit-search-block-form--2').parent().find("label");
-				eder.addClass('glyphicon glyphicon-search fa fa-search search-icon');
-				//unhide the search lablel
-				eder.removeClass('element-invisible');
-				eder.text('');
-			//other
+		
         }
     };
 })(jQuery);
