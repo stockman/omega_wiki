@@ -1836,23 +1836,15 @@ div.password-indicator {
 /**
  * $SEARCH-FORM
  */
- /*
-.search-block-form {
-  .form-text {
-    width: auto;
-    padding: 0.4em;
-  }
-}
-*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\000035}}
 .pane-search-form .form-submit {
   border: 1px solid red; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000310}}
 input:focus {
   outline: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000313}}
 .search, #edit-search-block-form--2 {
   height: 30px;
   border-radius: 20px;
@@ -1863,21 +1855,21 @@ input:focus {
   padding: 0;
   font-size: 1em;
   padding-left: 5%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000325}}
   .search:hover, #edit-search-block-form--2:hover {
     border-color: #00c12b; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000327}}
 .sirclosed {
   background: url("../images/searchicon.png") no-repeat scroll center center #e2e2e2; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000331}}
 .siropen {
   background: white;
   clear: left;
   float: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_search-form\.scss}line{font-family:\0000337}}
 .search-block-form .form-submit {
   display: none; }
 
