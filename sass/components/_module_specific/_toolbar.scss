@@ -17,7 +17,7 @@
 max-resolution: i;
 }
 .navbar-tab:first-of-type {
-  margin-left: 3.5rem !important;
+  margin-left: 2rem !important;
 }
 
 #navbar-administration {
@@ -30,4 +30,15 @@ max-resolution: i;
 #navbar-administration.navbar-oriented .navbar-tray {
   position: fixed;
 
+}
+//navbar icon spacing
+#navbar-administration .navbar-bar .navbar-icon {
+  width: 3em;
+}
+
+//make mobile icons bigger
+#navbar-administration .navbar-bar .navbar-icon:before {
+   	@include breakpoint($breaki) {
+	background-size: 60% auto;
+    }
 }

@@ -454,6 +454,9 @@ mark,
 html, body {
   height: 100%; }
 
+/**
+ * $Form
+ */
 /*
 RT my modded Responsive Menu Sass
 Uses Font-Awesome for the directional arrows
@@ -1549,7 +1552,7 @@ All this is done for any sub-level being entered.
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/_module_specific\/_toolbar\.scss}line{font-family:\0000319}}
 .navbar-tab:first-of-type {
-  margin-left: 3.5rem !important; }
+  margin-left: 2rem !important; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/_module_specific\/_toolbar\.scss}line{font-family:\0000323}}
 #navbar-administration {
@@ -1560,6 +1563,10 @@ All this is done for any sub-level being entered.
 #navbar-administration.navbar-oriented .navbar-bar,
 #navbar-administration.navbar-oriented .navbar-tray {
   position: fixed; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/_module_specific\/_toolbar\.scss}line{font-family:\0000335}}
+#navbar-administration .navbar-bar .navbar-icon {
+  width: 3em; }
 
 /**
  * $USER-MENU
@@ -1921,11 +1928,14 @@ input:focus {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/functionality_specific\/_projects\.scss}line{font-family:\000035}}
 .fa-rocket {
   font-size: 1.8rem;
-  color: white;
-  margin-top: .2rem; }
+  color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/functionality_specific\/_projects\.scss}line{font-family:\000039}}
   .fa-rocket:hover {
     color: blue; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/functionality_specific\/_projects\.scss}line{font-family:\0000313}}
+.project_toggle {
+  vertical-align: super; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_projects\.scss}line{font-family:\000033}}
 .projects {
@@ -1988,17 +1998,17 @@ input:focus {
     display: flex;
     padding: 0 .1rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000323}}
 .pane-system-user-menu {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000326}}
 .headerright .menu:before {
   color: blue;
   font-family: FontAwesome;
   font-size: 2rem;
   content: "\f007"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000332}}
 .headerright .menu {
   padding-left: 0.5rem;
   text-align: right;
@@ -2006,10 +2016,10 @@ input:focus {
   position: relative;
   right: .3rem;
   margin-top: .5rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000342}}
   .headerright .menu li.first {
     border-radius: 3px 3px 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000343}}
   .headerright .menu li {
     display: none;
     width: 110px;
@@ -2019,11 +2029,11 @@ input:focus {
     line-height: 1.6rem;
     border-radius: 0 0 3px 3px;
     z-index: 9999999999999999999; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000347}}
     .headerright .menu li a {
       color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/menus\/__right_menu\.scss}line{font-family:\0000362}}
 .panels-flexible-region-9-center-inside .form-submit, .panels-flexible-region-9-center-inside button {
   margin-top: 0; }
 

@@ -5,6 +5,11 @@
 .fa-rocket {
   font-size: 1.8rem;
   color: $colouriv;
-  margin-top: .2rem;
+//  margin-top: .2rem;
   &:hover {color: $colourvi}
+}
+
+//align the icon in the center of div
+.project_toggle {
+  vertical-align: super;
 }
