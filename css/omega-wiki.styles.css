@@ -1571,6 +1571,12 @@ All this is done for any sub-level being entered.
 #navbar-administration {
   z-index: 999; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/_module_specific\/_toolbar\.scss}line{font-family:\0000330}}
+.navbar-fixed #navbar-administration.navbar-oriented,
+#navbar-administration.navbar-oriented .navbar-bar,
+#navbar-administration.navbar-oriented .navbar-tray {
+  position: fixed; }
+
 /**
  * $USER-MENU
  */
@@ -1925,6 +1931,18 @@ input:focus {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_user-login-form\.scss}line{font-family:\0000337}}
 .not-logged-in #mini-panel-right_menu {
   display: none; }
+
+/**
+ * $For Projects
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/functionality_specific\/_projects\.scss}line{font-family:\000035}}
+.fa-rocket {
+  font-size: 1.8rem;
+  color: white;
+  margin-top: .2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/functionality_specific\/_projects\.scss}line{font-family:\000039}}
+  .fa-rocket:hover {
+    color: blue; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/header\/_projects\.scss}line{font-family:\000033}}
 .projects {

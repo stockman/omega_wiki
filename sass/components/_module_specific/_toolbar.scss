@@ -23,3 +23,11 @@ max-resolution: i;
 #navbar-administration {
   z-index: 999;
 }
+
+//fix the position
+.navbar-fixed #navbar-administration.navbar-oriented,
+#navbar-administration.navbar-oriented .navbar-bar,
+#navbar-administration.navbar-oriented .navbar-tray {
+  position: fixed;
+
+}
