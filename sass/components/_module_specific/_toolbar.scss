@@ -12,14 +12,13 @@
   background-image: url("../images/navbar_cog_override.png");
 }
 
-
-#navbar-administration, #navbar-administration *:not(select) {
-max-resolution: i;
-}
+//indent for responsive menu
 .navbar-tab:first-of-type {
+	@include breakpoint($breaki) {
   margin-left: 2rem !important;
+	}
 }
-
+//over top of repsonsive menu
 #navbar-administration {
   z-index: 999;
 }
@@ -33,7 +32,9 @@ max-resolution: i;
 }
 //navbar icon spacing
 #navbar-administration .navbar-bar .navbar-icon {
-  width: 3em;
+	@include breakpoint($breaki) {
+	  width: 3em;
+	}
 }
 
 //make mobile icons bigger

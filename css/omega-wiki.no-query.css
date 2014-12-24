@@ -1546,27 +1546,15 @@ All this is done for any sub-level being entered.
 .no-svg .navbar-bar .navbar-icon-menu.navbar-active:before {
   background-image: url("../images/navbar_cog_override.png"); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/_module_specific\/_toolbar\.scss}line{font-family:\0000316}}
-#navbar-administration, #navbar-administration *:not(select) {
-  max-resolution: i; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/_module_specific\/_toolbar\.scss}line{font-family:\0000319}}
-.navbar-tab:first-of-type {
-  margin-left: 2rem !important; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/_module_specific\/_toolbar\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/_module_specific\/_toolbar\.scss}line{font-family:\0000322}}
 #navbar-administration {
   z-index: 999; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/_module_specific\/_toolbar\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/_module_specific\/_toolbar\.scss}line{font-family:\0000329}}
 .navbar-fixed #navbar-administration.navbar-oriented,
 #navbar-administration.navbar-oriented .navbar-bar,
 #navbar-administration.navbar-oriented .navbar-tray {
   position: fixed; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/_module_specific\/_toolbar\.scss}line{font-family:\0000335}}
-#navbar-administration .navbar-bar .navbar-icon {
-  width: 3em; }
 
 /**
  * $USER-MENU
