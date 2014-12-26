@@ -359,7 +359,8 @@ h2, .beta {
   font-size: 2.42857rem;
   font-weight: 700;
   color: blue;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  line-height: 2.2rem; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/base\/_typography\.scss}line{font-family:\0000357}}
 h3, .gamma, .site-branding__name {
@@ -4336,20 +4337,21 @@ html.js .contextual-links-wrapper, .contextual-links-region:hover .contextual-li
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/node\/_node\.scss}line{font-family:\0000312}}
 .pane-page-title {
-  margin-top: 18px;
-  margin-bottom: 18px; }
+  margin-top: 9px;
+  margin-bottom: 9px; }
 
 /**
  * $USER
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/user\/_user\.scss}line{font-family:\000036}}
 .node__submitted * {
-  display: table-cell; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/user\/_user\.scss}line{font-family:\000037}}
+  display: table-cell;
+  vertical-align: top; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/user\/_user\.scss}line{font-family:\000039}}
 .node__submitted p {
   padding: 0 1rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/user\/_user\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/user\/_user\.scss}line{font-family:\0000313}}
 .user-picture img {
   border-radius: 3px; }
 

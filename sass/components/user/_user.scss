@@ -3,7 +3,9 @@
  */
  //profile on nodes submitted
 .node__submitted {
-	* {display: table-cell;}
+	* {display: table-cell;
+	vertical-align: top;
+	}
 	p {padding:0 1rem}	
 }
 
