@@ -1,7 +1,9 @@
 <div class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <?php print $picture; ?>
 
+  <?php if ($$image_width): ?>
   <div style="margin-left:<?php print $image_width; ?>px;" class="comment-content">
+  <?php endif; ?>
     <?php print render($title_prefix); ?>
 
     <?php if ($title): ?>

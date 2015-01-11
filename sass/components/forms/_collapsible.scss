@@ -25,6 +25,7 @@ html.js fieldset.collapsible { // Overspecified
 
     color: $h2_colour;
     text-decoration: none;
+    border-radius: $radius;
 
     &:hover {
       background-color: $h2_colour;

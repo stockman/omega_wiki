@@ -1743,17 +1743,18 @@ html.js fieldset.collapsible {
     padding: 1em;
     background-color: #dddddd;
     color: blue;
-    text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000329}}
+    text-decoration: none;
+    border-radius: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000330}}
     html.js fieldset.collapsible .fieldset-title:hover {
       background-color: blue;
       color: #00c12b; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000335}}
   html.js fieldset.collapsible .fieldset-wrapper {
     padding: 18px 1em;
     border: 1px solid #dddddd; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_collapsible\.scss}line{font-family:\0000341}}
 html.js fieldset.collapsed {
   height: 3.7em; }
 
@@ -1795,13 +1796,14 @@ html.js fieldset.collapsed {
     background-color: #fff;
     border: 1px solid #dddddd;
     color: #6a7076;
-    vertical-align: middle; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000320}}
+    vertical-align: middle;
+    border-radius: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000321}}
   .form-item .description {
     margin-top: 0.2em;
     font-style: italic; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/forms\/_form-items\.scss}line{font-family:\0000330}}
 .container-inline .form-select,
 .container-inline .form-text,
 .container-inline .form-textarea {

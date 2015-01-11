@@ -17,6 +17,21 @@
 				link.firstChild.data= link.href;
 
 			}
+		/**** Style Hacks ****/
+			 // Check if body height is higher than window height :)
+		     var ht = $('.panels-flexible-region-sitecontainer-center-inside').height();
+		     // console.log(ht);
+		     var htr = $(window).height();
+		     // console.log(htr);
+		    if (ht < htr) {
+		        $('.sitecontainer').css('height','inherit');
+			// change from inherit to auto
+		    }
+
+
+
+
+
 			
 		//for the search glyph (added fontawesome search icon too)
 		//autofocus seearch?
