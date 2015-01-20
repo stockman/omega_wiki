@@ -1643,64 +1643,70 @@ All this is done for any sub-level being entered.
 /**
  * $COMMENT
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\000036}}
+.new {
+  color: #00c12b;
+  font-size: 1rem;
+  font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000314}}
 .comments h2 {
   font-size: 1.5rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000315}}
 .comments .comment-form {
   font-style: italic;
   width: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000317}}
 .comments .form {
   max-width: 800px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000321}}
 .comment {
   background-color: #bcbfc0;
   border-radius: .5rem;
   padding: .5rem;
   margin-bottom: 0.5rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000325}}
   .comment .comment-text {
     color: yellow; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000331}}
 .comment__info {
   margin-top: 18px;
   margin-bottom: 18px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000335}}
   .comment__info .username {
     margin-bottom: 9px;
     color: #52b1ea;
     text-transform: uppercase;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000342}}
     .comment__info .username:hover {
       text-decoration: underline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000348}}
 .comment__content {
   background-color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000354}}
 .comment__submitted {
   display: inline; }
 
 @media (min-width: 44em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000359}}
   .comment__info {
     float: left;
     width: 25%;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000365}}
     .comment__info .user-picture {
       width: 70%;
       margin: 0 auto 9px auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000369}}
     .comment__info .username {
       display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000374}}
   .comment__content {
     float: right;
     width: 70%;
@@ -1723,11 +1729,11 @@ All this is done for any sub-level being entered.
       border-width: 20px;
       top: 50%;
       margin-left: -20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000381}}
     .comment__content:after {
       top: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal7Development\/sites\/all\/themes\/omega_wiki\/sass\/components\/comments\/_comment\.scss}line{font-family:\0000386}}
   .comment__submitted {
     display: block;
     margin-bottom: 9px; } }
