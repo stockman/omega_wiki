@@ -1,0 +1,16 @@
+// Full Calendar
+// -------------------------
+
+.fullcalendar .stock {
+	background-color: green;
+	.fc-event-time {
+		background-color: green;
+	}
+}
+
+// Overrides
+
+// override event time border
+.fc-event-default, .fc-event-default .fc-event-skin, .fc-event-default .fc-event-time, .fc-event-default a {
+  border-style: none;
+}
